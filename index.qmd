@@ -117,6 +117,7 @@ tribble(
 ```{r awards, results='asis'}
 tribble(
   ~Year, ~Award,
+  2023, "EEECS Scholarship for AI MSc",
   2012, "Teaching Fellow of Higher Education Authority",
   2016, "QUB Teaching Award",
   2018, "European CFA Quant Award (1st)",
