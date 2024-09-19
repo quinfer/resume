@@ -180,7 +180,7 @@ This extensive supervision experience demonstrates my commitment to nurturing th
     -   Finance expert collaborator in QUB - Citigroup Market Intelligence and Data Science team
     -   Co-supervision of PhD student (with Computer Science Colleagues)
 
-# Major conference presentations
+## Major conference presentations
 
 -  Invited Talk, *Rethinking Research Impact: Combining Effect Sizes and Economic Significance in Finance*,Royal Statistics Society Annual Conference, Brighton UK, Sep 2024 
 -   Keynote Speaker, *Estimating Systemic Risk*, Irish Finance Association, Maynooth University, Ireland, April 2023

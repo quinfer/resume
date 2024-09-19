@@ -7,7 +7,7 @@ website:
   navbar:
       right:
         - text: "Download PDF"
-          href: index.pdf
+          href: docs/index.pdf
 
 format:
   html:
