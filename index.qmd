@@ -1,0 +1,228 @@
+---
+title: "Dr. Barry Quinn"
+subtitle: "Senior Lecturer in Finance, Technology and Data Science"
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+  pdf:
+    documentclass: article
+    geometry:
+      - margin=1in
+    fontsize: 11pt
+    linkcolor: blue
+    urlcolor: blue
+bibliography: bqpubs.bib
+---
+
+```{r}
+#| label: setup 
+#| include: FALSE
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = FALSE)
+library(dplyr)
+library(gcite)
+library(bib2df)
+library(knitr)
+# Google scholar stats
+bq <- gcite_citation_index(gcite_url("https://scholar.google.com/citations?user=q6wJceEAAAAJ&hl=en"))
+
+# Read grants file
+grants <- readr::read_csv("Grant_income.csv")
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = FALSE)
+
+# Read BibTeX file
+pubs <- bib2df("bqpubs.bib")
+
+# Function to print bibliography for a specific type
+print_bib_by_type <- function(bib_df, type) {
+  filtered_df <- bib_df %>% 
+    filter(CATEGORY == type) %>% 
+    select(AUTHOR, YEAR, TITLE, JOURNAL, BOOKTITLE, URL) %>% 
+    mutate(AUTHOR = sapply(AUTHOR, paste, collapse = ", "),
+           CITATION = paste0(AUTHOR, " (", YEAR, "). ", TITLE, ". ", 
+                             ifelse(!is.na(JOURNAL), JOURNAL, 
+                                    ifelse(!is.na(BOOKTITLE), BOOKTITLE, "")),
+                             ifelse(!is.na(URL), paste0(". ", URL), ".")))
+  
+  if (nrow(filtered_df) > 0) {
+    kable(filtered_df %>% select(CITATION), format = "markdown", col.names = NULL)
+  } else {
+    cat("No publications of this type.")
+  }
+}
+
+```
+
+## Contact Information
+
+-   Address: Queen's Business School, Queen's University Belfast, BT9 1NN, N. Ireland
+-   Website: quinference.com
+-   Phone: +44 787 238 2074
+-   Email: b.quinn\@qub.ac.uk
+-   GitHub: quinfer
+
+## Personal Statement
+
+As a Senior Lecturer in Finance, Technology, and Data Science at Queen's University Belfast, I bridge the gap between academic research and industry innovation. My work focuses on applying advanced statistical and machine learning techniques to complex problems in finance, with a particular emphasis on regulatory technology, systemic risk, and ethical AI development in financial services. I teach courses in quantitative finance, financial econometrics, and AI applications in finance, and I am passionate about fostering interdisciplinary research collaborations that push the boundaries of what is possible in the field of finance.
+
+## Education and Professional Qualifications
+
+```{r degrees, results='asis'}
+tribble(
+  ~Degree, ~Institution, ~Year,
+  "B.Sc.(Hons) Accounting and Finance", "Queen's University Belfast", "1995",
+  "MSc Quantitativeref Finance", "RMIT University Melbourne", "2006",
+  "Ph.D. Finance", "Queen's University Belfast", "2012",
+  "Chartered Statistician", "Royal Statistical Society", "2019",
+  "MSc Artificial Intelligence", "Queen's University Belfast", "Graduating 2025"
+) |>
+  knitr::kable()
+```
+
+## Employment History
+
+```{r employment, results='asis'}
+tribble(
+  ~Start, ~End, ~Position, ~Institution,
+  1995, "1998", "Financial Adviser", "City Financial Partners, London",
+  1998, "2004", "Currency Trader and Liquidity Manager", "Janus Henderson Investors, London",
+  2005, "2005", "Teaching Fellow and Quantitative Researcher", "Department of Finance, RMIT University Melbourne",
+  2009, "2009", "Teaching Fellow", "Business School, Ulster University",
+  2010, "2020", "Lecturer", "Department of Finance, Queen's Management School",
+  2020, "--", "Senior Lecturer in Finance, Technology and Data Science", "Queen's Management School"
+) |>
+  arrange(desc(Start)) |>
+  mutate(
+    Start = as.character(Start),
+    Years = if_else(End == "present", paste(Start, "--", End), paste(Start, "--", End))
+  ) |>
+  select(Years, Position,Institution) |>
+  knitr::kable()
+```
+
+## Academic and research leadership
+
+-   **Co-director**, Finance, Technology and AI lab, Queen's University Belfast, 2022--.
+-   **Lead Developer**, Queen's Business School Remote Analytics Lab Platform (Q-RaP), 2021--.
+-   **QUB Academic Lead**, Steering group for Northern Ireland global centre in secure connected intelligence for regulatory technology in finance.
+-   **Programme Director**, MSc Quantitative Finance, Queen's University Belfast, 2018--2022.
+-   **Programme Director**, MSc Computational Finance & Trading, Queen's University Belfast, 2014--2018.
+-   **Co-Founder**, Queen's Student Managed Fund, 2012--.
+
+## Awards and honours
+
+```{r awards, results='asis'}
+tribble(
+  ~Year, ~Award,
+  2012, "Teaching Fellow of Higher Education Authority",
+  2016, "QUB Teaching Award",
+  2018, "European CFA Quant Award (1st)",
+  2021, "Associate Research Fellow, QUB Momentum One Zero (formerly Global Innovation Institute)"
+) |>
+ knitr::kable()
+```
+
+## Skills and Expertise
+
+-   Advanced statistical modeling and machine learning
+-   Ethical econometrics
+-   AI applications in finance and trading
+-   Economics of AI and machine learning
+-   Financial risk management and systemic risk analysis
+-   Data science and big data analytics in finance
+-   Interdisciplinary research leadership
+
+## Research
+
+Since 2012, I have authored `r NROW(pubs)` papers and reports on topics in econometrics and data science, state-of-the-art efficiency and productivity analysis, risk implications of policy actions in banking and climate finance, and association football economics.
+
+On Google Scholar, my h-index is `r bq$All[2]` with total citations of `r prettyNum(bq$All[1], big.mark=",")` (as of `r format(Sys.time(), "%e %B %Y")`).
+
+## PhD Supervision
+
+I have a strong track record in guiding doctoral research:
+
+-   **Completed Supervisions:** Successfully supervised three PhD students to completion as principal supervisor.
+-   **Current Supervisions:**
+    -   Principal supervisor for three ongoing PhD projects.
+    -   Co-supervisor for two additional PhD students.
+-   **Research Areas:** My PhD students' work covers a wide range of cutting-edge topics in finance and data science, including:
+    -  Productivity and the economics of AI patents
+    -  Market manipulation theory and practice
+    -  Climate risk modeling and financial implications
+    -  Machine learning applications in asset pricing
+    -  The economics of AI innovations for financial regulation
+    -  Computer vision and the Economic costs of cultural displays
+
+This extensive supervision experience demonstrates my commitment to nurturing the next generation of researchers and my ability to guide complex, interdisciplinary projects at the intersection of finance, technology, and data science.
+
+## Industry Collaboration
+
+-   FCA Mentor for Tech Sprint on market manipulation (2023-present)
+-   Lead academic on knowledge transfer projects with Fund Axis Ltd and Research Affiliates Inc (2022-present)
+-   Collaboration with Citigroup on AI applications for detecting trading anomalies (2021-2024)
+
+## Organized Conferences and Symposia
+
+-   Symposium on AI and the Future of Financial Regulation, Queen's University Belfast, November 2023
+-   Chair, Panel debate on "Digital Regulation: Shaping digital markets and safeguarding consumer rights in Northern Ireland", Northern Ireland Competition Forum, May 2024
+
+## Current Interdisciplinary Research Projects
+
+-   AI system for regulatory compliance in global investment management (2024-present)
+    -   Principal Investigator (with Co-I in computer science)
+    -   Funded by UKFin+ (UKRI)
+    -   Developing AI models with enhanced reasoning capabilities for regulatory content generation
+-   Market manipulation theory and practice (2021-present)
+    -   Finance expert collaborator in QUB - Citigroup Market Intelligence and Data Science team
+    -   Co-supervision of PhD student (with Computer Science Colleagues)
+
+# Major conference presentations
+
+-  Invited Talk, *Rethinking Research Impact: Combining Effect Sizes and Economic Significance in Finance*,Royal Statistics Society Annual Conference, Brighton UK, Sep 2024 
+-   Keynote Speaker, *Estimating Systemic Risk*, Irish Finance Association, Maynooth University, Ireland, April 2023
+-   Invited Talk, *Teaching data science in the age of FinTech*, Royal Statistics Society Annual Conference, Aberdeen UK, Sep 2022
+-   Invited Talk, *Carbon pricing and machine learning*, Multidisciplinary Workshop on Fintech, Islamic Finance and Sustainability (online), Hamad Bin Khalifa University, Qatar, Nov 2022
+-   Invited Speaker, *Understanding fintech and financial stability*, International Workshop on Financial System Architecture and Stability, Bayes Business School, London, Sept 2018
+-   Invited Speaker, *Systemic Risk and Basel Compliance*, British Accounting and Finance Association Annual Conference, London, April 2018
+-   Invited Speaker, *Differential regulation of Irish credit unions: Does one size fit all?*, 2nd Conference on Contemporary Issues in Banking, Centre for Responsible Banking and Finance, St Andrews, Dec 2017
+-   Invited Speaker, *Business model diversity, efficiency and productivity of cooperatives*, European workshop in efficiency and productivity analysis, Aalto University, Finland, Jun 2017
+-   Invited Panelist, *Statistical inference and credibility in finance*, Emerging Scholars in Banking and Finance, Bayes Business School, London, Dec 2016
+-   Invited Speaker, *Capital regulation compliance and the performance of European banks*, International Workshop on Financial System Architecture and Stability, HEC Montreal, Aug 2016
+-   Participant, *Bloomberg Annual Educational Symposium*, Bloomberg London HQ, Sep 2015
+
+## Publications
+
+### Journal Articles
+```{r}
+print_bib_by_type(pubs, "ARTICLE")
+```
+
+### Conference Proceedings
+```{r}
+print_bib_by_type(pubs, "INPROCEEDINGS")
+
+```
+
+### Technical Reports
+```{r}
+print_bib_by_type(pubs, "TECHREPORT")
+
+```
+
+### Software
+```{r}
+print_bib_by_type(pubs, "SOFTWARE")
+
+```
+
+### Unpublished Work
+
+```{r}
+print_bib_by_type(pubs, "UNPUBLISHED")
+
+```
+
