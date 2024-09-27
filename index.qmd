@@ -103,16 +103,16 @@ tribble(
   knitr::kable()
 ```
 
-## Academic and research leadership
+## Academic Leadership
 
--   **Co-director**, Finance, Technology and AI lab, Queen's University Belfast, 2022--.
+-   **Co-director**, Finance and AI Research lab, Queen's University Belfast, 2022--.
 -   **Lead Developer**, Queen's Business School Remote Analytics Lab Platform (Q-RaP), 2021--.
 -   **QUB Academic Lead**, Steering group for Northern Ireland global centre in secure connected intelligence for regulatory technology in finance.
 -   **Programme Director**, MSc Quantitative Finance, Queen's University Belfast, 2018--2022.
 -   **Programme Director**, MSc Computational Finance & Trading, Queen's University Belfast, 2014--2018.
 -   **Co-Founder**, Queen's Student Managed Fund, 2012--.
 
-## Awards and honours
+## Awards and Honours
 
 ```{r awards, results='asis'}
 tribble(
@@ -140,7 +140,12 @@ tribble(
 
 Since 2012, I have authored `r NROW(pubs)` papers and reports on topics in econometrics and data science, state-of-the-art efficiency and productivity analysis, risk implications of policy actions in banking and climate finance, and association football economics.
 
-On Google Scholar, my h-index is `r bq$All[2]` with total citations of `r prettyNum(bq$All[1], big.mark=",")` (as of `r format(Sys.time(), "%e %B %Y")`).
+## Research Income
+
+```{r}
+read.csv("Grant_income.csv") |>
+  knitr::kable()
+```
 
 ## PhD Supervision
 
@@ -151,12 +156,12 @@ I have a strong track record in guiding doctoral research:
     -   Principal supervisor for three ongoing PhD projects.
     -   Co-supervisor for two additional PhD students.
 -   **Research Areas:** My PhD students' work covers a wide range of cutting-edge topics in finance and data science, including:
-    -  Productivity and the economics of AI patents
-    -  Market manipulation theory and practice
-    -  Climate risk modeling and financial implications
-    -  Machine learning applications in asset pricing
-    -  The economics of AI innovations for financial regulation
-    -  Computer vision and the Economic costs of cultural displays
+    -   Productivity and the economics of AI patents
+    -   Market manipulation theory and practice
+    -   Climate risk modeling and financial implications
+    -   Machine learning applications in asset pricing
+    -   The economics of AI innovations for financial regulation
+    -   Computer vision and the Economic costs of cultural displays
 
 This extensive supervision experience demonstrates my commitment to nurturing the next generation of researchers and my ability to guide complex, interdisciplinary projects at the intersection of finance, technology, and data science.
 
@@ -183,7 +188,7 @@ This extensive supervision experience demonstrates my commitment to nurturing th
 
 ## Major conference presentations
 
--  Invited Talk, *Rethinking Research Impact: Combining Effect Sizes and Economic Significance in Finance*,Royal Statistics Society Annual Conference, Brighton UK, Sep 2024 
+-   Invited Talk, *Rethinking Research Impact: Combining Effect Sizes and Economic Significance in Finance*,Royal Statistics Society Annual Conference, Brighton UK, Sep 2024
 -   Keynote Speaker, *Estimating Systemic Risk*, Irish Finance Association, Maynooth University, Ireland, April 2023
 -   Invited Talk, *Teaching data science in the age of FinTech*, Royal Statistics Society Annual Conference, Aberdeen UK, Sep 2022
 -   Invited Talk, *Carbon pricing and machine learning*, Multidisciplinary Workshop on Fintech, Islamic Finance and Sustainability (online), Hamad Bin Khalifa University, Qatar, Nov 2022
@@ -198,23 +203,27 @@ This extensive supervision experience demonstrates my commitment to nurturing th
 ## Publications
 
 ### Journal Articles
+
 ```{r}
 print_bib_by_type(pubs, "ARTICLE")
 ```
 
 ### Conference Proceedings
+
 ```{r}
 print_bib_by_type(pubs, "INPROCEEDINGS")
 
 ```
 
 ### Technical Reports
+
 ```{r}
 print_bib_by_type(pubs, "TECHREPORT")
 
 ```
 
 ### Software
+
 ```{r}
 print_bib_by_type(pubs, "SOFTWARE")
 
@@ -226,4 +235,3 @@ print_bib_by_type(pubs, "SOFTWARE")
 print_bib_by_type(pubs, "UNPUBLISHED")
 
 ```
-
