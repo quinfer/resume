@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$title$</title>
+    $for(css)$
+    <link rel="stylesheet" href="$css$" />
+    $endfor$
+    $for(header-includes)$
+    $header-includes$
+    $endfor$
+</head>
+<body class="bg-gray-100">
+    <header class="bg-white shadow-md p-6 mb-6 flex justify-between items-center">
+        <div>
+            <h1 class="text-3xl font-bold text-gray-800">$title$</h1>
+            <p class="text-xl text-gray-600">$subtitle$</p>
+        </div>
+        <img src="/api/placeholder/150/150" alt="$title$" class="headshot">
+    </header>
+
+    <main class="bg-white shadow-md p-6">
+        $body$
+    </main>
+
+    <footer class="mt-6 text-center">
+        <a href="#" class="download-btn">Download PDF Version</a>
+    </footer>
+
+    $for(include-after)$
+    $include-after$
+    $endfor$
+</body>
+</html>

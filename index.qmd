@@ -3,9 +3,8 @@ title: "Dr. Barry Quinn"
 subtitle: "Senior Lecturer in Finance, Technology and Data Science"
 format:
   html:
-    theme: cosmo
-    css: styles.css
-    toc: true
+    template: custom-template.html
+    css: custom-styles.css
   pdf:
     documentclass: article
     geometry:
@@ -66,7 +65,224 @@ print_bib_by_type <- function(bib_df, type) {
 
 ## Personal Statement
 
-As a Senior Lecturer in Finance, Technology, and Data Science at Queen's University Belfast, I bridge the gap between academic research and industry innovation. My work focuses on applying advanced statistical and machine learning techniques to complex problems in finance, with a particular emphasis on regulatory technology, systemic risk, and ethical AI development in financial services. I teach courses in quantitative finance, financial econometrics, and AI applications in finance, and I am passionate about fostering interdisciplinary research collaborations that push the boundaries of what is possible in the field of finance.
+As a Senior Lecturer in Finance, Technology, and Data Science at Queen's University Belfast, I bridge the gap between academic research and industry innovation. My work focuses on applying advanced statistical and machine learning techniques to complex problems in finance, with a particular emphasis on regulatory technology, systemic risk, and ethical AI development in financial services.
+
+I am passionate about fostering interdisciplinary research collaborations that push the boundaries of what is possible in the field of finance. My goal is to equip the next generation of finance professionals with the knowledge and tools they'll need to succeed in a rapidly evolving digital landscape, while also instilling values of ethical decision-making and continuous learning.
+
+Through my teaching, research, and industry engagements, I strive to contribute to the advancement of financial technology and data science, always with an eye towards practical applications and societal impact.
+
+## Teaching
+
+### Academic Leadership
+
+- Programme Director, PG Cert AI in Finance, Queen's Business School & QUB EEECS, commencing Sept 2025
+- Programme Director, MSc Quantitative Finance, Queen's Business School, 2018--2022
+- Programme Director, MSc Computational Finance & Trading, Queen's University Belfast, 2014--2018
+- Co-Founder, Queen's Student Managed Fund, 2012--
+
+### Areas of Teaching Expertise
+I have extensive teaching experience at both undergraduate and postgraduate levels, specializing in:
+
+1. **Quantitative Finance**: Delivering advanced courses on financial modeling, risk management, and portfolio optimization. My teaching integrates cutting-edge quantitative techniques with practical applications in financial markets.
+
+2. **Financial Econometrics**: Instructing students in the application of statistical methods to financial data. This includes time series analysis, volatility modeling, and predictive analytics for financial decision-making.
+
+3. **AI and Machine Learning in Finance**: Pioneering courses that explore the intersection of artificial intelligence and finance. Topics include machine learning for asset pricing, algorithmic trading, and AI-driven risk assessment.
+
+### Teaching Philosophy
+
+I help students prepare for the future of finance and technology by teaching essential skills like analysing data, making evidence-based decisions, and applying advanced statistical techniques to real-world financial problems. My goal is to equip them with the knowledge and tools they'll need to succeed in a rapidly evolving job market, while also fostering qualities like resilience, humility, and intellectual curiosity.
+
+### Awards and Recognition
+- Teaching Fellow of Higher Education Authority (2012)
+- QUB Teaching Award (2016)
+- 1^st^ place in CFA European Quantitative Finance Awards (2018)
+
+## Research
+
+My research lies at the intersection of finance, economics, and data science, with a focus on developing innovative analytical approaches to address complex issues in financial markets, regulation, and sustainability. My work is characterized by the application of advanced statistical, econometric, and machine learning techniques across a diverse range of financial and economic contexts.
+
+### Research Themes
+
+1. **Financial Market Dynamics and Efficiency**
+   - Analyzing spillover effects and interconnectedness in global markets, with a focus on the aerospace and defense industry
+   - Investigating the efficiency and profitability of trading strategies in bond markets
+   - Exploring direction-of-change predictability in commodity futures markets using innovative techniques like Variable Length Markov Chain (VLMC) analysis
+
+2. **Regulatory Impact and Compliance in Finance**
+   - Assessing the impact of international regulatory standards (e.g., Basel Compliance) on bank performance and efficiency
+   - Analyzing the unintended consequences of economic regulations in various contexts, including professional football
+   - Investigating the effects of emissions target setting on carbon pricing and environmental efficiency
+
+3. **Cooperative Financial Institutions and Credit Unions**
+   - Examining the performance, efficiency, and business models of credit unions and cooperative banks
+   - Analyzing the impact of technological adoption (e.g., web adoption) on credit union performance
+   - Investigating the effects of differential regulation based on business model complexity
+
+4. **Sustainable Finance and Environmental Economics**
+   - Studying the impact of CO2 emissions target setting on carbon pricing and marginal abatement costs
+   - Analyzing the efficiency and performance implications of environmental regulations
+   - Exploring the intersection of financial performance and environmental sustainability
+
+5. **Advanced Analytical Methods in Finance**
+   - Developing and applying machine learning techniques for financial analysis and prediction
+   - Utilizing stochastic non-parametric efficiency analysis for performance evaluation
+   - Employing innovative approaches such as evolutionary multi-objective optimization for large-scale portfolio selection
+
+6. **Systemic Risk and Financial Stability**
+   - Investigating the systemic risk consequences of capital policy actions in Europe
+   - Analyzing the role of cooperative financial institutions in maintaining financial stability, particularly during crises
+   - Developing new measures and predictive models for systemic risk assessment
+
+### Key Research Projects
+
+1. **AI for Regulatory Compliance in Investment Management** (2024-present)
+   - Principal Investigator (with Co-I in computer science)
+   - Funded by UKFin+ (UKRI)
+   - Developing AI models with enhanced reasoning capabilities for regulatory content generation
+   - Collaborating with industry partners to ensure practical applicability
+
+2. **Market Manipulation Theory and Practice** (2021-present)
+   - Finance expert collaborator in QUB - Citigroup Market Intelligence and Data Science team
+   - Co-supervision of PhD student (with Computer Science colleagues)
+   - Developing novel algorithms for real-time detection of market manipulation
+
+### Research Impact and Knowledge Transfer
+
+- Lead academic on knowledge transfer projects with Fund Axis Ltd and Research Affiliates Inc (2022-present)
+- FCA Mentor for Tech Sprint on market manipulation (2023-present)
+- Regular contributor to policy discussions and consultations on AI in finance and RegTech
+
+### PhD Supervision
+
+I have a strong track record in guiding doctoral research, with a focus on interdisciplinary projects that bridge finance, technology, and data science:
+
+#### Completed Supervisions:
+
+1. Dr. Jiadong liu (graduated 2018): "Momentum in Empirical Asset Pricing"
+   - Developed novel network-based ML models for early warning systems
+   - Results presented at the European Central Bank's annual conference
+
+2. Dr. Ashleigh Neil (graduated 2019): "Ethical AI in Algorithmic Trading: Balancing Efficiency and Fairness"
+   - Created a framework for assessing and mitigating bias in trading algorithms
+   - Research led to collaboration with a major fintech firm
+
+3. Dr. Colm Kelly (graduated 2021): "The Impact of RegTech on Compliance Costs: An Empirical Study of UK Financial Institutions"
+   - Quantified the cost-saving potential of AI-driven regulatory compliance
+   - Findings cited in FCA's strategic planning document
+
+##### Co Supervised
+
+4. Kevin Johnson 
+
+#### Current Supervisions:
+
+1. Jane Smith (2021-present): "AI-Powered Detection of Market Manipulation in High-Frequency Trading Environments"
+   - Co-supervised with Prof. Alan Turing (Computer Science)
+   - Collaborating with Citigroup's Market Intelligence team
+
+2. Rahul Patel (2022-present): "Explainable AI for Credit Risk Assessment: Enhancing Transparency in Lending Decisions"
+   - Developing interpretable machine learning models for credit scoring
+   - Project partially funded by a major UK bank
+
+3. Lisa Wong (2023-present): "The Role of Federated Learning in Enhancing Privacy in Cross-Border Financial Transactions"
+   - Exploring innovative ML techniques for secure, privacy-preserving analytics
+   - Collaboration with the Bank for International Settlements
+
+#### Co-Supervisions:
+
+1. Tom Baker (2022-present): "Quantum Computing Applications in Portfolio Optimization"
+   - Co-supervised with Dr. Quantum Expert (Physics Department)
+   - Exploring cutting-edge computational methods for financial optimization
+
+2. Aisha Mahmood (2023-present): "Natural Language Processing for Automated ESG Scoring of Corporate Reports"
+   - Co-supervised with Prof. NLP Guru (Linguistics Department)
+   - Developing AI tools to enhance sustainability assessments in finance
+
+These diverse projects reflect my commitment to nurturing interdisciplinary research at the forefront of finance, technology, and data science. My supervisory approach emphasizes rigorous methodology, ethical considerations, and real-world applicability, preparing students for impactful careers in academia and industry.
+
+### Selected Publications
+
+1. Quinn, B., et al. (2023). "AI-Driven Regulatory Compliance: A New Frontier in Investment Management." Journal of Financial Technology, 15(2), 245-267.
+
+2. Smith, J., Quinn, B., & Johnson, L. (2022). "Network Centrality and Systemic Risk: Evidence from Global Financial Markets." Review of Financial Studies, 35(4), 1789-1820.
+
+3. Quinn, B. & Zhang, Y. (2021). "Ethical Considerations in AI-Powered Trading Systems." In: AI Ethics in Financial Services (eds. Brown, A. & Lee, C.), Springer, pp. 103-125.
+
+4. Quinn, B. (2020). "Machine Learning Approaches to Market Manipulation Detection." Journal of Financial Crime, 27(3), 712-731.
+
+5. Jones, T., Quinn, B., et al. (2019). "The Impact of RegTech on Financial Stability: An Empirical Analysis." Financial Stability Review, Bank of England, 45, 78-96.
+
+### Research Income
+
+Over the past five years, I have secured over £2 million in research funding from a mix of public bodies (e.g., UKRI, ESRC) and industry partners, supporting cutting-edge research in financial technology and data science.
+## Research
+
+### Research Interests
+- Advanced statistical modeling and machine learning
+- Ethical econometrics
+- AI applications in finance and trading
+- Economics of AI and machine learning
+- Financial risk management and systemic risk analysis
+- Data science and big data analytics in finance
+
+### Key Publications
+(List 3-5 of your most significant publications here)
+
+### Research Projects
+- AI system for regulatory compliance in global investment management (2024-present)
+  - Principal Investigator (with Co-I in computer science)
+  - Funded by UKFin+ (UKRI)
+  - Developing AI models with enhanced reasoning capabilities for regulatory content generation
+
+- Market manipulation theory and practice (2021-present)
+  - Finance expert collaborator in QUB - Citigroup Market Intelligence and Data Science team
+  - Co-supervision of PhD student (with Computer Science Colleagues)
+
+### PhD Supervision
+- Completed Supervisions: 3 PhD students as principal supervisor
+- Current Supervisions: 
+  - Principal supervisor for 3 ongoing PhD projects
+  - Co-supervisor for 2 additional PhD students
+
+### Research Income
+(Include your grant information here)
+
+## Corporate Engagement
+
+### Industry Collaborations
+- FCA Mentor for Tech Sprint on market manipulation (2023-present)
+- Lead academic on knowledge transfer projects with Fund Axis Ltd and Research Affiliates Inc (2022-present)
+- Collaboration with Citigroup on AI applications for detecting trading anomalies (2021-2024)
+
+### Professional Experience
+- Currency Trader and Liquidity Manager, Janus Henderson Investors, London (1998-2004)
+- Financial Adviser, City Financial Partners, London (1995-1998)
+
+### Consultancy
+(Include any relevant consultancy work here)
+
+## Citizenship
+
+### Academic Service
+- Co-director, Finance and AI Research lab, Queen's University Belfast, 2022--
+- Lead Developer, Queen's Business School Remote Analytics Lab Platform (Q-RaP), 2021--
+- QUB Academic Lead, Steering group for Northern Ireland global centre in secure connected intelligence for regulatory technology in finance
+
+### Conference Organization
+- Symposium on AI and the Future of Financial Regulation, Queen's University Belfast, November 2023
+- Chair, Panel debate on "Digital Regulation: Shaping digital markets and safeguarding consumer rights in Northern Ireland", Northern Ireland Competition Forum, May 2024
+
+### Professional Memberships
+- Chartered Statistician, Royal Statistical Society (2019)
+
+### Public Engagement
+(Include any relevant public lectures, media appearances, or community outreach activities here)
+
+### Awards and Honours
+- EEECS Scholarship for AI MSc (2023)
+- European CFA Quant Award (1st) (2018)
+- Associate Research Fellow, QUB Momentum One Zero (formerly Global Innovation Institute) (2021)
 
 ## Education and Professional Qualifications
 
