@@ -58,7 +58,6 @@ print_bib_by_type <- function(bib_df, type) {
 ## Contact Information
 
 -   Address: Queen's Business School, Queen's University Belfast, BT9 1NN, N. Ireland
--   Website: quinference.com
 -   Phone: +44 787 238 2074
 -   Email: b.quinn\@qub.ac.uk
 -   GitHub: quinfer
@@ -136,22 +135,25 @@ My research lies at the intersection of finance, economics, and data science, wi
 
 ### Key Research Projects
 
-1. **AI for Regulatory Compliance in Investment Management** (2024-present)
+1. **Understanding and Enhancing regulatory compliance in the Investment Managent industry using generative AI** (2024-present)
    - Principal Investigator (with Co-I in computer science)
    - Funded by UKFin+ (UKRI)
    - Developing AI models with enhanced reasoning capabilities for regulatory content generation
    - Collaborating with industry partners to ensure practical applicability
 
-2. **Market Manipulation Theory and Practice** (2021-present)
+2. **Anomaly detection of large heterogeneous trading transaction and commmunication data** (2021-present)
    - Finance expert collaborator in QUB - Citigroup Market Intelligence and Data Science team
    - Co-supervision of PhD student (with Computer Science colleagues)
    - Developing novel algorithms for real-time detection of market manipulation
 
 ### Research Impact and Knowledge Transfer
 
-- Lead academic on knowledge transfer projects with Fund Axis Ltd and Research Affiliates Inc (2022-present)
-- FCA Mentor for Tech Sprint on market manipulation (2023-present)
-- Regular contributor to policy discussions and consultations on AI in finance and RegTech
+- Previously, I was the lead academic on three Knowledge Transfer Projects:
+  - **AI and Advanced Retail Analytics** with Pearlai Ltd and Dr Byron Graham ( ended 2019)
+  - **E.S.G Fair Value Analytics** with Research Associates, Dr. Lisa Sheenan, Dr. Byron Graham.
+  - **Tail Risk Analytics, Stress Testing and Scenario Analytics** with Funds Axis Ltd, Dr Fearghal Kearney, and Dr Colm Kelly.
+- **Financial Conduct Authority** Tech Sprint Mentor (2023-present)
+- 
 
 ### PhD Supervision
 
@@ -160,36 +162,22 @@ I have a strong track record in guiding doctoral research, with a focus on inter
 #### Completed Supervisions:
 
 1. Dr. Jiadong liu (graduated 2018): "Momentum in Empirical Asset Pricing"
-   - Developed novel network-based ML models for early warning systems
-   - Results presented at the European Central Bank's annual conference
-
-2. Dr. Ashleigh Neil (graduated 2019): "Ethical AI in Algorithmic Trading: Balancing Efficiency and Fairness"
-   - Created a framework for assessing and mitigating bias in trading algorithms
-   - Research led to collaboration with a major fintech firm
-
-3. Dr. Colm Kelly (graduated 2021): "The Impact of RegTech on Compliance Costs: An Empirical Study of UK Financial Institutions"
-   - Quantified the cost-saving potential of AI-driven regulatory compliance
-   - Findings cited in FCA's strategic planning document
+2. Dr. Ashleigh Neil (graduated 2019): "Law and Financial Stability"
+3. Dr. Colm Kelly (graduated 2021): "Machine learning in Empirical Asset Pricing"
+4. Veronica Zhang (graduating 2024): "Capital policy and State sponsorship in Chinese banking"
 
 ##### Co Supervised
 
-4. Kevin Johnson 
+4. Dr. Kevin Johnson "A Case Study in Industrial Consolidation: The Irish Credit Union Sector"
+5. Dr. Qiao (Olivia) Peng "US Credit Union Mergers: Causes and Consequences"
 
 #### Current Supervisions:
 
-1. Jane Smith (2021-present): "AI-Powered Detection of Market Manipulation in High-Frequency Trading Environments"
-   - Co-supervised with Prof. Alan Turing (Computer Science)
-   - Collaborating with Citigroup's Market Intelligence team
+1. Fei Li "Sustainable Investing, Report and Gender Diversity"
+2. Abhishek Pramnanick "AI and the future of financial regulation"
+3. 
 
-2. Rahul Patel (2022-present): "Explainable AI for Credit Risk Assessment: Enhancing Transparency in Lending Decisions"
-   - Developing interpretable machine learning models for credit scoring
-   - Project partially funded by a major UK bank
-
-3. Lisa Wong (2023-present): "The Role of Federated Learning in Enhancing Privacy in Cross-Border Financial Transactions"
-   - Exploring innovative ML techniques for secure, privacy-preserving analytics
-   - Collaboration with the Bank for International Settlements
-
-#### Co-Supervisions:
+##### Co-Supervisions:
 
 1. Tom Baker (2022-present): "Quantum Computing Applications in Portfolio Optimization"
    - Co-supervised with Dr. Quantum Expert (Physics Department)
@@ -198,6 +186,12 @@ I have a strong track record in guiding doctoral research, with a focus on inter
 2. Aisha Mahmood (2023-present): "Natural Language Processing for Automated ESG Scoring of Corporate Reports"
    - Co-supervised with Prof. NLP Guru (Linguistics Department)
    - Developing AI tools to enhance sustainability assessments in finance
+
+### Visiting PhD Supervision
+
+1. Weilong Liu 2022 (From Lingnan University College of Yat-sen University (SYSU) in Guangzhou, China ) "Market Manipulation and AI Anomaly Detection"
+2. James Hannon 2023 (From UCD) "Leveraging Computer Vision to under and enhance Insurance Pricing"
+3. Birem Abderraouf 2025 (From UPEC Paris) "Generative AI and Sentiment Analysis in Capital Markets"
 
 These diverse projects reflect my commitment to nurturing interdisciplinary research at the forefront of finance, technology, and data science. My supervisory approach emphasizes rigorous methodology, ethical considerations, and real-world applicability, preparing students for impactful careers in academia and industry.
 
@@ -216,37 +210,6 @@ These diverse projects reflect my commitment to nurturing interdisciplinary rese
 ### Research Income
 
 Over the past five years, I have secured over £2 million in research funding from a mix of public bodies (e.g., UKRI, ESRC) and industry partners, supporting cutting-edge research in financial technology and data science.
-## Research
-
-### Research Interests
-- Advanced statistical modeling and machine learning
-- Ethical econometrics
-- AI applications in finance and trading
-- Economics of AI and machine learning
-- Financial risk management and systemic risk analysis
-- Data science and big data analytics in finance
-
-### Key Publications
-(List 3-5 of your most significant publications here)
-
-### Research Projects
-- AI system for regulatory compliance in global investment management (2024-present)
-  - Principal Investigator (with Co-I in computer science)
-  - Funded by UKFin+ (UKRI)
-  - Developing AI models with enhanced reasoning capabilities for regulatory content generation
-
-- Market manipulation theory and practice (2021-present)
-  - Finance expert collaborator in QUB - Citigroup Market Intelligence and Data Science team
-  - Co-supervision of PhD student (with Computer Science Colleagues)
-
-### PhD Supervision
-- Completed Supervisions: 3 PhD students as principal supervisor
-- Current Supervisions: 
-  - Principal supervisor for 3 ongoing PhD projects
-  - Co-supervisor for 2 additional PhD students
-
-### Research Income
-(Include your grant information here)
 
 ## Corporate Engagement
 
