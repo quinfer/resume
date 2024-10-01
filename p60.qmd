@@ -1,0 +1,68 @@
+---
+title: "P60 analysis"
+author: "Perplexity.ai"
+format: pdf
+---
+
+>Source: https://www.perplexity.ai/search/if-i-am-a-uk-taxpayer-with-a-n-kDtCRmN5SkaTADoOS2kUYA
+
+## Overview
+
+This analysis covers four consecutive tax years, providing insights into the changes in gross pay, tax deductions, and National Insurance contributions.
+
+## Gross Pay and Deductions
+
+| Tax Year   | Gross Pay (£) | Tax Deducted (£) | NI Contributions (£) |
+|------------|---------------|-------------------|----------------------|
+| 2019-2020  | 75,000.00     | 16,620.00         | 4,914.00             |
+| 2020-2021  | 75,000.00     | 16,620.00         | 4,942.56             |
+| 2021-2022  | 75,000.00     | 16,620.00         | 4,316.04             |
+| 2022-2023  | 77,625.00     | 17,945.00         | 4,545.12             |
+
+## Year-on-Year Changes
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(knitr)
+
+yoy_changes <- data.frame(
+  Year = c("2020-2021", "2021-2022", "2022-2023"),
+  Gross_Pay_Change = c(0, 0, 3.5),
+  Tax_Change = c(0, 0, 7.97),
+  NI_Change = c(0.58, -12.68, 5.31)
+)
+
+kable(yoy_changes, col.names = c("Tax Year", "Gross Pay Change (%)", "Tax Change (%)", "NI Change (%)"),
+      caption = "Year-on-Year Percentage Changes")
+```
+
+## Key Observations
+
+1. **Gross Pay**: 
+   - Remained constant at £75,000.00 for three consecutive years.
+   - Increased by 3.5% in 2022-2023 to £77,625.00.
+
+2. **Tax Deductions**:
+   - Stable at £16,620.00 for three years.
+   - Increased by 7.97% in 2022-2023, outpacing the gross pay increase.
+
+3. **National Insurance Contributions**:
+   - Showed fluctuations over the years.
+   - Notably decreased by 12.68% in 2021-2022 before increasing again in 2022-2023.
+
+## Analysis
+
+1. **Income Stability**: Your gross pay remained stable for three years, indicating a consistent income level. The 3.5% increase in 2022-2023 suggests a positive change, potentially due to a raise or additional responsibilities.
+
+2. **Tax Burden**: The significant increase in tax deductions (7.97%) in 2022-2023, compared to the 3.5% gross pay increase, indicates you may have moved into a higher tax bracket for part of your income.
+
+3. **NI Contributions**: The fluctuations in NI contributions, especially the decrease in 2021-2022, could be due to changes in NI thresholds or rates. The subsequent increase in 2022-2023 aligns with the rise in gross pay.
+
+4. **Overall Trend**: The data shows a pattern of stability followed by growth in the most recent tax year. This suggests a positive trajectory in your earnings, albeit with a proportionally higher increase in deductions.
+
+## Conclusion
+
+Your financial situation, as reflected in these P60s, shows stability with recent growth. The increase in gross pay in 2022-2023 is a positive sign, though it's accompanied by higher deductions. This pattern is typical as income rises, often resulting in a higher proportion of earnings being subject to tax and NI contributions.
