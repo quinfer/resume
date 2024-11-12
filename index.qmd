@@ -9,7 +9,7 @@ format:
     documentclass: article
     geometry:
       - margin=1in
-    fontsize: 11pt
+    fontsize: 10pt
     linkcolor: blue
     urlcolor: blue
 bibliography: bqpubs.bib
@@ -86,11 +86,11 @@ tribble(
 
 # Teaching
 
-I have extensive teaching experience at both undergraduate and postgraduate levels, specializing in:
+I have extensive teaching experience at both undergraduate and postgraduate levels, specialising in:
 
 1.  **Quantitative Finance**: My teaching integrates cutting-edge quantitative techniques with practical applications in financial markets.
 
-2.  **Ethical Econometrics**: Instructing students in econometrics as an applied statistics discipline, avoiding the statistical cavaliering that a plague in the econometric publication playbook. 
+2.  **Ethical Econometrics**: Instructing students in econometrics as an applied statistics discipline, avoiding the statistical cavaliering that plagues the econometric publication playbook.
 
 3.  **AI and Machine Learning in Finance**: Pioneering courses that explore the intersection of artificial intelligence and finance. Topics include machine learning for rule-based algorithmic trading, asset pricing, algorithmic trading, and AI-driven risk assessment.
 
@@ -100,19 +100,19 @@ I help students prepare for the future of finance and technology by teaching ess
 
 # Research
 
-I have published thirteen peer reviewed internationally acclaimed academic papers (1 ABS4, 10 ABS3s, and 2 ABS2s), three commission research reports, two statistical software research packages.My research lies at the intersection of finance, economics, and data science, with a focus on developing innovative analytical approaches to address complex issues in financial markets, regulation, and sustainability. My work is characterised by the application of advanced statistical, econometric, and machine learning techniques across a diverse range of financial and economic contexts.
+I have published thirteen peer reviewed internationally acclaimed academic papers (1 ABS4, 10 ABS3s, and 2 ABS2s), three commission research reports, and two statistical software research packages. My research lies at the intersection of finance, economics, and data science, with a focus on developing innovative analytical approaches to address complex issues in financial markets, regulation, and sustainability. My work is characterised by the application of advanced statistical, econometric, and machine learning techniques across a diverse range of financial and economic contexts.
 
-## Selected Publications
+## Selected Recent Publications
 
-- <span style="color: #2E8B57;">Liu, Weilong, Zhang, Yong, Liu, Kailong, Quinn, Barry, Yang, Xingyu, Peng, Qiao (2024). Evolutionary Multi-Objective Optimisation for Large-Scale Portfolio Selection With Both Random and Uncertain Returns. IEEE Transactions on Evolutionary Computation^ABS4^</span>
+-   [Liu, Weilong, Zhang, Yong, Liu, Kailong, Quinn, Barry, Yang, Xingyu, Peng, Qiao (2024). Evolutionary Multi-Objective Optimisation for Large-Scale Portfolio Selection With Both Random and Uncertain Returns. IEEE Transactions on Evolutionary Computation^ABS4^]{style="color: #2E8B57;"}
 
 <!-- - <span style="color: #0066cc;">Bouri, E., Quinn, B., Sheenan, L. & Tang, Y. (2024) Investigating extreme linkage topology in the aerospace and defence industry. International Review of Financial Analysis^ABS3^</span> -->
 
-- <span style="color: #0066cc;">Quinn, Barry, Gallagher, Ronan, Kuosmanen, Timo (2023). Lurking in the shadows: The impact of CO2 emissions target setting on carbon pricing in the Kyoto agreement period Energy Economics^ABS3^</span>
+-   [Quinn, Barry, Gallagher, Ronan, Kuosmanen, Timo (2023). Lurking in the shadows: The impact of CO2 emissions target setting on carbon pricing in the Kyoto agreement period Energy Economics^ABS3^]{style="color: #0066cc;"}
 
 <!-- - <span style="color: #0066cc;">Liu, Jiadong, Papailias, Fotis, Quinn, Barry (2021). Direction-of-change forecasting in commodity futures markets. International Review of Financial Analysis^ABS3^</span> -->
 
-- <span style="color: #0066cc;">Gallagher, Ronan, Quinn, Barry (2020). Regulatory own goals: The unintended consequences of economic regulation in professional football. European Sport Management Quarterly^ABS3^</span>
+-   [Gallagher, Ronan, Quinn, Barry (2020). Regulatory own goals: The unintended consequences of economic regulation in professional football. European Sport Management Quarterly^ABS3^]{style="color: #0066cc;"}
 
 <!-- - <span style="color: #0066cc;">McKillop, Donal, French, Declan, Quinn, Barry, Sobiech, Anna L, Wilson, John OS (2020). Cooperative financial institutions: A review of the literature. International Review of Financial Analysis^ABS3^</span> -->
 
@@ -122,9 +122,11 @@ I have published thirteen peer reviewed internationally acclaimed academic paper
 
 <!-- - <span style="color: #0066cc;">Ayadi, Rym, Naceur, Sami Ben, Casu, Barbara, Quinn, Barry (2016). Does Basel compliance matter for bank performance?. Journal of Financial Stability^ABS3^</span> -->
 
+```{=html}
 <!-- - <span style="color: #0066cc;">Glass, J, McKillop, Donal, Quinn, Barry (2015). Modelling the Performance of Irish Credit Unions, 2002-2010. Financial Accountability & Management^ABS3^</span>
 
 - <span style="color: #9370DB;">McKillop, Donal G, Quinn, Barry (2015). Technology adoption by Irish credit unions: Performance implications. Annals of Public and Cooperative Economics^ABS2^</span> -->
+```
 
 <!-- - <span style="color: #0066cc;">Glass, J Colin, McKillop, Donal G, Quinn, Barry, Wilson, John (2014). Cooperative bank efficiency in Japan: a parametric distance function analysis. The European Journal of Finance^ABS3^</span> -->
 
@@ -132,13 +134,13 @@ I have published thirteen peer reviewed internationally acclaimed academic paper
 
 ## Research Impact and Knowledge Transfer
 
-1.  **Understanding and Enhancing regulatory compliance in the Investment Managent industry using generative AI** (2024-present UKRI funded Feasiblity Study with Funds Axis Ltd)
-2.  **Anomaly detection of large heterogeneous trading transaction and commmunication data** (2021-present)
-  - Market Microstructure Expert in collaboration with QUB computer science and Citigroup Belfast(directly funded at £500K)
-3. **AI and Advanced Retail Analytics** with Pearlai Ltd and Dr Byron Graham (KTP 2017-2019)
-4.  **E.S.G Fair Value Analytics** with Research Associates, Dr. Lisa Sheenan, Dr. Byron Graham. (KTP 2021)
-5.  **Tail Risk Analytics, Stress Testing and Scenario Analytics** with Funds Axis Ltd, Dr Fearghal Kearney, and Dr Colm Kelly. (KTP 2021 -2023)
-6. **Financial Conduct Authority** Tech Sprint Mentor (2023-present)
+1.  *Understanding and Enhancing regulatory compliance in the Investment Managent industry using generative AI* with Funds Axis Ltd and Momentum 1.0 (Funded by UKFin+ and UKRI Nov 2024 - Nov 2025)
+2.  *Anomaly detection of large heterogeneous trading transaction and commmunication data* with Citigroup Belfast and Momentum 1.0 (2022-2023)
+3.  *AI and Advanced Retail Analytics* with Pearlai Ltd and Dr Byron Graham (KTP 2017-2019)
+4.  *E.S.G Fair Value Analytics* with Research Associates, Dr. Lisa Sheenan, Dr. Byron Graham. (KTP 2021)
+5.  *Tail Risk Analytics, Stress Testing and Scenario Analytics* with Funds Axis Ltd, Dr Fearghal Kearney, and Dr Colm Kelly. (KTP 2021 -2023)
+6.  *Financial Conduct Authority* Tech Sprint Mentor (2023-present)
+7.  *AI and the Future of Financial Regulation* with Fearghal Kearney and Abhishek Praminick published in The Economic Observatory (2023)
 
 ## Completed PhD Supervisions
 
@@ -146,12 +148,12 @@ I have published thirteen peer reviewed internationally acclaimed academic paper
 2.  Dr. Ashleigh Neil (graduated 2019): *Law and Financial Stability* **(Principal Supervisor)**
 3.  Dr. Colm Kelly (graduated 2021): *Machine learning in Empirical Asset Pricing* **(Principal Supervisor)**
 4.  Veronica Zhang (graduating 2024): *Capital policy and State sponsorship in Chinese banking* **(Principal Supervisor)**
-4.  Dr. Kevin Johnson (graduated 2019) *A Case Study in Industrial Consolidation: The Irish Credit Union Sector* **(Co Supervised)**
-5.  Dr. Qiao (Olivia) Peng (graduated 2021) *US Credit Union Mergers: Causes and Consequences* **(Co Supervised)**
+5.  Dr. Kevin Johnson (graduated 2019) *A Case Study in Industrial Consolidation: The Irish Credit Union Sector* **(Co Supervised)**
+6.  Dr. Qiao (Olivia) Peng (graduated 2021) *US Credit Union Mergers: Causes and Consequences* **(Co Supervised)**
 
 ## Current PhD Supervisions
 
-1.  Fei Li *Sustainable Investing, Report and Gender Diversity* (fully-funded by QBS scholarship)  **(Principal Supervisor)**
+1.  Fei Li *Sustainable Investing, Report and Gender Diversity* (fully-funded by QBS scholarship) **(Principal Supervisor)**
 2.  Abhishek Pramnanick *AI and the future of financial regulation* (fully-funded by QBS scholarship) **(Principal Supervisor)**
 3.  Dongwei (Jeffery) Li *The cconomics of AI patents and productivity in finance* (fully-funded by DofE scholarship) **(Principal Supervisor)**
 4.  Yuqi Ding *The Economics of Generative AI in Finance" (fully-funded by QBS scholarship)* **(Principal Supervisor)**
@@ -180,23 +182,22 @@ I have published thirteen peer reviewed internationally acclaimed academic paper
 
 ## Working Paper
 
-- Dai, Yongsheng, Wang, Hui, Rafferty, Karen, Spence, Ivor, Quinn, Barry. TDSRL: *[Time Series Dual Self-Supervised Representation Learning for Anomaly Detection from Different Perspectives](https://ideas.repec.org/p/zbw/qmsrps/202403.html)* (2nd R&R IEEE Internet of Things). 
+-   Dai, Yongsheng, Wang, Hui, Rafferty, Karen, Spence, Ivor, Quinn, Barry. TDSRL: [*Time Series Dual Self-Supervised Representation Learning for Anomaly Detection from Different Perspectives*](https://ideas.repec.org/p/zbw/qmsrps/202403.html) (2nd R&R IEEE Internet of Things).
 
-- Liu, Kailong, McKillop, Donal, Quinn, Barry, Peng, Qiao. *Modelling and Predicting Credit Union Failures*. Centre for Responsible Banking and Finance Working Paper Series, St Andrew’s University (2nd R&R International Journal of Forecasting^ABS3^).
+-   Liu, Kailong, McKillop, Donal, Quinn, Barry, Peng, Qiao. *Modelling and Predicting Credit Union Failures*. Centre for Responsible Banking and Finance Working Paper Series, St Andrew’s University (2nd R&R International Journal of Forecasting^ABS3^).
 
-- McKillop, Donal, Quinn, Barry, Peng, Qiao *Predicting Credit Union Merger Activity using Gaussian Process*
+-   McKillop, Donal, Quinn, Barry, Peng, Qiao *Predicting Credit Union Merger Activity using Gaussian Process*
 
-- Quinn, Barry, Abhishek Pramanick *Regulatory Technology:  Predicting Future Trends in the context of FinTech*
+-   Quinn, Barry, Abhishek Pramanick *Regulatory Technology: Predicting Future Trends in the context of FinTech*
 
-- Quinn, Barry, Ronan Gallager *Great Expectations: Managerial Turnover and Market Expection in Association Football*
+-   Quinn, Barry, Ronan Gallager *Great Expectations: Managerial Turnover and Market Expection in Association Football*
 
 ## Research Reports
 
-- Bryon Graham, Barry Quinn (2019). *Price comparison and web analytics*. (Commissioned by InvestNI)
-- Bryon Graham, Barry Quinn (2017). *Machine learning and predictive analytics in the mall retail business*. (Commissioned by InvestNI)
-- Fearghal Kearney, Barry Quinn (2020). The theoretical foundations of value at risk modelling. (Commissioned by InvestNI and Funds Axis Ltd)
-- French,Declan, McKillop, Donal, Quinn, Barry (2018). Landscape review of Northern Ireland credit unions.(Commissioned by Northern Ireland Department of Communities and Rural Affairs)
-
+-   Bryon Graham, Barry Quinn (2019). *Price comparison and web analytics*. (Commissioned by InvestNI)
+-   Bryon Graham, Barry Quinn (2017). *Machine learning and predictive analytics in the mall retail business*. (Commissioned by InvestNI)
+-   Fearghal Kearney, Barry Quinn (2020). The theoretical foundations of value at risk modelling. (Commissioned by InvestNI and Funds Axis Ltd)
+-   French,Declan, McKillop, Donal, Quinn, Barry (2018). Landscape review of Northern Ireland credit unions.(Commissioned by Northern Ireland Department of Communities and Rural Affairs)
 
 ## Research Income
 
@@ -226,15 +227,14 @@ read.csv("Grant_income.csv") %>%
 -   **Programme Director**, MSc Quantitative Finance, Queen's University Belfast, 2018--2022.
 -   **Programme Director**, MSc Computational Finance & Trading, Queen's University Belfast, 2014--2018.
 -   **Co-Founder**, Queen's Student Managed Fund, 2012--.
--  **Organiser** of Symposium on AI and the Future of Financial Regulation, Queen's University Belfast, November 2023
-- **Organiser** of Symposium on Safety and Assurance in Finance. Queen's Business School, November 2024
+-   **Organiser** of Symposium on AI and the Future of Financial Regulation, Queen's University Belfast, November 2023
+-   **Organiser** of Symposium on Safety and Assurance in Finance. Queen's Business School, November 2024
 -   **Chair**, Panel debate on "Digital Regulation: Shaping digital markets and safeguarding consumer rights in Northern Ireland", Northern Ireland Competition Forum, May 2024
 
 ## Professional Accreditations
 
 -   Chartered Statistician, Royal Statistical Society (2019)
 -   Advanced Data Science Professional, [Alliance of Data Science Professional](https://alliancefordatascienceprofessionals.com/) (2024)
-
 
 # Awards and Recognition
 
@@ -278,7 +278,6 @@ tribble(
   )
 ```
 
-
 # Skills and Expertise
 
 -   Advanced statistical modeling and machine learning
@@ -296,7 +295,5 @@ tribble(
 
 # Software Publications
 
-- Quinn, Barry (2022). Time Series Econometrics R Package. . https://github.com/quinfer/tsfe 341 stars on GitHub
-- Quinn, Barry (2020). Financial Machine Learning R package. . https://github.com/quinfer/fml 150 Stars on GitHub
-
-
+-   Quinn, Barry (2022). Time Series Econometrics R Package. . https://github.com/quinfer/tsfe 341 stars on GitHub
+-   Quinn, Barry (2020). Financial Machine Learning R package. . https://github.com/quinfer/fml 150 Stars on GitHub
