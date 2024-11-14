@@ -18,41 +18,9 @@ bibliography: bqpubs.bib
 ```{r}
 #| label: setup 
 #| include: FALSE
-
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = FALSE)
-library(dplyr)
-library(gcite)
-library(bib2df)
+library(tidyverse)
 library(knitr)
-# Google scholar stats
-bq <- gcite_citation_index(gcite_url("https://scholar.google.com/citations?user=q6wJceEAAAAJ&hl=en"))
-
-# Read grants file
-grants <- readr::read_csv("Grant_income.csv")
-
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = FALSE)
-
-# Read BibTeX file
-pubs <- bib2df("bqpubs.bib")
-
-# Function to print bibliography for a specific type
-print_bib_by_type <- function(bib_df, type) {
-  filtered_df <- bib_df %>% 
-    filter(CATEGORY == type) %>% 
-    select(AUTHOR, YEAR, TITLE, JOURNAL, BOOKTITLE, URL) %>% 
-    mutate(AUTHOR = sapply(AUTHOR, paste, collapse = ", "),
-           CITATION = paste0(AUTHOR, " (", YEAR, "). ", TITLE, ". ", 
-                             ifelse(!is.na(JOURNAL), JOURNAL, 
-                                    ifelse(!is.na(BOOKTITLE), BOOKTITLE, "")),
-                             ifelse(!is.na(URL), paste0(". ", URL), ".")))
-  
-  if (nrow(filtered_df) > 0) {
-    kable(filtered_df %>% select(CITATION), format = "markdown", col.names = NULL)
-  } else {
-    cat("No publications of this type.")
-  }
-}
-
 ```
 
 # Contact Information
@@ -202,25 +170,37 @@ I have published thirteen peer reviewed internationally acclaimed academic paper
 ## Research Income
 
 ```{r}
-read.csv("Grant_income.csv") %>%
-  mutate(Amount = scales::number(
-    Amount,
-    big.mark = ",",     # Add commas for thousands
-    prefix = "£",       # Add pound symbol
-    accuracy = 1        # Round to whole numbers
-  )) %>%
-  knitr::kable(
-    col.names = c("Source", "Role", "Start", "End", "People", "Title", "Full Economic Costs (£)", "Type"),
-    align = c("l", "l", "l", "l", "l", "l", "r", "l"),
-    format = "pipe",
-    caption = "Research Grant Income",
-    escape = FALSE
-  ) %>%
-  kableExtra::kable_styling(
-    bootstrap_options = c("striped", "hover"),
-    full_width = FALSE,
-    position = "left"
-  )
+if (knitr::is_latex_output()) {
+  read.csv("Grant_income.csv") %>%
+    mutate(Amount = scales::comma(Amount, prefix = "£")) %>%
+    knitr::kable(
+      col.names = c("Source", "Role", "Start", "End", "People", "Title", "Full Economic Costs (£)", "Type"),
+      align = c("l", "l", "l", "l", "l", "l", "r", "l"),
+      format = "latex",
+      caption = "Research Grant Income",
+      booktabs = TRUE,
+      escape = FALSE
+    ) %>%
+    kableExtra::kable_styling(
+      latex_options = "scale_down",
+      font_size = 9
+    )
+} else {
+  read.csv("Grant_income.csv") %>%
+    mutate(Amount = scales::comma(Amount, prefix = "£")) %>%
+    knitr::kable(
+      col.names = c("Source", "Role", "Start", "End", "People", "Title", "Full Economic Costs (£)", "Type"),
+      align = c("l", "l", "l", "l", "l", "l", "r", "l"),
+      format = "pipe",
+      caption = "Research Grant Income",
+      escape = FALSE
+    ) %>%
+    kableExtra::kable_styling(
+      bootstrap_options = c("striped", "hover"),
+      full_width = FALSE,
+      position = "left"
+    )
+}
 ```
 
 # Citizenship
@@ -252,8 +232,8 @@ read.csv("Grant_income.csv") %>%
 
 # Professional Experience
 
-```{r employment, results='asis'}
-tribble(
+```{r}
+employment_table <- tribble(
   ~Start, ~End, ~Position, ~Institution,
   1995, "1998", "Financial Adviser", "City Financial Partners, London",
   1998, "2004", "Currency Trader and Liquidity Manager", "Janus Henderson Investors, London",
@@ -269,19 +249,35 @@ tribble(
                    paste0("**", Start, " - Present**"), 
                    paste0("**", Start, " - ", End, "**"))
   ) |>
-  select(Years, Position, Institution) |>
-  knitr::kable(
-    col.names = c("Period", "Position", "Institution"),
-    align = c("l", "l", "l"),
-    format = "pipe",
-    caption = "Professional Experience",
-    escape = FALSE
-  ) |>
-  kableExtra::kable_styling(
-    bootstrap_options = c("striped", "hover"),
-    full_width = FALSE,
-    position = "left"
-  )
+  select(Years, Position, Institution)
+
+if (knitr::is_latex_output()) {
+  employment_table |>
+    knitr::kable(
+      col.names = c("Period", "Position", "Institution"),
+      format = "latex",
+      caption = "Professional Experience",
+      booktabs = TRUE,
+      escape = FALSE
+    ) |>
+    kableExtra::kable_styling(
+      latex_options = "scale_down",
+      font_size = 9
+    )
+} else {
+  employment_table |>
+    knitr::kable(
+      col.names = c("Period", "Position", "Institution"),
+      format = "pipe",
+      caption = "Professional Experience",
+      escape = FALSE
+    ) |>
+    kableExtra::kable_styling(
+      bootstrap_options = c("striped", "hover"),
+      full_width = FALSE,
+      position = "left"
+    )
+}
 ```
 
 # Skills and Expertise
@@ -296,5 +292,50 @@ tribble(
 
 # Software Publications
 
--   Quinn, Barry (2022). Time Series Econometrics R Package. . https://github.com/quinfer/tsfe 341 stars on GitHub
--   Quinn, Barry (2020). Financial Machine Learning R package. . https://github.com/quinfer/fml 150 Stars on GitHub
+```{r}
+pkg_table <- tribble(
+    ~Package, ~Year, ~Description, ~Stars,
+    "Time Series Econometrics", "2022", "R Package for time series analysis", "341",
+    "Financial Machine Learning", "2020", "R Package for financial ML", "150"
+)
+
+if (knitr::is_latex_output()) {
+  pkg_table |>
+    mutate(Stars = paste0(Stars, " stars on GitHub")) |>
+    knitr::kable(
+      format = "latex",
+      booktabs = TRUE,
+      col.names = c("Package", "Year", "Description", "Metrics"),
+      caption = "Software Packages",
+      escape = FALSE
+    ) |>
+    kableExtra::kable_styling(
+      latex_options = "scale_down",
+      font_size = 9
+    )
+} else {
+  pkg_table |>
+    mutate(Stars = paste0("[![GitHub stars](https://img.shields.io/github/stars/",
+                         case_when(
+                           Package == "Time Series Econometrics" ~ "barryquinn1/tseries",
+                           Package == "Financial Machine Learning" ~ "quinfer/fml"
+                         ),
+                         "?style=social)](https://github.com/",
+                         case_when(
+                           Package == "Time Series Econometrics" ~ "barryquinn1/tseries",
+                           Package == "Financial Machine Learning" ~ "quinfer/fml"
+                         ),
+                         ")")) |>
+    knitr::kable(
+      format = "pipe",
+      col.names = c("Package", "Year", "Description", "GitHub Stars"),
+      caption = "Software Packages",
+      escape = FALSE
+    ) |>
+    kableExtra::kable_styling(
+      bootstrap_options = c("striped", "hover"),
+      full_width = FALSE,
+      position = "left"
+    )
+}
+```
