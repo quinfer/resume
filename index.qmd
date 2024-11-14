@@ -203,9 +203,15 @@ I have published thirteen peer reviewed internationally acclaimed academic paper
 
 ```{r}
 read.csv("Grant_income.csv") %>%
+  mutate(Amount = scales::number(
+    Amount,
+    big.mark = ",",     # Add commas for thousands
+    prefix = "£",       # Add pound symbol
+    accuracy = 1        # Round to whole numbers
+  )) %>%
   knitr::kable(
-    col.names = c("Source", "Role", "Start", "End", "People", "Title", "Amount", "Type"),
-    align = c("l", "l", "l", "l", "l", "l", "r", "l"),  # right-align Amount
+    col.names = c("Source", "Role", "Start", "End", "People", "Title", "Full Economic Costs (£)", "Type"),
+    align = c("l", "l", "l", "l", "l", "l", "r", "l"),
     format = "pipe",
     caption = "Research Grant Income",
     escape = FALSE
@@ -219,7 +225,7 @@ read.csv("Grant_income.csv") %>%
 
 # Citizenship
 
-### Academic Service
+## Academic Service
 
 -   **Co-director**, Finance and AI Research lab, Queen's University Belfast, 2022--.
 -   **Lead Developer**, Queen's Business School Remote Analytics Lab Platform (Q-RaP), 2021--.
@@ -287,11 +293,6 @@ tribble(
 -   Financial risk management and systemic risk analysis
 -   Data science and big data analytics in finance
 -   Interdisciplinary research leadership
-
-# Organized Conferences and Symposia
-
--   Symposium on AI and the Future of Financial Regulation, Queen's University Belfast, November 2023
--   Chair, Panel debate on "Digital Regulation: Shaping digital markets and safeguarding consumer rights in Northern Ireland", Northern Ireland Competition Forum, May 2024
 
 # Software Publications
 
