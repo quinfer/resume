@@ -75,35 +75,33 @@ I have published thirteen peer reviewed internationally acclaimed academic paper
 
 -   [Liu, Weilong, Zhang, Yong, Liu, Kailong, Quinn, Barry, Yang, Xingyu, Peng, Qiao (2024). Evolutionary Multi-Objective Optimisation for Large-Scale Portfolio Selection With Both Random and Uncertain Returns. IEEE Transactions on Evolutionary Computation^ABS4^]{style="color: #2E8B57;"}
 
-<!-- - <span style="color: #0066cc;">Bouri, E., Quinn, B., Sheenan, L. & Tang, Y. (2024) Investigating extreme linkage topology in the aerospace and defence industry. International Review of Financial Analysis^ABS3^</span> -->
+- <span style="color: #0066cc;">Bouri, E., Quinn, B., Sheenan, L. & Tang, Y. (2024) Investigating extreme linkage topology in the aerospace and defence industry. International Review of Financial Analysis^ABS3^</span>
 
 -   [Quinn, Barry, Gallagher, Ronan, Kuosmanen, Timo (2023). Lurking in the shadows: The impact of CO2 emissions target setting on carbon pricing in the Kyoto agreement period Energy Economics^ABS3^]{style="color: #0066cc;"}
 
-<!-- - <span style="color: #0066cc;">Liu, Jiadong, Papailias, Fotis, Quinn, Barry (2021). Direction-of-change forecasting in commodity futures markets. International Review of Financial Analysis^ABS3^</span> -->
+- <span style="color: #0066cc;">Liu, Jiadong, Papailias, Fotis, Quinn, Barry (2021). Direction-of-change forecasting in commodity futures markets. International Review of Financial Analysis^ABS3^</span>
 
 -   [Gallagher, Ronan, Quinn, Barry (2020). Regulatory own goals: The unintended consequences of economic regulation in professional football. European Sport Management Quarterly^ABS3^]{style="color: #0066cc;"}
 
-<!-- - <span style="color: #0066cc;">McKillop, Donal, French, Declan, Quinn, Barry, Sobiech, Anna L, Wilson, John OS (2020). Cooperative financial institutions: A review of the literature. International Review of Financial Analysis^ABS3^</span> -->
+- <span style="color: #0066cc;">McKillop, Donal, French, Declan, Quinn, Barry, Sobiech, Anna L, Wilson, John OS (2020). Cooperative financial institutions: A review of the literature. International Review of Financial Analysis^ABS3^</span>
 
-<!-- - <span style="color: #9370DB;">Quinn, Barry, Hanna, Alan, MacDonald, Fred (2018). Picking up the pennies in front of the bulldozer: The profitability of gilt based trading strategies. Finance Research Letters^ABS2^</span> -->
+- <span style="color: #9370DB;">Quinn, Barry, Hanna, Alan, MacDonald, Fred (2018). Picking up the pennies in front of the bulldozer: The profitability of gilt based trading strategies. Finance Research Letters^ABS2^</span>
 
-<!-- - <span style="color: #0066cc;">McKillop, Donal G, Quinn, Barry (2017). Irish credit unions: Differential regulation based on business model complexity. The British Accounting Review^ABS3^</span> -->
+- <span style="color: #0066cc;">McKillop, Donal G, Quinn, Barry (2017). Irish credit unions: Differential regulation based on business model complexity. The British Accounting Review^ABS3^</span> -->
 
-<!-- - <span style="color: #0066cc;">Ayadi, Rym, Naceur, Sami Ben, Casu, Barbara, Quinn, Barry (2016). Does Basel compliance matter for bank performance?. Journal of Financial Stability^ABS3^</span> -->
+- <span style="color: #0066cc;">Ayadi, Rym, Naceur, Sami Ben, Casu, Barbara, Quinn, Barry (2016). Does Basel compliance matter for bank performance?. Journal of Financial Stability^ABS3^</span>
 
-```{=html}
-<!-- - <span style="color: #0066cc;">Glass, J, McKillop, Donal, Quinn, Barry (2015). Modelling the Performance of Irish Credit Unions, 2002-2010. Financial Accountability & Management^ABS3^</span>
+- <span style="color: #0066cc;">Glass, J, McKillop, Donal, Quinn, Barry (2015). Modelling the Performance of Irish Credit Unions, 2002-2010. Financial Accountability & Management^ABS3^</span>
 
 - <span style="color: #9370DB;">McKillop, Donal G, Quinn, Barry (2015). Technology adoption by Irish credit unions: Performance implications. Annals of Public and Cooperative Economics^ABS2^</span> -->
-```
 
-<!-- - <span style="color: #0066cc;">Glass, J Colin, McKillop, Donal G, Quinn, Barry, Wilson, John (2014). Cooperative bank efficiency in Japan: a parametric distance function analysis. The European Journal of Finance^ABS3^</span> -->
+- <span style="color: #0066cc;">Glass, J Colin, McKillop, Donal G, Quinn, Barry, Wilson, John (2014). Cooperative bank efficiency in Japan: a parametric distance function analysis. The European Journal of Finance^ABS3^</span>
 
-<!-- - <span style="color: #9370DB;">Quinn, Barry, McKillop, Donal (2009). Cost performance of Irish credit unions. Journal of Cooperative Studies^ABS2^</span> -->
+- <span style="color: #9370DB;">Quinn, Barry, McKillop, Donal (2009). Cost performance of Irish credit unions. Journal of Cooperative Studies^ABS2^</span>
 
 ## Research Impact and Knowledge Transfer
 
-1.  *Understanding and Enhancing regulatory compliance in the Investment Managent industry using generative AI* with Funds Axis Ltd and Momentum 1.0 (Funded by UKFin+ and UKRI Nov 2024 - Nov 2025)
+1.  *Understanding and Enhancing regulatory compliance in the Investment Managent industry using AI* with Funds Axis Ltd and Momentum 1.0 (Funded by UKFin+ and UKRI Nov 2024 - Nov 2025)
 2.  *Anomaly detection of large heterogeneous trading transaction and commmunication data* with Citigroup Belfast and Momentum 1.0 (2022-2023)
 3.  *AI and Advanced Retail Analytics* with Pearlai Ltd and Dr Byron Graham (KTP 2017-2019)
 4.  *E.S.G Fair Value Analytics* with Research Associates, Dr. Lisa Sheenan, Dr. Byron Graham. (KTP 2021)
@@ -149,6 +147,39 @@ I have published thirteen peer reviewed internationally acclaimed academic paper
 -   Invited Speaker, *Capital regulation compliance and the performance of European banks*, International Workshop on Financial System Architecture and Stability, HEC Montreal, Aug 2016
 -   Participant, *Bloomberg Annual Educational Symposium*, Bloomberg London HQ, Sep 2015
 
+## Software Publications
+
+```{r}
+#| label: tbl-software
+#| tbl-cap: "Software Publications"
+
+software_table <- tribble(
+  ~Package, ~Year, ~Description, ~DOI,
+  "Time Series Econometrics (tsfe)", "2022", "R Package for time series analysis", "10.5281/zenodo.6376113",
+  "Financial Machine Learning (fml)", "2020", "R Package for financial ML", "10.5281/zenodo.6376114"
+)
+
+if (knitr::is_html_output()) {
+  software_table %>%
+    mutate(
+      Package = paste0("[", Package, "](https://doi.org/", DOI, ")"),
+      Metrics = case_when(
+        str_detect(Package, "tsfe") ~ "[![GitHub stars](https://img.shields.io/github/stars/quinfer/tsfe?style=social)](https://github.com/quinfer/tsfe)",
+        str_detect(Package, "fml") ~ "[![GitHub stars](https://img.shields.io/github/stars/quinfer/fml?style=social)](https://github.com/quinfer/fml)"
+      )
+    ) %>%
+    select(Package, Year, Description, Metrics) %>%
+    knitr::kable(escape = FALSE)
+} else {
+  software_table %>%
+    mutate(
+      Package = paste0(Package, " (DOI: ", DOI, ")")
+    ) %>%
+    select(Package, Year, Description) %>%
+    knitr::kable()
+}
+```
+
 ## Working Paper
 
 -   Dai, Yongsheng, Wang, Hui, Rafferty, Karen, Spence, Ivor, Quinn, Barry. TDSRL: [*Time Series Dual Self-Supervised Representation Learning for Anomaly Detection from Different Perspectives*](https://ideas.repec.org/p/zbw/qmsrps/202403.html) (2nd R&R IEEE Internet of Things).
@@ -168,9 +199,10 @@ I have published thirteen peer reviewed internationally acclaimed academic paper
 -   Fearghal Kearney, Barry Quinn (2020). The theoretical foundations of value at risk modelling. (Commissioned by InvestNI and Funds Axis Ltd)
 -   French,Declan, McKillop, Donal, Quinn, Barry (2018). Landscape review of Northern Ireland credit unions.(Commissioned by Northern Ireland Department of Communities and Rural Affairs)
 
-## Research Income
 
 ```{r}
+#| label: tbl-research-grants
+#| tbl-cap: "Research Grant Income"
 if (knitr::is_latex_output()) {
   read.csv("Grant_income.csv") %>%
     mutate(Amount = scales::comma(Amount, prefix = "£")) %>%
@@ -178,14 +210,22 @@ if (knitr::is_latex_output()) {
       col.names = c("Source", "Role", "Start", "End", "People", "Title", "Full Economic Costs (£)", "Type"),
       align = c("l", "l", "l", "l", "l", "l", "r", "l"),
       format = "latex",
-      caption = "Research Grant Income",
       booktabs = TRUE,
-      escape = FALSE
+      escape = FALSE,
+      longtable = TRUE
     ) %>%
     kableExtra::kable_styling(
-      latex_options = "scale_down",
-      font_size = 9
-    )
+      font_size = 9,
+      latex_options = c("repeat_header")
+    ) %>%
+    kableExtra::column_spec(1, width = "1.5cm") %>%  # Source
+    kableExtra::column_spec(2, width = "1.5cm") %>%  # Role
+    kableExtra::column_spec(3, width = "1.2cm") %>%  # Start
+    kableExtra::column_spec(4, width = "1.2cm") %>%  # End
+    kableExtra::column_spec(5, width = "2cm") %>%    # People
+    kableExtra::column_spec(6, width = "4cm") %>%    # Title
+    kableExtra::column_spec(7, width = "2cm") %>%    # Amount
+    kableExtra::column_spec(8, width = "1.5cm")      # Type
 } else {
   read.csv("Grant_income.csv") %>%
     mutate(Amount = scales::comma(Amount, prefix = "£")) %>%
@@ -291,52 +331,3 @@ if (knitr::is_latex_output()) {
 -   Data science and big data analytics in finance
 -   Interdisciplinary research leadership
 
-# Software Publications
-
-```{r}
-pkg_table <- tribble(
-    ~Package, ~Year, ~Description, ~Stars,
-    "Time Series Econometrics", "2022", "R Package for time series analysis", "341",
-    "Financial Machine Learning", "2020", "R Package for financial ML", "150"
-)
-
-if (knitr::is_latex_output()) {
-  pkg_table |>
-    mutate(Stars = paste0(Stars, " stars on GitHub")) |>
-    knitr::kable(
-      format = "latex",
-      booktabs = TRUE,
-      col.names = c("Package", "Year", "Description", "Metrics"),
-      caption = "Software Packages",
-      escape = FALSE
-    ) |>
-    kableExtra::kable_styling(
-      latex_options = "scale_down",
-      font_size = 9
-    )
-} else {
-  pkg_table |>
-    mutate(Stars = paste0("[![GitHub stars](https://img.shields.io/github/stars/",
-                         case_when(
-                           Package == "Time Series Econometrics" ~ "barryquinn1/tseries",
-                           Package == "Financial Machine Learning" ~ "quinfer/fml"
-                         ),
-                         "?style=social)](https://github.com/",
-                         case_when(
-                           Package == "Time Series Econometrics" ~ "barryquinn1/tseries",
-                           Package == "Financial Machine Learning" ~ "quinfer/fml"
-                         ),
-                         ")")) |>
-    knitr::kable(
-      format = "pipe",
-      col.names = c("Package", "Year", "Description", "GitHub Stars"),
-      caption = "Software Packages",
-      escape = FALSE
-    ) |>
-    kableExtra::kable_styling(
-      bootstrap_options = c("striped", "hover"),
-      full_width = FALSE,
-      position = "left"
-    )
-}
-```
