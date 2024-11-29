@@ -1,0 +1,117 @@
+---
+title: "Sabbatical/Research Leave Application 2025–26"
+author: "Dr. Barry Quinn"
+format: docx
+---
+
+### Personal Details
+
+| Field | Details |
+|-------|---------|
+| Name | Dr. Barry Quinn |
+| Staff Number | 3045662 |
+| Core Disciplinary Research Group | Finance and Financial Technology |
+| Fellow/Associate Fellow of M1.0 | Yes |
+| Present Appointment and Date of Appointment | Senior Lecturer in Finance, Technology and Data Science, appointed 2020 |
+| Date of First Appointment at QUB | 01/10/2010 |
+
+
+### Details of Previous Sabbatical Leave
+
+Dr. Barry Quinn has previously been awarded sabbatical leave for six months, 2018.
+
+### Period of Sabbatical Leave Applied For
+
+**Requested Period**: Semester 1, 2025 (Monday, 4 August 2025 – Friday, 2 January 2026)
+
+### Plans to Be Away from Belfast
+
+- **Placement Location**: Momentum One Zero, Belfast
+- **Proposed Duration**: Full sabbatical period
+- **Contingency**: Remote collaboration with Momentum One Zero staff and local fintech firms as necessary.
+
+### Current Commitments in Teaching and Administration
+
+**Teaching Commitments**:
+
+- AI and Trading
+- Advanced Financial Data Analytics
+
+**Administrative Commitments**:
+
+- Co-Director, Finance and AI Research Lab
+- Member, Academic Centre of Excellence for Cyber Security Education
+- Lead Developer for QBS online analytics platform (Q-RaP)
+- Programme Director for PG Cert in Fintech (starting 2025)
+
+**Coverage Plan**:
+
+- **Teaching**: Dr. Quinn has discussed teaching arrangements with his line manager. It has been agreed to reduce his teaching load to one module, while a former PhD student with expertise in the subject area will cover the larger module, ensuring continuity and quality. Preparatory materials for Semester 2 teaching will be developed in advance.
+- **Administration**: Interim leadership for the Finance and AI Research Lab will be managed by a senior colleague in consultation with the Head of School.
+
+### Proposed Programme of Work
+
+**Title**: Advancing Fintech Research and Building Cross-Disciplinary Partnerships in Northern Ireland
+
+**Overview**:
+The proposed sabbatical will focus on two interconnected objectives: (1) producing high-quality academic publications in fintech, and (2) developing a cross-disciplinary research programme with local fintech firms, leveraging Momentum One Zero's unique position as a hub for financial technology innovation.
+
+**Programme Goals**:
+
+1. **High-Quality Publications**:
+
+   - Develop and submit two academic journal articles to top-tier ABS3/ABS4-ranked journals. Key themes include regulatory technology (RegTech) innovations, the application of AI to systemic risk in financial markets, and the development of a unifying theory of market manipulation for trader surveillance.
+    
+    **Topics include**:
+    - AI adoption and regulatory compliance, a collaboration with FinTech SMEs such as Funds Axis Ltd and Pytillia Ltd.
+    - Safety and Assurance in Finance, co-led with Citigroup Belfast Tech Site Lead Carla McGlynn, focusing on market manipulation and trader surveillance.
+
+2. **Cross-Disciplinary Research Development**:
+
+   - Collaborate with Momentum One Zero to identify research priorities relevant to local fintech firms, including AI-driven regulatory compliance and safe and assured AI anomaly detection for financial services.
+   - Organise workshops with local firms and Queen's University colleagues in computer science, data science, and law to scope interdisciplinary projects.
+
+3. **Mentorship and Knowledge Transfer**:
+
+   - Engage PhD students in Momentum One Zero initiatives, providing real-world application opportunities for their research.
+   - Develop practical frameworks for integrating fintech innovation into academic teaching resources at Queen's University Belfast.
+    - Develop of a simulation-based module in trading, focusing on trader surveillance and market manipulation.
+
+
+### Measurable Outcomes
+
+1. **Academic Outputs**:
+   - Submission of at least two peer-reviewed journal articles to leading ABS3/ABS4 journals by the end of the sabbatical period.
+   - Co-authorship opportunities with collaborators at Momentum One Zero.
+
+2. **Grant Development**:
+   - Preparation of a major grant application for Innovate UK or UKRI, focusing on AI applications in fintech and interdisciplinary market manipulation analytics projects.
+
+3. **Capacity Building**:
+   - Creation of a detailed research roadmap for collaboration between Queen's University Belfast and local fintech firms.
+   - Draft proposals for new MSc teaching modules based on research outcomes.
+
+4. **Public Engagement**:
+   - Organisation of an international symposium hosted at Momentum One Zero, showcasing the intersection of academic research and fintech innovation, targeting local and international stakeholders.
+
+
+### Special Circumstances
+
+There are no special circumstances requiring consideration.
+
+### Recent Research Activity
+
+- **Publications**: 13 peer-reviewed outputs, including one ABS4 and ten ABS3-ranked papers. Recent highlights:
+- *Evolutionary Multi-Objective Optimisation for Portfolio Selection* (*IEEE Transactions on Evolutionary Computation*, ABS4).
+
+### Consultation
+
+**Director of Research Consultation**: [Simon to complete]
+
+
+**Teaching and Administrative Arrangements Consultation**: [Gareth to complete]
+
+
+**Signed**: Dr. Barry Quinn
+
+**Date**: 29/11/2024
