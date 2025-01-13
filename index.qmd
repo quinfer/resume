@@ -74,9 +74,11 @@ I help students prepare for the future of finance and technology by teaching ess
 
 # Research
 
-I have published thirteen peer reviewed internationally acclaimed academic papers (1 ABS4, 10 ABS3s, and 2 ABS2s), three commission research reports, and two statistical software research packages. My research lies at the intersection of finance, economics, and data science, with a focus on developing innovative analytical approaches to address complex issues in financial markets, regulation, and sustainability. My work is characterised by the application of advanced statistical, econometric, and machine learning techniques across a diverse range of financial and economic contexts.
+I have published fourteen peer reviewed internationally acclaimed academic papers (1 ABS4, 11 ABS3s, and 2 ABS2s), three commission research reports, and two statistical software research packages. My research lies at the intersection of finance, economics, technology and data science, with a focus on developing innovative analytical approaches to address complex issues in financial markets, regulation, and sustainability. My work is characterised by the application of advanced statistical, econometric, and machine learning techniques across a diverse range of financial and economic contexts.
 
 ## Peer-Reviewed Publications
+
+- [McKillop, Donal, Liu, Kailong, Quinn, Barry, Peng, Qiao (Forthcoming). Modelling and Predicting Credit Union Failures. International Journal of Forecasting^ABS3^]{style="color: #0066cc;"}
 
 -   [Liu, Weilong, Zhang, Yong, Liu, Kailong, Quinn, Barry, Yang, Xingyu, Peng, Qiao (2024). Evolutionary Multi-Objective Optimisation for Large-Scale Portfolio Selection With Both Random and Uncertain Returns. IEEE Transactions on Evolutionary Computation^ABS4^]{style="color: #2E8B57;"}
 
@@ -143,15 +145,9 @@ if (knitr::is_html_output()) {
 
 -   Dai, Yongsheng, Wang, Hui, Rafferty, Karen, Spence, Ivor, Quinn, Barry. TDSRL: [*Time Series Dual Self-Supervised Representation Learning for Anomaly Detection from Different Perspectives*](https://ideas.repec.org/p/zbw/qmsrps/202403.html) (2nd R&R IEEE Internet of Things).
 
--   Liu, Kailong, McKillop, Donal, Quinn, Barry, Peng, Qiao. *Modelling and Predicting Credit Union Failures*. Centre for Responsible Banking and Finance Working Paper Series, St Andrew’s University (2nd R&R International Journal of Forecasting^ABS3^).
-
--   McKillop, Donal, Quinn, Barry, Peng, Qiao *Predicting Credit Union Merger Activity using Gaussian Process*
-
 -   Quinn, Barry, Abhishek Pramanick *Regulatory Technology: Predicting Future Trends in the context of FinTech*
 
 -   Quinn, Barry, Ronan Gallager *Great Expectations: Managerial Turnover and Market Expection in Association Football*
-
--  Quinn, Barry (2009). *Cooperative traits of technology adoption: Web adoption in Irish credit unions*, Centre for Responsible Banking and Finance Working Paper, St Andrew's University Business School
 
 
 ## Research Reports
@@ -160,7 +156,6 @@ if (knitr::is_html_output()) {
 -   Bryon Graham, Barry Quinn (2017). *Machine learning and predictive analytics in the mall retail business*. (Commissioned by InvestNI)
 -   Fearghal Kearney, Barry Quinn (2020). The theoretical foundations of value at risk modelling. (Commissioned by InvestNI and Funds Axis Ltd)
 -   French,Declan, McKillop, Donal, Quinn, Barry (2018). *Landscape review of Northern Ireland Credit Union Sector.*(Commissioned by the NI Department of Communities and Rural Affairs)
-
 - McKillop, Donal, Quinn, Barry (2012 )Report of the Irish Commission on Credit Unions (4* REF2014 Impact Case): An Efficiency Study
 
 ## Research Impact and Knowledge Transfer
