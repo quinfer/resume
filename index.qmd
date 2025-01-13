@@ -67,11 +67,16 @@ I have extensive teaching experience at both undergraduate and postgraduate leve
 
 I help students prepare for the future of finance and technology by teaching essential skills like analysing data, making evidence-based decisions under uncertainty, and applying advanced statistical techniques to real-world financial problems. My goal is to equip them with the knowledge and tools they'll need to succeed in a rapidly evolving job market, while also fostering qualities like resilience, humility, and intellectual curiosity.
 
+## Teaching Publication
+
+- Quinn, Barry, Hanna, Alan, Gallagher, Aine (2018). Queen's Student Managed Fund: Investing in the student Experience. Reflections, 27, p16-17
+
+
 # Research
 
 I have published thirteen peer reviewed internationally acclaimed academic papers (1 ABS4, 10 ABS3s, and 2 ABS2s), three commission research reports, and two statistical software research packages. My research lies at the intersection of finance, economics, and data science, with a focus on developing innovative analytical approaches to address complex issues in financial markets, regulation, and sustainability. My work is characterised by the application of advanced statistical, econometric, and machine learning techniques across a diverse range of financial and economic contexts.
 
-## Selected Recent Publications
+## Peer-Reviewed Publications
 
 -   [Liu, Weilong, Zhang, Yong, Liu, Kailong, Quinn, Barry, Yang, Xingyu, Peng, Qiao (2024). Evolutionary Multi-Objective Optimisation for Large-Scale Portfolio Selection With Both Random and Uncertain Returns. IEEE Transactions on Evolutionary Computation^ABS4^]{style="color: #2E8B57;"}
 
@@ -93,11 +98,70 @@ I have published thirteen peer reviewed internationally acclaimed academic paper
 
 - <span style="color: #0066cc;">Glass, J, McKillop, Donal, Quinn, Barry (2015). Modelling the Performance of Irish Credit Unions, 2002-2010. Financial Accountability & Management^ABS3^</span>
 
-- <span style="color: #9370DB;">McKillop, Donal G, Quinn, Barry (2015). Technology adoption by Irish credit unions: Performance implications. Annals of Public and Cooperative Economics^ABS2^</span> -->
+- <span style="color: #9370DB;">McKillop, Donal G, Quinn, Barry (2015). Web adoption by Irish credit unions: Performance implications. Annals of Public and Cooperative Economics^ABS2^</span> -->
 
 - <span style="color: #0066cc;">Glass, J Colin, McKillop, Donal G, Quinn, Barry, Wilson, John (2014). Cooperative bank efficiency in Japan: a parametric distance function analysis. The European Journal of Finance^ABS3^</span>
 
+- <span style="color: #9370DB;">Quinn, Barry, McKillop, Donal (2009). Internet banking and Irish credit unions. International Journal of Cooperative Management^ABS2^</span>
+
 - <span style="color: #9370DB;">Quinn, Barry, McKillop, Donal (2009). Cost performance of Irish credit unions. Journal of Cooperative Studies^ABS2^</span>
+
+## Software Publications
+
+```{r}
+#| label: tbl-software
+#| tbl-cap: "Software Publications"
+
+software_table <- tribble(
+  ~Package, ~Year, ~Description, ~DOI,
+  "Time Series Econometrics (tsfe)", "2022", "R Package for time series analysis", "10.5281/zenodo.6376113",
+  "Financial Machine Learning (fml)", "2020", "R Package for financial ML", "10.5281/zenodo.6376114"
+)
+
+if (knitr::is_html_output()) {
+  software_table %>%
+    mutate(
+      Package = paste0("[", Package, "](https://doi.org/", DOI, ")"),
+      Metrics = case_when(
+        str_detect(Package, "tsfe") ~ "[![GitHub stars](https://img.shields.io/github/stars/quinfer/tsfe?style=social)](https://github.com/quinfer/tsfe)",
+        str_detect(Package, "fml") ~ "[![GitHub stars](https://img.shields.io/github/stars/quinfer/fml?style=social)](https://github.com/quinfer/fml)"
+      )
+    ) %>%
+    select(Package, Year, Description, Metrics) %>%
+    knitr::kable(escape = FALSE)
+} else {
+  software_table %>%
+    mutate(
+      Package = paste0(Package, " (DOI: ", DOI, ")")
+    ) %>%
+    select(Package, Year, Description) %>%
+    knitr::kable()
+}
+```
+
+## Working Paper
+
+-   Dai, Yongsheng, Wang, Hui, Rafferty, Karen, Spence, Ivor, Quinn, Barry. TDSRL: [*Time Series Dual Self-Supervised Representation Learning for Anomaly Detection from Different Perspectives*](https://ideas.repec.org/p/zbw/qmsrps/202403.html) (2nd R&R IEEE Internet of Things).
+
+-   Liu, Kailong, McKillop, Donal, Quinn, Barry, Peng, Qiao. *Modelling and Predicting Credit Union Failures*. Centre for Responsible Banking and Finance Working Paper Series, St Andrew’s University (2nd R&R International Journal of Forecasting^ABS3^).
+
+-   McKillop, Donal, Quinn, Barry, Peng, Qiao *Predicting Credit Union Merger Activity using Gaussian Process*
+
+-   Quinn, Barry, Abhishek Pramanick *Regulatory Technology: Predicting Future Trends in the context of FinTech*
+
+-   Quinn, Barry, Ronan Gallager *Great Expectations: Managerial Turnover and Market Expection in Association Football*
+
+-  Quinn, Barry (2009). *Cooperative traits of technology adoption: Web adoption in Irish credit unions*, Centre for Responsible Banking and Finance Working Paper, St Andrew's University Business School
+
+
+## Research Reports
+
+-   Bryon Graham, Barry Quinn (2019). *Price comparison and web analytics*. (Commissioned by InvestNI)
+-   Bryon Graham, Barry Quinn (2017). *Machine learning and predictive analytics in the mall retail business*. (Commissioned by InvestNI)
+-   Fearghal Kearney, Barry Quinn (2020). The theoretical foundations of value at risk modelling. (Commissioned by InvestNI and Funds Axis Ltd)
+-   French,Declan, McKillop, Donal, Quinn, Barry (2018). *Landscape review of Northern Ireland Credit Union Sector.*(Commissioned by the NI Department of Communities and Rural Affairs)
+
+- McKillop, Donal, Quinn, Barry (2012 )Report of the Irish Commission on Credit Unions (4* REF2014 Impact Case): An Efficiency Study
 
 ## Research Impact and Knowledge Transfer
 
@@ -146,59 +210,6 @@ I have published thirteen peer reviewed internationally acclaimed academic paper
 -   Invited Panelist, *Statistical inference and credibility in finance*, Emerging Scholars in Banking and Finance, Bayes Business School, London, Dec 2016
 -   Invited Speaker, *Capital regulation compliance and the performance of European banks*, International Workshop on Financial System Architecture and Stability, HEC Montreal, Aug 2016
 -   Participant, *Bloomberg Annual Educational Symposium*, Bloomberg London HQ, Sep 2015
-
-## Software Publications
-
-```{r}
-#| label: tbl-software
-#| tbl-cap: "Software Publications"
-
-software_table <- tribble(
-  ~Package, ~Year, ~Description, ~DOI,
-  "Time Series Econometrics (tsfe)", "2022", "R Package for time series analysis", "10.5281/zenodo.6376113",
-  "Financial Machine Learning (fml)", "2020", "R Package for financial ML", "10.5281/zenodo.6376114"
-)
-
-if (knitr::is_html_output()) {
-  software_table %>%
-    mutate(
-      Package = paste0("[", Package, "](https://doi.org/", DOI, ")"),
-      Metrics = case_when(
-        str_detect(Package, "tsfe") ~ "[![GitHub stars](https://img.shields.io/github/stars/quinfer/tsfe?style=social)](https://github.com/quinfer/tsfe)",
-        str_detect(Package, "fml") ~ "[![GitHub stars](https://img.shields.io/github/stars/quinfer/fml?style=social)](https://github.com/quinfer/fml)"
-      )
-    ) %>%
-    select(Package, Year, Description, Metrics) %>%
-    knitr::kable(escape = FALSE)
-} else {
-  software_table %>%
-    mutate(
-      Package = paste0(Package, " (DOI: ", DOI, ")")
-    ) %>%
-    select(Package, Year, Description) %>%
-    knitr::kable()
-}
-```
-
-## Working Paper
-
--   Dai, Yongsheng, Wang, Hui, Rafferty, Karen, Spence, Ivor, Quinn, Barry. TDSRL: [*Time Series Dual Self-Supervised Representation Learning for Anomaly Detection from Different Perspectives*](https://ideas.repec.org/p/zbw/qmsrps/202403.html) (2nd R&R IEEE Internet of Things).
-
--   Liu, Kailong, McKillop, Donal, Quinn, Barry, Peng, Qiao. *Modelling and Predicting Credit Union Failures*. Centre for Responsible Banking and Finance Working Paper Series, St Andrew’s University (2nd R&R International Journal of Forecasting^ABS3^).
-
--   McKillop, Donal, Quinn, Barry, Peng, Qiao *Predicting Credit Union Merger Activity using Gaussian Process*
-
--   Quinn, Barry, Abhishek Pramanick *Regulatory Technology: Predicting Future Trends in the context of FinTech*
-
--   Quinn, Barry, Ronan Gallager *Great Expectations: Managerial Turnover and Market Expection in Association Football*
-
-## Research Reports
-
--   Bryon Graham, Barry Quinn (2019). *Price comparison and web analytics*. (Commissioned by InvestNI)
--   Bryon Graham, Barry Quinn (2017). *Machine learning and predictive analytics in the mall retail business*. (Commissioned by InvestNI)
--   Fearghal Kearney, Barry Quinn (2020). The theoretical foundations of value at risk modelling. (Commissioned by InvestNI and Funds Axis Ltd)
--   French,Declan, McKillop, Donal, Quinn, Barry (2018). Landscape review of Northern Ireland credit unions.(Commissioned by Northern Ireland Department of Communities and Rural Affairs)
-
 
 ```{r}
 #| label: tbl-research-grants
