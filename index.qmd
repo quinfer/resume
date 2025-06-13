@@ -1,6 +1,6 @@
 ---
 title: "Prof. Barry Quinn"
-subtitle: "Professor of Finance and Financial Technology"
+subtitle: "Professor of Finance and FinTech"
 format:
   html:
     template: custom-template.html
@@ -25,15 +25,12 @@ library(knitr)
 
 # Contact Information
 
--   Address: Queen's Business School, Queen's University Belfast, BT9 1NN, N. Ireland
--   Phone: +44 787 238 2074
--   Email: b.quinn\@qub.ac.uk
--   GitHub: quinfer
+-   Address: Ulster University Business School, Belfast Campus, York Street, Belfast, BT1 5AB, N. Ireland
+-   Email: b.quinn@ulster.ac.uk
 
 # Personal Statement
 
-
-As a Senior Lecturer in Finance, Technology, and Data Science at Queen's University Belfast, I bridge the gap between academic research and industry innovation. My work focuses on applying advanced statistical and machine learning techniques to complex problems in finance, with a particular emphasis on regulatory technology, systemic risk, and responsible AI development in financial services.
+As a Professor of Finance and FinTech at Ulster University Business School, I bridge the gap between academic research and industry innovation. My work focuses on applying advanced statistical and machine learning techniques to complex problems in finance, with a particular emphasis on regulatory technology, systemic risk, and responsible AI development in financial services.
 
 I am passionate about fostering interdisciplinary research collaborations that push the boundaries of what is possible in the field of finance. My goal is to equip the next generation of finance professionals with the knowledge and tools they'll need to succeed in a rapidly evolving digital landscape, while also instilling values of ethical decision-making and continuous learning.
 
@@ -254,12 +251,12 @@ if (knitr::is_latex_output()) {
 
 ## Academic Service
 
--   **Co-director**, Finance and AI Research lab, Queen's University Belfast, 2022--.
--   **Lead Developer**, Queen's Business School Remote Analytics Lab Platform (Q-RaP), 2021--.
--   **QUB Academic Lead**, Steering group for Northern Ireland global centre in secure connected intelligence for regulatory technology in finance.
+-   **Co-director**, Finance and AI Research lab, Queen's University Belfast, 2022--2024.
+-   **Lead Developer**, Queen's Business School Remote Analytics Lab Platform (Q-RaP), 2021--2024.
+-   **QUB Academic Lead**, Steering group for Northern Ireland global centre in secure connected intelligence for regulatory technology in finance, 2022--2024.
 -   **Programme Director**, MSc Quantitative Finance, Queen's University Belfast, 2018--2022.
 -   **Programme Director**, MSc Computational Finance & Trading, Queen's University Belfast, 2014--2018.
--   **Co-Founder**, Queen's Student Managed Fund, 2012--.
+-   **Co-Founder**, Queen's Student Managed Fund, 2012--2024.
 -   **Organiser** of Symposium on AI and the Future of Financial Regulation, Queen's University Belfast, November 2023
 -   **Organiser** of Symposium on Safety and Assurance in Finance. Queen's Business School, November 2024
 -   **Chair**, Panel debate on "Digital Regulation: Shaping digital markets and safeguarding consumer rights in Northern Ireland", Northern Ireland Competition Forum, May 2024
@@ -275,7 +272,7 @@ if (knitr::is_latex_output()) {
 -   QUB Teaching Award (2016)
 -   1^st^ place in CFA European Quantitative Finance Awards (2018)
 -   EEECS Scholarship for AI MSc (2023)
--   Associate Research Fellow, QUB Momentum One Zero (formerly Global Innovation Institute) (2021)
+-   Associate Research Fellow, QUB Momentum One Zero (formerly Global Innovation Institute) (2021--2024)
 
 # Professional Experience
 
@@ -287,7 +284,8 @@ employment_table <- tribble(
   2005, "2005", "Teaching Fellow and Quantitative Researcher", "Department of Finance, RMIT University Melbourne",
   2009, "2009", "Teaching Fellow", "Business School, Ulster University",
   2010, "2020", "Lecturer", "Department of Finance, Queen's Management School",
-  2020, "present", "Senior Lecturer in Finance, Technology and Data Science", "Queen's Management School"
+  2020, "2024", "Senior Lecturer in Finance, Technology and Data Science", "Queen's Management School",
+  2024, "present", "Professor of Finance and FinTech", "Ulster University Business School"
 ) |>
   arrange(desc(Start)) |>
   mutate(
