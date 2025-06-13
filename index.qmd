@@ -1,6 +1,6 @@
 ---
-title: "Dr. Barry Quinn"
-subtitle: "Senior Lecturer in Finance, Technology and Data Science"
+title: "Prof. Barry Quinn"
+subtitle: "Professor of Finance and Financial Technology"
 format:
   html:
     template: custom-template.html
