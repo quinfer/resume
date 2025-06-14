@@ -27,6 +27,8 @@ library(knitr)
 
 -   Address: Ulster University Business School, Belfast Campus, York Street, Belfast, BT1 5AB, N. Ireland
 -   Email: b.quinn@ulster.ac.uk
+-   GitHub: [@quinfer](https://github.com/quinfer)
+-   LinkedIn: [@baryquinn](https://www.linkedin.com/in/baryquinn/)
 
 # Personal Statement
 
