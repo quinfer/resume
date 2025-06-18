@@ -26,9 +26,9 @@ library(knitr)
 # Contact Information
 
 -   Address: Ulster University Business School, Belfast Campus, York Street, Belfast, BT1 5AB, N. Ireland
--   Email: b.quinn@ulster.ac.uk
--   GitHub: [@quinfer](https://github.com/quinfer)
--   LinkedIn: [@baryquinn](https://www.linkedin.com/in/baryquinn/)
+-   Email: b.quinn1@ulster.ac.uk
+-   GitHub: [quinfer](https://github.com/quinfer)
+-   LinkedIn: [baryquinn](https://www.linkedin.com/in/baryquinn/)
 
 # Personal Statement
 
@@ -76,6 +76,8 @@ I help students prepare for the future of finance and technology by teaching ess
 I have published fourteen peer reviewed internationally acclaimed academic papers (1 ABS4, 11 ABS3s, and 2 ABS2s), three commission research reports, and two statistical software research packages. My research lies at the intersection of finance, economics, technology and data science, with a focus on developing innovative analytical approaches to address complex issues in financial markets, regulation, and sustainability. My work is characterised by the application of advanced statistical, econometric, and machine learning techniques across a diverse range of financial and economic contexts.
 
 ## Peer-Reviewed Publications
+
+- [Wang, Hui, Dai, Yongsheng, Spence, Ivor, Rafferty, Karen, Quinn, Barry, Huang, Ji (Forthcoming). TDSRL: Time Series Dual Self-Supervised Representation Learning for Anomaly Detection from Different Perspectives. IEEE Internet of Things Journal^ABS3^]{style="color: #0066cc;"}
 
 - [McKillop, Donal, Liu, Kailong, Quinn, Barry, Peng, Qiao (Forthcoming). Modelling and Predicting Credit Union Failures. International Journal of Forecasting^ABS3^]{style="color: #0066cc;"}
 
@@ -142,7 +144,7 @@ if (knitr::is_html_output()) {
 
 ## Working Paper
 
--   Dai, Yongsheng, Wang, Hui, Rafferty, Karen, Spence, Ivor, Quinn, Barry. TDSRL: [*Time Series Dual Self-Supervised Representation Learning for Anomaly Detection from Different Perspectives*](https://ideas.repec.org/p/zbw/qmsrps/202403.html) (2nd R&R IEEE Internet of Things).
+-   Zhang, Ying (Veronica), Quinn, Barry, Sheenan, Lisa (2025). *Ownership Dynamics, Risk and Regulation in Chinese Banking: New Evidence*. Centre for Responsible Banking & Finance Working Paper Series, WP No. 25-017.
 
 -   Quinn, Barry, Abhishek Pramanick *Regulatory Technology: Predicting Future Trends in the context of FinTech*
 
@@ -287,7 +289,8 @@ employment_table <- tribble(
   2009, "2009", "Teaching Fellow", "Business School, Ulster University",
   2010, "2020", "Lecturer", "Department of Finance, Queen's Management School",
   2020, "2024", "Senior Lecturer in Finance, Technology and Data Science", "Queen's Management School",
-  2024, "present", "Professor of Finance and FinTech", "Ulster University Business School"
+  2024, "present", "Professor of Finance and FinTech", "Ulster University Business School",
+  2024, "present", "Director, Centre for Financial and Regulatory Technology", "Ulster University Business School"
 ) |>
   arrange(desc(Start)) |>
   mutate(
