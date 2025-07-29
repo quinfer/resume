@@ -32,11 +32,12 @@ library(knitr)
 
 # Personal Statement
 
-As a Professor of Finance and FinTech at Ulster University Business School, I bridge the gap between academic research and industry innovation. My work focuses on applying advanced statistical and machine learning techniques to complex problems in finance, with a particular emphasis on systemic risk, financial regulation and responsible AI development in financial services.
+As a Professor of Finance and FinTech at Ulster University Business School, I work as an applied econometrician exploring the intersection of finance, technology, and data science. My research applies statistical and machine learning techniques to problems in financial markets, regulation, and cooperative finance, with growing interest in AI applications within financial services.
+I am fortunate to collaborate with colleagues across disciplines and to work alongside industry partners on questions ranging from regulatory compliance to systemic risk assessment. Through research projects funded by UKRI, Innovate UK, and other bodies, I have had the opportunity to investigate market behaviour, credit union performance, and regulatory technology applications.
 
-I am passionate about fostering interdisciplinary research collaborations that push the boundaries of what is possible in the field of finance. My goal is to equip the next generation of finance professionals with the knowledge and tools they'll need to succeed in a rapidly evolving digital landscape, while also instilling values of ethical decision-making and continuous learning.
+My teaching spans quantitative finance, econometrics, and emerging technologies—areas where I hope to help students develop both technical competence and critical thinking skills. As a Chartered Statistician, I am particularly committed to promoting ethical approaches to data analysis and evidence-based decision-making. Before entering academia, I worked in financial markets as a currency trader and liquidity manager, an experience that continues to inform my perspective on the practical relevance of econometric research.
 
-Through my teaching, research, and industry engagements, I strive to contribute to the advancement of financial technology and data science, always with an eye towards practical applications and societal impact.
+I remain a student of these rapidly evolving fields, currently pursuing an MSc in Artificial Intelligence to better understand the technologies reshaping finance. My aim is to contribute meaningfully to conversations about how we can harness technological advances whilst maintaining statistical rigour and regulatory prudence in financial services.
 
 ## Education and Professional Qualifications
 
@@ -58,7 +59,7 @@ I have extensive teaching experience at both undergraduate and postgraduate leve
 
 1.  **Quantitative Finance**: My teaching integrates cutting-edge quantitative techniques with practical applications in financial markets.
 
-2.  **Ethical Econometrics**: Instructing students in econometrics as an applied statistics discipline, avoiding the statistical cavaliering that plagues the econometric publication playbook.
+2.  **Financial Econometrics**: Instructing students in econometrics as an applied statistics discipline, avoiding the statistical cavaliering that plagues the econometric publication playbook.
 
 3.  **AI and Machine Learning in Finance**: Pioneering courses that explore the intersection of artificial intelligence and finance. Topics include machine learning for rule-based algorithmic trading, asset pricing, algorithmic trading, and AI-driven risk assessment.
 
@@ -77,7 +78,7 @@ I have published fourteen peer reviewed internationally acclaimed academic paper
 
 ## Peer-Reviewed Publications
 
-- [Wang, Hui, Dai, Yongsheng, Spence, Ivor, Rafferty, Karen, Quinn, Barry, Huang, Ji (Forthcoming). TDSRL: Time Series Dual Self-Supervised Representation Learning for Anomaly Detection from Different Perspectives. IEEE Internet of Things Journal^ABS3^]{style="color: #0066cc;"}
+- [Wang, Hui, Dai, Yongsheng, Spence, Ivor, Rafferty, Karen, Quinn, Barry, Huang, Ji (2025). TDSRL: Time Series Dual Self-Supervised Representation Learning for Anomaly Detection from Different Perspectives. IEEE Internet of Things Journal](https://ieeexplore.ieee.org/document/11048680/authors#authors)
 
 - [McKillop, Donal, Liu, Kailong, Quinn, Barry, Peng, Qiao (Forthcoming). Modelling and Predicting Credit Union Failures. International Journal of Forecasting^ABS3^]{style="color: #0066cc;"}
 
@@ -146,7 +147,7 @@ if (knitr::is_html_output()) {
 
 -   Zhang, Ying (Veronica), Quinn, Barry, Sheenan, Lisa (2025). *Ownership Dynamics, Risk and Regulation in Chinese Banking: New Evidence*. Centre for Responsible Banking & Finance Working Paper Series, WP No. 25-017.
 
--   Quinn, Barry, Abhishek Pramanick *Regulatory Technology: Predicting Future Trends in the context of FinTech*
+-   Kearney, Fearghal, Quinn, Barry, Abhishek Pramanick (Under Review at Journal of Business Venturing) *Innovation Signals and Strategic Exits: How Technological Readiness Shapes RegTech Venture Outcomes*
 
 -   Quinn, Barry, Ronan Gallager *Great Expectations: Managerial Turnover and Market Expection in Association Football*
 
