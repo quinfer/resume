@@ -28,7 +28,6 @@ library(knitr)
 -   Address: Ulster University Business School, Belfast Campus, York Street, Belfast, BT1 5AB, N. Ireland
 -   Email: b.quinn1@ulster.ac.uk
 -   GitHub: [quinfer](https://github.com/quinfer)
--   LinkedIn: [baryquinn](https://www.linkedin.com/in/baryquinn/)
 
 # Personal Statement
 
@@ -145,9 +144,11 @@ if (knitr::is_html_output()) {
 
 ## Working Paper
 
+- Kearney, Fearghal, Quinn, Barry, Dai, Youngsheng (2025) *Signal Amplification in Market Manipulation Detection*
+
 -   Zhang, Ying (Veronica), Quinn, Barry, Sheenan, Lisa (2025). *Ownership Dynamics, Risk and Regulation in Chinese Banking: New Evidence*. Centre for Responsible Banking & Finance Working Paper Series, WP No. 25-017.
 
--   Kearney, Fearghal, Quinn, Barry, Abhishek Pramanick (Under Review at Journal of Business Venturing) *Innovation Signals and Strategic Exits: How Technological Readiness Shapes RegTech Venture Outcomes*
+-   Kearney, Fearghal, Quinn, Barry, Pramanick, Abhishek (Under Review at Journal of Business Venturing) *Innovation Signals and Strategic Exits: How Technological Readiness Shapes RegTech Venture Outcomes*
 
 -   Quinn, Barry, Ronan Gallager *Great Expectations: Managerial Turnover and Market Expection in Association Football*
 
