@@ -39,6 +39,13 @@ jobs:
           # Use our organized build system
           python3 scripts/build_cvs.py
 
+      - name: Verify deployment files
+        run: |
+          echo "Files in dist directory:"
+          ls -la dist/
+          echo "Image directory contents:"
+          ls -la dist/img/ || echo "No img directory found"
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
