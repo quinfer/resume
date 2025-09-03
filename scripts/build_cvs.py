@@ -67,6 +67,20 @@ def list_generated_files():
         for file in sorted(pdf_files):
             print(f" - {file}")
 
+def copy_assets():
+    """Copy assets to dist directory"""
+    import shutil
+    
+    # Copy img directory to dist/
+    src_img = Path("assets/img")
+    dst_img = Path("dist/img")
+    
+    if src_img.exists():
+        if dst_img.exists():
+            shutil.rmtree(dst_img)
+        shutil.copytree(src_img, dst_img)
+        print(f"  ✅ Copied assets/img/ to dist/img/")
+
 def main():
     """Main build process"""
     print("🚀 Building all CV versions...\n")
@@ -76,6 +90,12 @@ def main():
     project_root = script_dir.parent
     import os
     os.chdir(project_root)
+    
+    # Ensure dist directory exists
+    Path("dist").mkdir(exist_ok=True)
+    
+    # Copy assets first
+    copy_assets()
     
     # CV files to build (in src directory)
     cv_files = [

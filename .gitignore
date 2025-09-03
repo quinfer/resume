@@ -9,6 +9,7 @@
 # GitHub Pages files (copied from dist/ for local testing)
 /index.html
 /index_files/
+/img/
 # Note: These are copied by deploy_local.py script when needed
 
 # Note: R execution still happens via Quarto, but no R project files needed

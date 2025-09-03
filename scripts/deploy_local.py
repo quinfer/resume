@@ -32,7 +32,8 @@ def main():
     
     files_to_copy = [
         "index.html",
-        "index_files"  # Directory with assets
+        "index_files",  # Directory with assets
+        "img"          # Image directory
     ]
     
     print("📁 Copying website files to root directory...")
@@ -63,6 +64,7 @@ def main():
     print("📋 Files in root directory:")
     print("   - index.html (main website)")
     print("   - index_files/ (website assets)")
+    print("   - img/ (profile picture and images)")
     print("\n💡 Note: dist/ folder still contains all CV versions")
     print("🔗 GitHub Pages will now work from root directory")
     
