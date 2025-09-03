@@ -1,0 +1,138 @@
+---
+title: "Prof. Barry Quinn"
+subtitle: "Professor of Finance and Financial Technology"
+format:
+  html:
+    template: ../assets/custom-template.html
+    css: ../assets/custom-styles.css
+  pdf:
+    documentclass: article
+    geometry:
+      - margin=1in
+    fontsize: 11pt
+    linkcolor: blue
+    urlcolor: blue
+bibliography: ../data/bqpubs.bib
+---
+
+```{r}
+#| label: setup 
+#| include: FALSE
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = FALSE)
+library(tidyverse)
+library(knitr)
+```
+
+# Contact Information
+
+- **Address**: Ulster University Business School, Belfast Campus, York Street, Belfast, BT1 5AB, N. Ireland
+- **Email**: b.quinn1@ulster.ac.uk
+- **GitHub**: [quinfer](https://github.com/quinfer)
+
+# Personal Statement
+
+As a Professor of Finance and FinTech at Ulster University Business School, I bridge the gap between cutting-edge quantitative research and practical financial applications. With 14 peer-reviewed publications (including 1 ABS4* and 11 ABS3 papers), over £2M in research funding, and extensive industry collaboration, I specialize in applying statistical and machine learning techniques to complex problems in financial markets, regulation, and cooperative finance.
+
+My research portfolio spans systemic risk assessment, market manipulation detection, and AI applications in finance, with particular expertise in regulatory technology (RegTech). I have successfully supervised 6 PhD completions to date, with 6 current doctoral students working on frontier topics including generative AI in finance and market anomaly detection.
+
+My unique perspective combines 9 years of financial markets experience as a currency trader and liquidity manager with rigorous academic training. As a Chartered Statistician, I am particularly committed to promoting ethical approaches to data analysis and evidence-based decision-making in an era of increasing algorithmic complexity.
+
+## Education and Professional Qualifications
+
+```{r degrees, results='asis'}
+tribble(
+  ~Degree, ~Institution, ~Year,
+  "B.Sc.(Hons) Accounting and Finance", "Queen's University Belfast", "1995",
+  "MSc Quantitative Finance", "RMIT University Melbourne", "2006",
+  "Ph.D. Finance", "Queen's University Belfast", "2012",
+  "Chartered Statistician", "Royal Statistical Society", "2019",
+  "MSc Artificial Intelligence", "Queen's University Belfast", "Graduating 2025"
+) |>
+  knitr::kable()
+```
+
+# Research Excellence
+
+## Key Publications (Selected from 14 peer-reviewed papers)
+
+**ABS4* Journal:**
+- Liu, Weilong, Zhang, Yong, Liu, Kailong, Quinn, Barry, Yang, Xingyu, Peng, Qiao (2024). Evolutionary Multi-Objective Optimisation for Large-Scale Portfolio Selection With Both Random and Uncertain Returns. *IEEE Transactions on Evolutionary Computation* (ABS4)
+
+**Recent ABS3 Publications:**
+- McKillop, Donal, Liu, Kailong, Quinn, Barry, Peng, Qiao (Forthcoming). Modelling and Predicting Credit Union Failures. *International Journal of Forecasting* (ABS3)
+- Bouri, E., Quinn, B., Sheenan, L. & Tang, Y. (2024). Investigating extreme linkage topology in the aerospace and defence industry. *International Review of Financial Analysis* (ABS3)
+- Quinn, Barry, Gallagher, Ronan, Kuosmanen, Timo (2023). Lurking in the shadows: The impact of CO2 emissions target setting on carbon pricing in the Kyoto agreement period. *Energy Economics* (ABS3)
+
+## Research Impact and Funding
+
+```{r}
+#| label: tbl-research-grants-academic
+#| tbl-cap: "Major Research Grants (Selected)"
+
+grants_academic <- tribble(
+  ~Source, ~Role, ~Period, ~Title, ~Amount,
+  "UKRI/InnovateUK", "PI", "2024-2025", "Understanding and Enhancing regulatory compliance using AI", "£250K",
+  "InnovateUK", "PI", "2021-2023", "Tail Risk Analytics and Stress Testing", "£180K", 
+  "InnovateUK", "Co-I", "2017-2019", "AI and Advanced Retail Analytics", "£150K",
+  "Various KTPs", "PI/Co-I", "2017-2023", "Multiple Knowledge Transfer Partnerships", "£800K+"
+)
+
+grants_academic |>
+  knitr::kable(
+    col.names = c("Funding Body", "Role", "Period", "Project Title", "Value"),
+    format = "pipe"
+  )
+```
+
+## PhD Supervision Excellence
+
+**Completed Supervisions (6):**
+- Dr. Jiadong Liu (2018): *Momentum in Empirical Asset Pricing*
+- Dr. Ashleigh Neil (2019): *Law and Financial Stability*
+- Dr. Colm Kelly (2021): *Machine Learning in Empirical Asset Pricing*
+- Dr. Qiao Peng (2021): *US Credit Union Mergers: Causes and Consequences*
+- Dr. Kevin Johnson (2019): *Industrial Consolidation: The Irish Credit Union Sector*
+- Veronica Zhang (2024): *Capital Policy and State Sponsorship in Chinese Banking*
+
+**Current Supervisions (6):** Including students working on AI applications in finance, sustainable investing, and regulatory technology.
+
+# Teaching and Academic Leadership
+
+## Teaching Excellence
+- **Programme Director**, MSc Quantitative Finance (2018-2022)
+- **Programme Director**, MSc Computational Finance & Trading (2014-2018)
+- **Co-Founder**, Queen's Student Managed Fund (2012-2024)
+- **Teaching Award**, QUB (2016)
+
+## Academic Service
+- **Co-director**, Finance and AI Research Lab, Queen's University Belfast (2022-2024)
+- **Programme Director**, MSc Quantitative Finance (2018-2022)
+- **Lead Developer**, Queen's Business School Remote Analytics Lab Platform
+- **Organiser**, Symposium on AI and Future of Financial Regulation (2023)
+
+# Professional Experience
+
+```{r}
+employment_academic <- tribble(
+  ~Period, ~Position, ~Institution,
+  "**2024 - Present**", "Professor of Finance and FinTech", "Ulster University Business School",
+  "**2024 - Present**", "Director, Centre for Financial and Regulatory Technology", "Ulster University Business School",
+  "**2020 - 2024**", "Senior Lecturer in Finance, Technology and Data Science", "Queen's Management School",
+  "**2010 - 2020**", "Lecturer", "Department of Finance, Queen's Management School",
+  "**1998 - 2004**", "Currency Trader and Liquidity Manager", "Janus Henderson Investors, London"
+) |>
+  knitr::kable(
+    col.names = c("Period", "Position", "Institution"),
+    format = "pipe"
+  )
+```
+
+# Professional Recognition
+
+- **Chartered Statistician**, Royal Statistical Society (2019)
+- **Advanced Data Science Professional**, Alliance of Data Science Professionals (2024)
+- **1st Place**, CFA European Quantitative Finance Awards (2018)
+- **Associate Research Fellow**, QUB Momentum One Zero (2021-2024)
+
+---
+*Full publication list and detailed CV available upon request*

@@ -1,0 +1,150 @@
+---
+title: "Prof. Barry Quinn"
+subtitle: "Finance & FinTech Leader | AI & Data Science Expert"
+format:
+  html:
+    template: ../assets/custom-template.html
+    css: ../assets/custom-styles.css
+  pdf:
+    documentclass: article
+    geometry:
+      - margin=0.75in
+    fontsize: 11pt
+    linkcolor: blue
+    urlcolor: blue
+---
+
+```{r}
+#| label: setup 
+#| include: FALSE
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = FALSE)
+library(tidyverse)
+library(knitr)
+```
+
+# Contact Information
+
+**Prof. Barry Quinn** | Professor of Finance and FinTech  
+📧 b.quinn1@ulster.ac.uk | 🔗 [GitHub: quinfer](https://github.com/quinfer)  
+📍 Ulster University Business School, Belfast, N. Ireland
+
+---
+
+# Executive Summary
+
+**Transformational Finance Leader** with unique combination of 9+ years financial markets experience and cutting-edge academic research expertise. Professor of Finance and FinTech specializing in AI applications, regulatory technology, and quantitative risk management. Proven track record of bridging academia-industry gap through £2M+ research funding, multiple successful KTP projects, and direct industry collaboration.
+
+**Core Value Proposition:**
+- **Industry Experience**: Former currency trader and liquidity manager at Janus Henderson Investors
+- **Academic Excellence**: 14 peer-reviewed publications, Chartered Statistician
+- **Technology Leadership**: AI/ML expert currently completing MSc in Artificial Intelligence
+- **Business Impact**: £2M+ research funding, multiple successful industry partnerships
+
+---
+
+# Key Expertise & Skills
+
+## Technical Competencies
+- **AI & Machine Learning**: Deep learning, market manipulation detection, anomaly detection
+- **Financial Technology**: RegTech, algorithmic trading, risk analytics, stress testing
+- **Data Science**: Advanced statistical modeling, big data analytics, predictive modeling
+- **Programming**: R, Python, statistical software development
+
+## Business Applications
+- **Risk Management**: Systemic risk assessment, VaR modeling, stress testing
+- **Regulatory Compliance**: AI-driven compliance solutions, regulatory technology
+- **Trading & Markets**: Currency trading, liquidity management, market microstructure
+- **Strategic Analytics**: ESG analytics, performance measurement, scenario analysis
+
+---
+
+# Professional Experience
+
+```{r}
+employment_industry <- tribble(
+  ~Period, ~Role, ~Organization, ~Key_Achievements,
+  "2024-Present", "Professor of Finance & FinTech", "Ulster University", "Director of Centre for Financial & Regulatory Technology",
+  "2020-2024", "Senior Lecturer", "Queen's University Belfast", "Led £2M+ research portfolio, 12+ industry partnerships",
+  "2010-2020", "Lecturer & Programme Director", "Queen's University Belfast", "Built MSc Quantitative Finance programme",
+  "1998-2004", "Currency Trader & Liquidity Manager", "Janus Henderson Investors", "Managed multi-million GBP trading book"
+) |>
+  knitr::kable(
+    col.names = c("Period", "Role", "Organization", "Key Impact"),
+    format = "pipe"
+  )
+```
+
+# Business Impact & Industry Partnerships
+
+## Recent Major Projects (£2M+ Value)
+
+**AI-Driven Regulatory Compliance** (2024-2025) | *£250K UKRI/InnovateUK*
+- Partnership with Funds Axis Ltd developing AI solutions for investment management compliance
+- Reducing regulatory burden through automated compliance monitoring
+
+**Financial Risk Analytics Platform** (2021-2023) | *£180K InnovateUK KTP*
+- Developed advanced tail risk and stress testing analytics with Funds Axis Ltd
+- Created commercial-grade VaR modeling and scenario analysis tools
+
+**AI Retail Analytics** (2017-2019) | *£150K InnovateUK KTP*
+- Machine learning and predictive analytics for retail business optimization
+- Delivered measurable ROI improvements through advanced analytics
+
+## Industry Advisory & Consulting
+- **Financial Conduct Authority** Tech Sprint Mentor (2023-present)
+- **Citigroup Belfast** - Anomaly detection for trading data (2022-2023)
+- **Multiple FinTech partnerships** - RegTech and compliance solutions
+
+# Education & Professional Credentials
+
+```{r}
+credentials_industry <- tribble(
+  ~Qualification, ~Institution, ~Year, ~Relevance,
+  "Ph.D. Finance", "Queen's University Belfast", "2012", "Advanced quantitative finance research",
+  "MSc Artificial Intelligence", "Queen's University Belfast", "2025", "Cutting-edge AI applications in finance",
+  "MSc Quantitative Finance", "RMIT University Melbourne", "2006", "Advanced derivatives and risk management",
+  "Chartered Statistician", "Royal Statistical Society", "2019", "Professional statistical expertise"
+) |>
+  knitr::kable(
+    col.names = c("Qualification", "Institution", "Year", "Business Relevance"),
+    format = "pipe"
+  )
+```
+
+# Key Achievements & Recognition
+
+## Awards & Recognition
+- **1st Place** - CFA European Quantitative Finance Awards (2018)
+- **Advanced Data Science Professional** - Alliance of Data Science Professionals (2024)
+- **Teaching Fellow** - Higher Education Authority (2012)
+
+## Research Impact
+- **14 peer-reviewed publications** in top-tier finance and technology journals
+- **£2M+ research funding** from UKRI, InnovateUK, and industry partners
+- **International recognition** - invited speaker at major finance conferences
+
+## Leadership & Innovation
+- **Director** - Centre for Financial and Regulatory Technology (2024-present)
+- **Co-founder** - Queen's Student Managed Fund (managing real investment portfolio)
+- **Programme Director** - MSc Quantitative Finance (2018-2022)
+
+---
+
+# Value Proposition for Industry
+
+## Immediate Impact Areas
+1. **AI-Driven Risk Management**: Leverage cutting-edge ML for enhanced risk analytics
+2. **Regulatory Technology**: Develop automated compliance and monitoring solutions  
+3. **Market Intelligence**: Apply advanced analytics to trading and investment strategies
+4. **Strategic Innovation**: Bridge academic research with practical business applications
+
+## Unique Differentiators
+- **Proven Industry Track Record**: Real trading floor experience combined with academic rigor
+- **Research-to-Practice Pipeline**: Translate cutting-edge research into business solutions
+- **Regulatory Expertise**: Deep understanding of financial regulation and compliance
+- **Technology Leadership**: At forefront of AI/ML applications in finance
+
+**Available for**: Board positions, strategic consulting, research partnerships, executive roles in FinTech/RegTech
+
+---
+*References and detailed project portfolios available upon request*

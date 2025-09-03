@@ -3,8 +3,11 @@ title: "Prof. Barry Quinn"
 subtitle: "Professor of Finance and Financial Technology"
 format:
   html:
-    template: custom-template.html
-    css: custom-styles.css
+    template: ../assets/custom-template.html
+    css: ../assets/custom-styles.css
+    toc: true
+    toc-location: right
+    toc-title: "Navigation"
   pdf:
     documentclass: article
     geometry:
@@ -12,7 +15,7 @@ format:
     fontsize: 10pt
     linkcolor: blue
     urlcolor: blue
-bibliography: bqpubs.bib
+bibliography: ../data/bqpubs.bib
 ---
 
 ```{r}
@@ -25,18 +28,51 @@ library(knitr)
 
 # Contact Information
 
--   Address: Ulster University Business School, Belfast Campus, York Street, Belfast, BT1 5AB, N. Ireland
--   Email: b.quinn1@ulster.ac.uk
--   GitHub: [quinfer](https://github.com/quinfer)
+-   **Address**: Ulster University Business School, Belfast Campus, York Street, Belfast, BT1 5AB, N. Ireland
+-   **Email**: b.quinn1@ulster.ac.uk
+-   **GitHub**: [quinfer](https://github.com/quinfer)
+
+# CV Downloads
+
+Choose the CV version most appropriate for your needs:
+
+::: {.panel-tabset}
+
+## For Academic Positions
+**Academic CV** - Focused on research excellence, publications, and academic achievements  
+📄 [Download Academic CV (PDF)](cv_academic.pdf) | [View Online](cv_academic.html)
+
+*Ideal for: University positions, tenure applications, academic conferences, research collaborations*
+
+## For Industry Roles  
+**Executive Summary** - Business-focused with industry impact and leadership experience  
+📄 [Download Industry CV (PDF)](cv_industry.pdf) | [View Online](cv_industry.html)
+
+*Ideal for: Corporate roles, board positions, consulting opportunities, FinTech partnerships*
+
+## For Grant Applications
+**Research Portfolio** - Comprehensive research track record and future directions  
+📄 [Download Research CV (PDF)](cv_grants.pdf) | [View Online](cv_grants.html)
+
+*Ideal for: Research funding applications, fellowship applications, international collaborations*
+
+## Complete Profile
+**Full Resume** - Comprehensive overview of all achievements and experience  
+📄 [Download Complete CV (PDF)](index.pdf) | *You are currently viewing the online version*
+
+*Ideal for: General reference, comprehensive overview, personal website*
+
+:::
 
 # Personal Statement
 
-As a Professor of Finance and FinTech at Ulster University Business School, I work as an applied econometrician exploring the intersection of finance, technology, and data science. My research applies statistical and machine learning techniques to problems in financial markets, regulation, and cooperative finance, with growing interest in AI applications within financial services.
-I am fortunate to collaborate with colleagues across disciplines and to work alongside industry partners on questions ranging from regulatory compliance to systemic risk assessment. Through research projects funded by UKRI, Innovate UK, and other bodies, I have had the opportunity to investigate market behaviour, credit union performance, and regulatory technology applications.
+As a Professor of Finance and FinTech at Ulster University Business School, I bridge the gap between cutting-edge quantitative research and practical financial applications. With 14 peer-reviewed publications (including 1 ABS4* and 11 ABS3 papers), over £2M in research funding, and extensive industry collaboration, I specialize in applying statistical and machine learning techniques to complex problems in financial markets, regulation, and cooperative finance.
 
-My teaching spans quantitative finance, econometrics, and emerging technologies—areas where I hope to help students develop both technical competence and critical thinking skills. As a Chartered Statistician, I am particularly committed to promoting ethical approaches to data analysis and evidence-based decision-making. Before entering academia, I worked in financial markets as a currency trader and liquidity manager, an experience that continues to inform my perspective on the practical relevance of econometric research.
+My research portfolio spans systemic risk assessment, market manipulation detection, and AI applications in finance, with particular expertise in regulatory technology (RegTech). I have successfully supervised 6 PhD completions to date, with 6 current doctoral students working on frontier topics including generative AI in finance and market anomaly detection.
 
-I remain a student of these rapidly evolving fields, currently pursuing an MSc in Artificial Intelligence to better understand the technologies reshaping finance. My aim is to contribute meaningfully to conversations about how we can harness technological advances whilst maintaining statistical rigour and regulatory prudence in financial services.
+My unique perspective combines 9 years of financial markets experience as a currency trader and liquidity manager with rigorous academic training. This practitioner background informs my approach to econometric research, ensuring practical relevance while maintaining statistical rigor. As a Chartered Statistician, I am particularly committed to promoting ethical approaches to data analysis and evidence-based decision-making in an era of increasing algorithmic complexity.
+
+Currently pursuing an MSc in Artificial Intelligence to deepen my understanding of technologies reshaping finance, I aim to contribute meaningfully to conversations about harnessing technological advances while maintaining regulatory prudence and statistical integrity in financial services.
 
 ## Education and Professional Qualifications
 
@@ -79,35 +115,35 @@ I have published fourteen peer reviewed internationally acclaimed academic paper
 
 - [Wang, Hui, Dai, Yongsheng, Spence, Ivor, Rafferty, Karen, Quinn, Barry, Huang, Ji (2025). TDSRL: Time Series Dual Self-Supervised Representation Learning for Anomaly Detection from Different Perspectives. IEEE Internet of Things Journal](https://ieeexplore.ieee.org/document/11048680/authors#authors)
 
-- [McKillop, Donal, Liu, Kailong, Quinn, Barry, Peng, Qiao (Forthcoming). Modelling and Predicting Credit Union Failures. International Journal of Forecasting^ABS3^]{style="color: #0066cc;"}
+- McKillop, Donal, Liu, Kailong, Quinn, Barry, Peng, Qiao (Forthcoming). Modelling and Predicting Credit Union Failures. *International Journal of Forecasting* (ABS3)
 
--   [Liu, Weilong, Zhang, Yong, Liu, Kailong, Quinn, Barry, Yang, Xingyu, Peng, Qiao (2024). Evolutionary Multi-Objective Optimisation for Large-Scale Portfolio Selection With Both Random and Uncertain Returns. IEEE Transactions on Evolutionary Computation^ABS4^]{style="color: #2E8B57;"}
+- Liu, Weilong, Zhang, Yong, Liu, Kailong, Quinn, Barry, Yang, Xingyu, Peng, Qiao (2024). Evolutionary Multi-Objective Optimisation for Large-Scale Portfolio Selection With Both Random and Uncertain Returns. *IEEE Transactions on Evolutionary Computation* (ABS4)
 
-- <span style="color: #0066cc;">Bouri, E., Quinn, B., Sheenan, L. & Tang, Y. (2024) Investigating extreme linkage topology in the aerospace and defence industry. International Review of Financial Analysis^ABS3^</span>
+- Bouri, E., Quinn, B., Sheenan, L. & Tang, Y. (2024). Investigating extreme linkage topology in the aerospace and defence industry. *International Review of Financial Analysis* (ABS3)
 
--   [Quinn, Barry, Gallagher, Ronan, Kuosmanen, Timo (2023). Lurking in the shadows: The impact of CO2 emissions target setting on carbon pricing in the Kyoto agreement period Energy Economics^ABS3^]{style="color: #0066cc;"}
+- Quinn, Barry, Gallagher, Ronan, Kuosmanen, Timo (2023). Lurking in the shadows: The impact of CO2 emissions target setting on carbon pricing in the Kyoto agreement period. *Energy Economics* (ABS3)
 
-- <span style="color: #0066cc;">Liu, Jiadong, Papailias, Fotis, Quinn, Barry (2021). Direction-of-change forecasting in commodity futures markets. International Review of Financial Analysis^ABS3^</span>
+- Liu, Jiadong, Papailias, Fotis, Quinn, Barry (2021). Direction-of-change forecasting in commodity futures markets. *International Review of Financial Analysis* (ABS3)
 
--   [Gallagher, Ronan, Quinn, Barry (2020). Regulatory own goals: The unintended consequences of economic regulation in professional football. European Sport Management Quarterly^ABS3^]{style="color: #0066cc;"}
+- Gallagher, Ronan, Quinn, Barry (2020). Regulatory own goals: The unintended consequences of economic regulation in professional football. *European Sport Management Quarterly* (ABS3)
 
-- <span style="color: #0066cc;">McKillop, Donal, French, Declan, Quinn, Barry, Sobiech, Anna L, Wilson, John OS (2020). Cooperative financial institutions: A review of the literature. International Review of Financial Analysis^ABS3^</span>
+- McKillop, Donal, French, Declan, Quinn, Barry, Sobiech, Anna L, Wilson, John OS (2020). Cooperative financial institutions: A review of the literature. *International Review of Financial Analysis* (ABS3)
 
-- <span style="color: #9370DB;">Quinn, Barry, Hanna, Alan, MacDonald, Fred (2018). Picking up the pennies in front of the bulldozer: The profitability of gilt based trading strategies. Finance Research Letters^ABS2^</span>
+- Quinn, Barry, Hanna, Alan, MacDonald, Fred (2018). Picking up the pennies in front of the bulldozer: The profitability of gilt based trading strategies. *Finance Research Letters* (ABS2)
 
-- <span style="color: #0066cc;">McKillop, Donal G, Quinn, Barry (2017). Irish credit unions: Differential regulation based on business model complexity. The British Accounting Review^ABS3^</span> -->
+- McKillop, Donal G, Quinn, Barry (2017). Irish credit unions: Differential regulation based on business model complexity. *The British Accounting Review* (ABS3)
 
-- <span style="color: #0066cc;">Ayadi, Rym, Naceur, Sami Ben, Casu, Barbara, Quinn, Barry (2016). Does Basel compliance matter for bank performance?. Journal of Financial Stability^ABS3^</span>
+- Ayadi, Rym, Naceur, Sami Ben, Casu, Barbara, Quinn, Barry (2016). Does Basel compliance matter for bank performance? *Journal of Financial Stability* (ABS3)
 
-- <span style="color: #0066cc;">Glass, J, McKillop, Donal, Quinn, Barry (2015). Modelling the Performance of Irish Credit Unions, 2002-2010. Financial Accountability & Management^ABS3^</span>
+- Glass, J, McKillop, Donal, Quinn, Barry (2015). Modelling the Performance of Irish Credit Unions, 2002-2010. *Financial Accountability & Management* (ABS3)
 
-- <span style="color: #9370DB;">McKillop, Donal G, Quinn, Barry (2015). Web adoption by Irish credit unions: Performance implications. Annals of Public and Cooperative Economics^ABS2^</span> -->
+- McKillop, Donal G, Quinn, Barry (2015). Web adoption by Irish credit unions: Performance implications. *Annals of Public and Cooperative Economics* (ABS2)
 
-- <span style="color: #0066cc;">Glass, J Colin, McKillop, Donal G, Quinn, Barry, Wilson, John (2014). Cooperative bank efficiency in Japan: a parametric distance function analysis. The European Journal of Finance^ABS3^</span>
+- Glass, J Colin, McKillop, Donal G, Quinn, Barry, Wilson, John (2014). Cooperative bank efficiency in Japan: a parametric distance function analysis. *The European Journal of Finance* (ABS3)
 
-- <span style="color: #9370DB;">Quinn, Barry, McKillop, Donal (2009). Internet banking and Irish credit unions. International Journal of Cooperative Management^ABS2^</span>
+- Quinn, Barry, McKillop, Donal (2009). Internet banking and Irish credit unions. *International Journal of Cooperative Management* (ABS2)
 
-- <span style="color: #9370DB;">Quinn, Barry, McKillop, Donal (2009). Cost performance of Irish credit unions. Journal of Cooperative Studies^ABS2^</span>
+- Quinn, Barry, McKillop, Donal (2009). Cost performance of Irish credit unions. *Journal of Cooperative Studies* (ABS2)
 
 ## Software Publications
 
@@ -150,7 +186,7 @@ if (knitr::is_html_output()) {
 
 -   Kearney, Fearghal, Quinn, Barry, Pramanick, Abhishek (Under Review at Journal of Business Venturing) *Innovation Signals and Strategic Exits: How Technological Readiness Shapes RegTech Venture Outcomes*
 
--   Quinn, Barry, Ronan Gallager *Great Expectations: Managerial Turnover and Market Expection in Association Football*
+- Quinn, Barry, Gallagher, Ronan *Great Expectations: Managerial Turnover and Market Expectation in Association Football*
 
 
 ## Research Reports
@@ -184,10 +220,10 @@ if (knitr::is_html_output()) {
 
 1.  Fei Li *Sustainable Investing, Report and Gender Diversity* (fully-funded by QBS scholarship) **(Principal Supervisor)**
 2.  Abhishek Pramnanick *AI and the future of financial regulation* (fully-funded by QBS scholarship) **(Principal Supervisor)**
-3.  Dongwei (Jeffery) Li *The cconomics of AI patents and productivity in finance* (fully-funded by DofE scholarship) **(Principal Supervisor)**
-4.  Yuqi Ding *The Economics of Generative AI in Finance" (fully-funded by QBS scholarship)* **(Principal Supervisor)**
-5.  Yongshei Dai "Market Manipulation and Financial Anomaly Detection" (fully-funded by PWC scholarship) **(Co Supervise)**
-6.  Brandon Cochrane "Economic Cost of Cultural Displays in Northern Ireland" (fully-funded by DofE CAST scholarship) **(Co Supervise)**
+3.  Dongwei (Jeffrey) Li *The Economics of AI patents and productivity in finance* (fully-funded by DofE scholarship) **(Principal Supervisor)**
+4.  Yuqi Ding *The Economics of Generative AI in Finance* (fully-funded by QBS scholarship) **(Principal Supervisor)**
+5.  Yongsheng Dai "Market Manipulation and Financial Anomaly Detection" (fully-funded by PWC scholarship) **(Co Supervisor)**
+6.  Brandon Cochrane "Economic Cost of Cultural Displays in Northern Ireland" (fully-funded by DofE CAST scholarship) **(Co Supervisor)**
 
 ## Visiting PhD Supervision
 
@@ -213,7 +249,7 @@ if (knitr::is_html_output()) {
 #| label: tbl-research-grants
 #| tbl-cap: "Research Grant Income"
 if (knitr::is_latex_output()) {
-  read.csv("Grant_income.csv") %>%
+  read.csv("../data/Grant_income.csv") %>%
     mutate(Amount = scales::comma(Amount, prefix = "£")) %>%
     knitr::kable(
       col.names = c("Source", "Role", "Start", "End", "People", "Title", "Full Economic Costs (£)", "Type"),
@@ -236,7 +272,7 @@ if (knitr::is_latex_output()) {
     kableExtra::column_spec(7, width = "2cm") %>%    # Amount
     kableExtra::column_spec(8, width = "1.5cm")      # Type
 } else {
-  read.csv("Grant_income.csv") %>%
+  read.csv("../data/Grant_income.csv") %>%
     mutate(Amount = scales::comma(Amount, prefix = "£")) %>%
     knitr::kable(
       col.names = c("Source", "Role", "Start", "End", "People", "Title", "Full Economic Costs (£)", "Type"),

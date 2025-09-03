@@ -1,9 +1,33 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
+# Quarto build files
+*.knit.md
+.quarto/
 
-/.quarto/
+# Generated outputs (keep dist/ structure but ignore contents for development)
+# dist/
+# Uncomment above to ignore dist/ entirely, or keep it for GitHub Pages
+
+# GitHub Pages files (copied from dist/ for local testing)
+/index.html
+/index_files/
+# Note: These are copied by deploy_local.py script when needed
+
+# Note: R execution still happens via Quarto, but no R project files needed
+
+# LaTeX intermediate files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# System files
 .DS_Store
-updated_cv_prof_job.qmd
-updated_cv_prof_job.pdf
+Thumbs.db
+
+# Backup files
+*~
+*.bak
