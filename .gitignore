@@ -10,6 +10,7 @@
 /index.html
 /index_files/
 /img/
+/*.pdf
 # Note: These are copied by deploy_local.py script when needed
 
 # Note: R execution still happens via Quarto, but no R project files needed

@@ -36,6 +36,21 @@ def main():
         "img"          # Image directory
     ]
     
+    # Copy only CV-related PDF files
+    cv_pdf_files = [
+        "index.pdf",
+        "cv_academic.pdf", 
+        "cv_industry.pdf",
+        "cv_grants.pdf"
+    ]
+    
+    pdf_files = []
+    for pdf_name in cv_pdf_files:
+        pdf_path = dist_dir / pdf_name
+        if pdf_path.exists():
+            files_to_copy.append(pdf_name)
+            pdf_files.append(pdf_path)
+    
     print("📁 Copying website files to root directory...")
     
     for item in files_to_copy:
@@ -65,8 +80,10 @@ def main():
     print("   - index.html (main website)")
     print("   - index_files/ (website assets)")
     print("   - img/ (profile picture and images)")
+    print(f"   - {len(pdf_files)} CV PDF files (index, academic, industry, grants)")
     print("\n💡 Note: dist/ folder still contains all CV versions")
     print("🔗 GitHub Pages will now work from root directory")
+    print("📄 All download links should now work!")
     
     return 0
 

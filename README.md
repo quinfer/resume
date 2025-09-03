@@ -154,7 +154,9 @@ python3 scripts/deploy_local.py
 
 This script:
 - Builds all CV versions
-- Copies `index.html` and `index_files/` to root directory
+- Copies `index.html`, `index_files/`, `img/`, and CV PDF files to root directory
+- Only copies relevant PDFs: `index.pdf`, `cv_academic.pdf`, `cv_industry.pdf`, `cv_grants.pdf`
+- Ensures all download links work on GitHub Pages
 - Maintains clean `dist/` folder structure
 
 ## 📋 Dependencies
