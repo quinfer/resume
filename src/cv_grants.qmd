@@ -82,22 +82,19 @@ tribble(
 #| label: tbl-grants-detailed
 #| tbl-cap: "Research Grant Portfolio"
 
-grants_detailed <- tribble(
-  ~Source, ~Role, ~Period, ~Title, ~Amount, ~Type,
-  "UKRI/InnovateUK", "PI", "2024-2025", "Understanding and Enhancing regulatory compliance in Investment Management using AI", "£250,000", "Industry Partnership",
-  "InnovateUK KTP", "PI", "2021-2023", "Tail Risk Analytics, Stress Testing and Scenario Analytics", "£180,000", "Knowledge Transfer",
-  "InnovateUK KTP", "Co-I", "2017-2019", "AI and Advanced Retail Analytics", "£150,000", "Knowledge Transfer",
-  "InnovateUK KTP", "Co-I", "2021", "E.S.G Fair Value Analytics", "£120,000", "Knowledge Transfer",
-  "Industry Partnership", "PI", "2022-2023", "Anomaly detection of large heterogeneous trading data", "£75,000", "Direct Industry",
-  "Various", "PI/Co-I", "2012-2024", "Multiple smaller grants and consultancy", "£300,000+", "Mixed"
-) |>
-  mutate(Amount = paste0("£", format(as.numeric(str_remove(Amount, "£|,")), big.mark = ",")))
+# Simple test - just create a basic table with hardcoded values
+test_data <- data.frame(
+  Source = c("Innovate UK", "Innovate UK", "UKRI/InnovateUK", "DofE CAST Award NI"),
+  Role = c("PI", "PI", "PI", "Co-I"),
+  Period = c("2022-2023", "2021-2023", "2024-2025", "2023"),
+  Title = c("E.S.G fair value analytics platform", "Regulatory technology and portfolio analytics", "AI regulatory compliance in Investment Management", "Welfare Cost of Cultural Displays using AI"),
+  Value = c("£173,000", "£173,000", "£100,000", "£70,000"),
+  Type = c("Research", "Research", "Research", "Research")
+)
 
-grants_detailed |>
-  knitr::kable(
-    col.names = c("Funding Body", "Role", "Period", "Project Title", "Value", "Type"),
-    format = "pipe"
-  )
+knitr::kable(test_data, 
+             col.names = c("Funding Body", "Role", "Period", "Project Title", "Value", "Type"),
+             format = "pipe")
 ```
 
 **Total Research Income**: £1,075,000+ (direct awards as PI/Co-I)  
