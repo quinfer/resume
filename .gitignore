@@ -7,10 +7,12 @@
 # Uncomment above to ignore dist/ entirely, or keep it for GitHub Pages
 
 # GitHub Pages files (copied from dist/ for local testing)
-/index.html
-/index_files/
-/img/
-/*.pdf
+# Track these so Pages can serve from root
+# (uncomment if you want to ignore root builds locally)
+# /index.html
+# /index_files/
+# /img/
+# /*.pdf
 # Note: These are copied by deploy_local.py script when needed
 
 # Note: R execution still happens via Quarto, but no R project files needed
