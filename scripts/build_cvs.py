@@ -81,6 +81,13 @@ def copy_assets():
         shutil.copytree(src_img, dst_img)
         print(f"  ✅ Copied assets/img/ to dist/img/")
 
+    # Copy custom CSS to dist/
+    src_css = Path("assets/custom-styles.css")
+    dst_css = Path("dist/custom-styles.css")
+    if src_css.exists():
+        shutil.copy2(src_css, dst_css)
+        print(f"  ✅ Copied assets/custom-styles.css to dist/")
+
 def main():
     """Main build process"""
     print("🚀 Building all CV versions...\n")
