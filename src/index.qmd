@@ -181,7 +181,11 @@ if (knitr::is_html_output()) {
 
 ## Working Paper
 
-- Kearney, Fearghal, Quinn, Barry, Dai, Youngsheng (2025) *Signal Amplification in Market Manipulation Detection*
+-   Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal (2025). *Signal Amplification in Market Manipulation Detection*. Working paper.
+
+-   Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Liu, Weilong, Spence, Ivor, Rafferty, Karen, Wang, Hui (2025). *Detecting Market Manipulation with Self-supervised Learning: A Hybrid Framework Using Frequency-based Synthetic Anomaly and Domain-Specific Features*. Working paper.
+
+-   Quinn, Barry (2023). *Explaining AI in Finance: Past, Present, Prospects*. arXiv preprint arXiv:2306.02773.
 
 -   Zhang, Ying (Veronica), Quinn, Barry, Sheenan, Lisa (2025). *Ownership Dynamics, Risk and Regulation in Chinese Banking: New Evidence*. Centre for Responsible Banking & Finance Working Paper Series, WP No. 25-017.
 

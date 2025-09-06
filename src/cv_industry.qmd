@@ -12,6 +12,7 @@ format:
     fontsize: 11pt
     linkcolor: blue
     urlcolor: blue
+bibliography: ../data/bqpubs.bib
 ---
 
 ```{r}
@@ -128,6 +129,14 @@ credentials_industry <- tribble(
 - **Director** - Centre for Financial and Regulatory Technology (2024-present)
 - **Co-founder** - Queen's Student Managed Fund (managing real investment portfolio)
 - **Programme Director** - MSc Quantitative Finance (2018-2022)
+
+---
+
+## Working Papers (Selected)
+
+- Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal (2025). *Signal Amplification in Market Manipulation Detection*. Working paper.
+- Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Liu, Weilong, Spence, Ivor, Rafferty, Karen, Wang, Hui (2025). *Detecting Market Manipulation with Self-supervised Learning: A Hybrid Framework Using Frequency-based Synthetic Anomaly and Domain-Specific Features*. Working paper.
+- Quinn, Barry (2023). *Explaining AI in Finance: Past, Present, Prospects*. arXiv preprint arXiv:2306.02773.
 
 ---
 
