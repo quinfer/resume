@@ -32,7 +32,7 @@ library(knitr)
 
 # Executive Summary
 
-**Transformational Finance Leader** with unique combination of 9+ years financial markets experience and cutting-edge academic research expertise. Professor of Finance and FinTech specializing in AI applications, regulatory technology, and quantitative risk management. Proven track record of bridging academia-industry gap through £2M+ research funding, multiple successful KTP projects, and direct industry collaboration.
+Applied econometrician and Chartered Statistician working at the intersection of finance, technology, and data science. I focus on causal mechanisms beyond cookbook econometrics and on computational finance approaches—numerical methods, simulation, and agent-based modelling—to solve problems that resist closed-form analysis. My research and partnerships apply statistical, computational, and machine learning techniques to financial markets, regulatory compliance, and policy, with current teaching and delivery in Financial Data Science and causal AI. This work has been supported by UKRI/EPSRC, Innovate UK, and the Department for the Economy, and has resulted in publications in IEEE Transactions on Evolutionary Computation, International Journal of Forecasting, and Energy Economics. Prior to academia, I worked as a currency trader and liquidity manager at Janus Henderson Investors; that experience underpins a pragmatic approach to building AI- and analytics-driven solutions. I hold a PhD in Finance and am currently completing an MSc in Artificial Intelligence.
 
 **Core Value Proposition:**
 - **Industry Experience**: Former currency trader and liquidity manager at Janus Henderson Investors
@@ -45,7 +45,8 @@ library(knitr)
 # Key Expertise & Skills
 
 ## Technical Competencies
-- **AI & Machine Learning**: Deep learning, market manipulation detection, anomaly detection
+- **AI & Machine Learning**: Deep learning, causal AI, market manipulation detection, anomaly detection
+- **Financial Data Science**: Data pipelines, feature engineering, time-series ML, MLOps
 - **Financial Technology**: RegTech, algorithmic trading, risk analytics, stress testing
 - **Data Science**: Advanced statistical modeling, big data analytics, predictive modeling
 - **Programming**: R, Python, statistical software development

@@ -31,11 +31,13 @@ library(knitr)
 
 # Personal Statement
 
-As a Professor of Finance and FinTech at Ulster University Business School, I bridge the gap between cutting-edge quantitative research and practical financial applications. With 14 peer-reviewed publications (including 1 ABS4* and 11 ABS3 papers), over £2M in research funding, and extensive industry collaboration, I specialize in applying statistical and machine learning techniques to complex problems in financial markets, regulation, and cooperative finance.
+I am Professor of Finance and FinTech at Ulster University Business School and Director of the Centre for Financial and Regulatory Technology. As an applied econometrician and Chartered Statistician, I explore the intersection of finance, technology, and data science, focusing on causal mechanisms beyond cookbook econometrics. My work also engages with computational economics and its finance counterpart, where numerical methods, simulation, and agent-based modelling are applied to problems that defy closed-form solutions.
 
-My research portfolio spans systemic risk assessment, market manipulation detection, and AI applications in finance, with particular expertise in regulatory technology (RegTech). I have successfully supervised 6 PhD completions to date, with 6 current doctoral students working on frontier topics including generative AI in finance and market anomaly detection.
+My research applies statistical, computational, and machine learning techniques to financial markets, causal policy analysis, and cooperative finance. I have been fortunate to receive support from UKRI/EPSRC, Innovate UK, and the Department for the Economy for this work, which has resulted in publications in journals including IEEE Transactions on Evolutionary Computation, International Journal of Forecasting, and Energy Economics.
 
-My unique perspective combines 9 years of financial markets experience as a currency trader and liquidity manager with rigorous academic training. As a Chartered Statistician, I am particularly committed to promoting ethical approaches to data analysis and evidence-based decision-making in an era of increasing algorithmic complexity.
+Before academia, I worked in financial markets as a currency trader and liquidity manager at Janus Henderson Investors, an experience that continues to inform my approach to financial research. I hold a PhD in Finance from Queen's University Belfast and am currently pursuing an MSc in Artificial Intelligence to better understand emerging technologies in finance.
+
+Through my teaching in quantitative finance, econometrics, financial data science, causal AI, and AI in trading, I hope to help students develop both technical competence and ethical approaches to data analysis. By framing my work within computational finance as well as econometrics, I aim to contribute meaningfully to evidence-based decision-making in finance whilst maintaining the rigorous statistical standards expected in our field.
 
 ## Education and Professional Qualifications
 
@@ -103,6 +105,8 @@ grants_academic |>
 - **Programme Director**, MSc Computational Finance & Trading (2014-2018)
 - **Co-Founder**, Queen's Student Managed Fund (2012-2024)
 - **Teaching Award**, QUB (2016)
+
+**Current Modules**: Financial Data Science; Causal AI; AI in Trading; Financial Econometrics
 
 ## Academic Service
 - **Co-director**, Finance and AI Research Lab, Queen's University Belfast (2022-2024)

@@ -30,9 +30,13 @@ library(knitr)
 
 # Research Profile Summary
 
-Professor of Finance and FinTech with exceptional track record in quantitative finance research, AI applications, and industry collaboration. Research expertise spans systemic risk, market manipulation detection, cooperative finance, and regulatory technology. Strong publication record (14 peer-reviewed papers, 1 ABS4*, 11 ABS3) with over £2M in competitive research funding. Proven ability to translate cutting-edge research into practical applications through extensive industry partnerships.
+Professor of Finance and FinTech at Ulster University Business School and Director of the Centre for Financial and Regulatory Technology. As an applied econometrician and Chartered Statistician, my work sits at the intersection of finance, technology, and data science with an emphasis on causal mechanisms beyond cookbook econometrics. I also engage with computational economics and its finance counterpart, applying numerical methods, simulation, and agent-based modelling to problems that defy closed-form solutions.
 
-**Research Interests**: AI applications in finance, market manipulation detection, systemic risk assessment, regulatory technology, cooperative finance, sustainable finance, generative AI in capital markets.
+My research applies statistical, computational, and machine learning techniques to financial markets, causal policy analysis, and cooperative finance. This portfolio has been supported by UKRI/EPSRC, Innovate UK, and the Department for the Economy and has produced publications in venues including IEEE Transactions on Evolutionary Computation, International Journal of Forecasting, and Energy Economics.
+
+Prior to academia I worked in financial markets as a currency trader and liquidity manager at Janus Henderson Investors. I hold a PhD in Finance from Queen's University Belfast and am currently pursuing an MSc in Artificial Intelligence. These experiences support the delivery of rigorous, policy-relevant, and translational research with industry and public sector partners.
+
+**Research Interests**: AI applications in finance, causal AI, financial data science, market manipulation detection, systemic risk assessment, regulatory technology, cooperative finance, sustainable finance, generative AI in capital markets.
 
 # Education and Professional Qualifications
 
@@ -144,6 +148,11 @@ knitr::kable(test_data,
 - **Queen's Business School Remote Analytics Lab Platform** (Lead Developer, 2021-2024)
 - **Finance and AI Research Lab** (Co-director, 2022-2024)
 - **Ulster University Centre for Financial and Regulatory Technology** (Director, 2024-present)
+
+## Training & Capacity Building
+- Design and delivery of graduate teaching in Financial Data Science and causal AI, with applications in trading, market microstructure, and policy analysis
+- Supervision and mentoring across econometrics, machine learning, and computational finance, including industry-partnered projects
+- Emphasis on reproducible research (versioned data pipelines, model governance) and rigorous statistical standards for evidence-based decision-making
 
 # Future Research Directions
 
