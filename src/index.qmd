@@ -66,13 +66,13 @@ Choose the CV version most appropriate for your needs:
 
 # Personal Statement
 
-I am Professor of Finance and FinTech at Ulster University Business School and Director of the Centre for Financial and Regulatory Technology. As an applied econometrician and Chartered Statistician, I explore the intersection of finance, technology, and data science, focusing on causal mechanisms beyond cookbook econometrics. My work also engages with computational economics and its finance counterpart, where numerical methods, simulation, and agent-based modelling are applied to problems that defy closed-form solutions.
+Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School, where he is developing the Centre for Financial and Regulatory Technology. He is an applied econometrician and Chartered Statistician whose work integrates econometrics, machine learning, and computational approaches to address challenges in financial markets, risk, and regulatory compliance.
 
-My research applies statistical, computational, and machine learning techniques to financial markets, causal policy analysis, and cooperative finance. I have been fortunate to receive support from UKRI/EPSRC, Innovate UK, and the Department for the Economy for this work, which has resulted in publications in journals including IEEE Transactions on Evolutionary Computation, International Journal of Forecasting, and Energy Economics.
+His research combines causal policy analysis, algorithmic trading risk detection, and trustworthy AI methods, with a particular interest in how financial technology can support resilient markets and evidence-based regulation. Barry's work is collaborative and interdisciplinary, bridging economics, statistics, computer science, and law.
 
-Before academia, I worked in financial markets as a currency trader and liquidity manager at Janus Henderson Investors, an experience that continues to inform my approach to financial research. I hold a PhD in Finance from Queen's University Belfast and am currently pursuing an MSc in Artificial Intelligence to better understand emerging technologies in finance.
+He teaches across quantitative finance, econometrics, and AI applications in finance, encouraging students to engage with rigorous, ethical, and reproducible methods. Pedagogically, he emphasises employability, resilience, and critical thinking.
 
-Through my teaching in quantitative finance, econometrics, financial data science, causal AI, and AI in trading, I hope to help students develop both technical competence and ethical approaches to data analysis. By framing my work within computational finance as well as econometrics, I aim to contribute meaningfully to evidence-based decision-making in finance whilst maintaining the rigorous statistical standards expected in our field.
+Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance from Queen's University Belfast, is a Chartered Statistician, and is completing an MSc in Artificial Intelligence. He actively collaborates with industry and policy partners to ensure his research delivers academic, societal, and regulatory impact.
 
 ## Education and Professional Qualifications
 
@@ -83,7 +83,7 @@ tribble(
   "MSc Quantitative Finance", "RMIT University Melbourne", "2006",
   "Ph.D. Finance", "Queen's University Belfast", "2012",
   "Chartered Statistician", "Royal Statistical Society", "2019",
-  "MSc Artificial Intelligence", "Queen's University Belfast", "Graduating 2025"
+  "MSc Artificial Intelligence", "Queen's University Belfast", "2025"
 ) |>
   knitr::kable()
 ```
@@ -204,8 +204,8 @@ if (knitr::is_html_output()) {
 
 ## Research Impact and Knowledge Transfer
 
-1.  *Understanding and Enhancing regulatory compliance in the Investment Managent industry using AI* with Funds Axis Ltd and Momentum 1.0 (Funded by UKFin+ and UKRI Nov 2024 - Nov 2025)
-2.  *Anomaly detection of large heterogeneous trading transaction and commmunication data* with Citigroup Belfast and Momentum 1.0 (2022-2023)
+1.  *Understanding and Enhancing regulatory compliance in the Investment Management industry using AI* with Funds Axis Ltd and Momentum 1.0 (Funded by UKFin+ and UKRI Nov 2024 - Nov 2025)
+2.  *Anomaly detection of large heterogeneous trading transaction and communication data* with Citigroup Belfast and Momentum 1.0 (2022-2023)
 3.  *AI and Advanced Retail Analytics* with Pearlai Ltd and Dr Byron Graham (KTP 2017-2019)
 4.  *E.S.G Fair Value Analytics* with Research Associates, Dr. Lisa Sheenan, Dr. Byron Graham. (KTP 2021)
 5.  *Tail Risk Analytics, Stress Testing and Scenario Analytics* with Funds Axis Ltd, Dr Fearghal Kearney, and Dr Colm Kelly. (KTP 2021 -2023)
@@ -214,17 +214,17 @@ if (knitr::is_html_output()) {
 
 ## Completed PhD Supervisions
 
-1.  Dr. Jiadong liu (graduated 2018): *Momentum in Empirical Asset Pricing* **(Principal Supervisor)**
+1.  Dr. Jiadong Liu (graduated 2018): *Momentum in Empirical Asset Pricing* **(Principal Supervisor)**
 2.  Dr. Ashleigh Neil (graduated 2019): *Law and Financial Stability* **(Principal Supervisor)**
 3.  Dr. Colm Kelly (graduated 2021): *Machine learning in Empirical Asset Pricing* **(Principal Supervisor)**
-4.  Veronica Zhang (graduating 2024): *Capital policy and State sponsorship in Chinese banking* **(Principal Supervisor)**
+4.  Veronica Zhang (2024): *Capital policy and State sponsorship in Chinese banking* **(Principal Supervisor)**
 5.  Dr. Kevin Johnson (graduated 2019) *A Case Study in Industrial Consolidation: The Irish Credit Union Sector* **(Co Supervised)**
 6.  Dr. Qiao (Olivia) Peng (graduated 2021) *US Credit Union Mergers: Causes and Consequences* **(Co Supervised)**
 
 ## Current PhD Supervisions
 
 1.  Fei Li *Sustainable Investing, Report and Gender Diversity* (fully-funded by QBS scholarship) **(Principal Supervisor)**
-2.  Abhishek Pramnanick *AI and the future of financial regulation* (fully-funded by QBS scholarship) **(Principal Supervisor)**
+2.  Abhishek Pramanick *AI and the future of financial regulation* (fully-funded by QBS scholarship) **(Principal Supervisor)**
 3.  Dongwei (Jeffrey) Li *The Economics of AI patents and productivity in finance* (fully-funded by DofE scholarship) **(Principal Supervisor)**
 4.  Yuqi Ding *The Economics of Generative AI in Finance* (fully-funded by QBS scholarship) **(Principal Supervisor)**
 5.  Yongsheng Dai "Market Manipulation and Financial Anomaly Detection" (fully-funded by PWC scholarship) **(Co Supervisor)**
@@ -233,7 +233,7 @@ if (knitr::is_html_output()) {
 ## Visiting PhD Supervision
 
 1.  Weilong Liu 2022 (From Lingnan University College of Yat-sen University (SYSU) in Guangzhou, China ) "Market Manipulation and AI Anomaly Detection"
-2.  James Hannon 2023 (From UCD) "Leveraging Computer Vision to under and enhance Insurance Pricing"
+2.  James Hannon 2023 (From UCD) "Leveraging Computer Vision to understand and enhance Insurance Pricing"
 3.  Birem Abderraouf 2025 (From UPEC Paris) "Generative AI in Capital Markets"
 
 ## Conference presentations

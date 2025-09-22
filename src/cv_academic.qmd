@@ -31,13 +31,13 @@ library(knitr)
 
 # Personal Statement
 
-I am Professor of Finance and FinTech at Ulster University Business School and Director of the Centre for Financial and Regulatory Technology. As an applied econometrician and Chartered Statistician, I explore the intersection of finance, technology, and data science, focusing on causal mechanisms beyond cookbook econometrics. My work also engages with computational economics and its finance counterpart, where numerical methods, simulation, and agent-based modelling are applied to problems that defy closed-form solutions.
+Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School, where he is developing the Centre for Financial and Regulatory Technology. He is an applied econometrician and Chartered Statistician whose work integrates econometrics, machine learning, and computational approaches to address challenges in financial markets, risk, and regulatory compliance.
 
-My research applies statistical, computational, and machine learning techniques to financial markets, causal policy analysis, and cooperative finance. I have been fortunate to receive support from UKRI/EPSRC, Innovate UK, and the Department for the Economy for this work, which has resulted in publications in journals including IEEE Transactions on Evolutionary Computation, International Journal of Forecasting, and Energy Economics.
+His research combines causal policy analysis, algorithmic trading risk detection, and trustworthy AI methods, with a particular interest in how financial technology can support resilient markets and evidence-based regulation. Barry's work is collaborative and interdisciplinary, bridging economics, statistics, computer science, and law.
 
-Before academia, I worked in financial markets as a currency trader and liquidity manager at Janus Henderson Investors, an experience that continues to inform my approach to financial research. I hold a PhD in Finance from Queen's University Belfast and am currently pursuing an MSc in Artificial Intelligence to better understand emerging technologies in finance.
+He teaches across quantitative finance, econometrics, and AI applications in finance, encouraging students to engage with rigorous, ethical, and reproducible methods. Pedagogically, he emphasises employability, resilience, and critical thinking.
 
-Through my teaching in quantitative finance, econometrics, financial data science, causal AI, and AI in trading, I hope to help students develop both technical competence and ethical approaches to data analysis. By framing my work within computational finance as well as econometrics, I aim to contribute meaningfully to evidence-based decision-making in finance whilst maintaining the rigorous statistical standards expected in our field.
+Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance from Queen's University Belfast, is a Chartered Statistician, and is completing an MSc in Artificial Intelligence. He actively collaborates with industry and policy partners to ensure his research delivers academic, societal, and regulatory impact.
 
 ## Education and Professional Qualifications
 
@@ -48,7 +48,7 @@ tribble(
   "MSc Quantitative Finance", "RMIT University Melbourne", "2006",
   "Ph.D. Finance", "Queen's University Belfast", "2012",
   "Chartered Statistician", "Royal Statistical Society", "2019",
-  "MSc Artificial Intelligence", "Queen's University Belfast", "Graduating 2025"
+  "MSc Artificial Intelligence", "Queen's University Belfast", "2025"
 ) |>
   knitr::kable()
 ```
