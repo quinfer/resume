@@ -150,7 +150,7 @@ knitr::kable(test_data,
 
 ## Research Facilities
 - **Queen's Business School Remote Analytics Lab Platform** (Lead Developer, 2021-2024)
-- **Finance and AI Research Lab** (Co-director, 2022-2024)
+- **Finance and AI Research Lab** (Co-founder with Dr Fearghal Kearney, 2022-2024)
 - **Ulster University Centre for Financial and Regulatory Technology** (Director, 2024-present)
 
 ## Training & Capacity Building

@@ -298,7 +298,7 @@ if (knitr::is_latex_output()) {
 
 ## Academic Service
 
--   **Co-director**, Finance and AI Research lab, Queen's University Belfast, 2022--2024.
+-   **Co-founder**, Finance and AI Research lab (with Dr Fearghal Kearney), Queen's University Belfast, 2022--2024.
 -   **Lead Developer**, Queen's Business School Remote Analytics Lab Platform (Q-RaP), 2021--2024.
 -   **QUB Academic Lead**, Steering group for Northern Ireland global centre in secure connected intelligence for regulatory technology in finance, 2022--2024.
 -   **Programme Director**, MSc Quantitative Finance, Queen's University Belfast, 2018--2022.

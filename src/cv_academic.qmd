@@ -115,7 +115,7 @@ grants_academic |>
 **Current Modules**: Financial Data Science; Causal AI; AI in Trading; Financial Econometrics
 
 ## Academic Service
-- **Co-director**, Finance and AI Research Lab, Queen's University Belfast (2022-2024)
+- **Co-founder**, Finance and AI Research Lab (with Dr Fearghal Kearney), Queen's University Belfast (2022-2024)
 - **Programme Director**, MSc Quantitative Finance (2018-2022)
 - **Lead Developer**, Queen's Business School Remote Analytics Lab Platform
 - **Organiser**, Symposium on AI and Future of Financial Regulation (2023)
