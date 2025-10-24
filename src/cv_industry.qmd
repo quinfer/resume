@@ -26,8 +26,8 @@ library(knitr)
 # Contact Information
 
 **Prof. Barry Quinn** | Professor of Finance and FinTech  
-📧 b.quinn1@ulster.ac.uk | 🔗 [GitHub: quinfer](https://github.com/quinfer)  
-📍 Ulster University Business School, Belfast, N. Ireland
+📧 b.quinn1@ulster.ac.uk | 🔗 [GitHub: quinfer](https://github.com/quinfer) | 🆔 [ORCID: 0000-0002-8637-9060](https://orcid.org/0000-0002-8637-9060)  
+📍 Ulster University Business School, Belfast, N. Ireland | 📅 Born: 10 July 1973
 
 ---
 

@@ -35,3 +35,9 @@ Thumbs.db
 # Backup files
 *~
 *.bak
+
+# Accreditation forms (confidential)
+*Accreditation*
+*accreditation*
+*Faculty*Information*
+*Faculty*Form*

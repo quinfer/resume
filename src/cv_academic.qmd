@@ -28,6 +28,8 @@ library(knitr)
 - **Address**: Ulster University Business School, Belfast Campus, York Street, Belfast, BT1 5AB, N. Ireland
 - **Email**: b.quinn1@ulster.ac.uk
 - **GitHub**: [quinfer](https://github.com/quinfer)
+- **ORCID**: [0000-0002-8637-9060](https://orcid.org/0000-0002-8637-9060)
+- **Date of Birth**: 10 July 1973
 
 # Personal Statement
 

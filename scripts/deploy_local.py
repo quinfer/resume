@@ -32,8 +32,15 @@ def main():
     
     files_to_copy = [
         "index.html",
-        "index_files",  # Directory with assets
-        "img"          # Image directory
+        "index_files",   # Directory with assets for index
+        "img",           # Image directory
+        # CV HTML pages and their asset directories
+        "cv_academic.html",
+        "cv_academic_files",
+        "cv_industry.html",
+        "cv_industry_files",
+        "cv_grants.html",
+        "cv_grants_files",
     ]
     
     # Copy only CV-related PDF files
@@ -80,6 +87,9 @@ def main():
     print("   - index.html (main website)")
     print("   - index_files/ (website assets)")
     print("   - img/ (profile picture and images)")
+    print("   - cv_academic.html (+ _files assets)")
+    print("   - cv_industry.html (+ _files assets)")
+    print("   - cv_grants.html (+ _files assets)")
     print(f"   - {len(pdf_files)} CV PDF files (index, academic, industry, grants)")
     print("\n💡 Note: dist/ folder still contains all CV versions")
     print("🔗 GitHub Pages will now work from root directory")
