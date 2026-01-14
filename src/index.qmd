@@ -316,7 +316,7 @@ if (knitr::is_latex_output()) {
 ## Professional Accreditations
 
 -   Chartered Statistician, Royal Statistical Society (2019)
--   Advanced Data Science Professional, [Alliance of Data Science Professional](https://alliancefordatascienceprofessionals.com/) (2024)
+-   Advanced Data Science Professional, Royal Statistical Society (2024)
 
 # Awards and Recognition
 

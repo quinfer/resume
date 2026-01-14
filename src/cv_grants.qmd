@@ -187,7 +187,7 @@ knitr::kable(test_data,
 ## Professional Recognition
 - **Chartered Statistician**, Royal Statistical Society (2019)
 - **1st Place**, CFA European Quantitative Finance Awards (2018)
-- **Advanced Data Science Professional** (2024)
+- **Advanced Data Science Professional**, Royal Statistical Society (2024)
 
 ## Editorial and Review Activities
 - Regular reviewer for major finance and technology journals

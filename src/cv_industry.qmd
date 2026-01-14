@@ -132,7 +132,7 @@ credentials_industry <- tribble(
 
 ## Awards & Recognition
 - **1st Place** - CFA European Quantitative Finance Awards (2018)
-- **Advanced Data Science Professional** - Alliance of Data Science Professionals (2024)
+- **Advanced Data Science Professional** - Royal Statistical Society (2024)
 - **Teaching Fellow** - Higher Education Authority (2012)
 
 ## Research Impact

@@ -147,7 +147,7 @@ employment_academic <- tribble(
 # Professional Recognition
 
 - **Chartered Statistician**, Royal Statistical Society (2019)
-- **Advanced Data Science Professional**, Alliance of Data Science Professionals (2024)
+- **Advanced Data Science Professional**, Royal Statistical Society (2024)
 - **1st Place**, CFA European Quantitative Finance Awards (2018)
 - **Associate Research Fellow**, QUB Momentum One Zero (2021-2024)
 
