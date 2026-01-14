@@ -66,13 +66,13 @@ Choose the CV version most appropriate for your needs:
 
 # Personal Statement
 
-Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School, where he is developing the Centre for Financial and Regulatory Technology. He is an applied econometrician and Chartered Statistician whose work integrates econometrics, machine learning, and computational approaches to address challenges in financial markets, risk, and regulatory compliance.
+Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School, where he is Director of the Centre for Finance and Responsible Technology. The Centre has been established with £360K in PhD scholarships from the Department of the Economy NI, including collaborative doctoral partnerships with local fintech firms Pytillia and Napier AI. He is an applied econometrician and Chartered Statistician whose work integrates econometrics, machine learning, and computational approaches to address challenges in financial markets, risk, and regulatory compliance.
 
 His research combines causal policy analysis, algorithmic trading risk detection, and trustworthy AI methods, with a particular interest in how financial technology can support resilient markets and evidence-based regulation. Barry's work is collaborative and interdisciplinary, bridging economics, statistics, computer science, and law.
 
 He teaches across quantitative finance, econometrics, and AI applications in finance, encouraging students to engage with rigorous, ethical, and reproducible methods. Pedagogically, he emphasises employability, resilience, and critical thinking.
 
-Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance from Queen's University Belfast, is a Chartered Statistician, and is completing an MSc in Artificial Intelligence. He actively collaborates with industry and policy partners to ensure his research delivers academic, societal, and regulatory impact.
+Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance from Queen's University Belfast, is a Chartered Statistician, and holds an MSc in Artificial Intelligence with Distinction from Queen's University Belfast. He actively collaborates with industry and policy partners to ensure his research delivers academic, societal, and regulatory impact.
 
 ## Education and Professional Qualifications
 
@@ -83,7 +83,7 @@ tribble(
   "MSc Quantitative Finance", "RMIT University Melbourne", "2006",
   "Ph.D. Finance", "Queen's University Belfast", "2012",
   "Chartered Statistician", "Royal Statistical Society", "2019",
-  "MSc Artificial Intelligence", "Queen's University Belfast", "2025"
+  "MSc Artificial Intelligence (Distinction)", "Queen's University Belfast", "2025"
 ) |>
   knitr::kable()
 ```
@@ -189,7 +189,7 @@ if (knitr::is_html_output()) {
 
 -   Zhang, Ying (Veronica), Quinn, Barry, Sheenan, Lisa (2025). *Ownership Dynamics, Risk and Regulation in Chinese Banking: New Evidence*. Centre for Responsible Banking & Finance Working Paper Series, WP No. 25-017.
 
--   Kearney, Fearghal, Quinn, Barry, Pramanick, Abhishek (Under Review at Journal of Business Venturing) *Innovation Signals and Strategic Exits: How Technological Readiness Shapes RegTech Venture Outcomes*
+-   Kearney, Fearghal, Quinn, Barry, Pramanick, Abhishek (Under Review at Journal of Business Venturing) *Innovation Signals and Strategic Exits: How Technological Readiness Shapes Outcomes in Computational Approaches to Financial Regulation*
 
 - Quinn, Barry, Gallagher, Ronan *Great Expectations: Managerial Turnover and Market Expectation in Association Football*
 
@@ -204,13 +204,14 @@ if (knitr::is_html_output()) {
 
 ## Research Impact and Knowledge Transfer
 
-1.  *Understanding and Enhancing regulatory compliance in the Investment Management industry using AI* with Funds Axis Ltd and Momentum 1.0 (Funded by UKFin+ and UKRI Nov 2024 - Nov 2025)
-2.  *Anomaly detection of large heterogeneous trading transaction and communication data* with Citigroup Belfast and Momentum 1.0 (2022-2023)
-3.  *AI and Advanced Retail Analytics* with Pearlai Ltd and Dr Byron Graham (KTP 2017-2019)
-4.  *E.S.G Fair Value Analytics* with Research Associates, Dr. Lisa Sheenan, Dr. Byron Graham. (KTP 2021)
-5.  *Tail Risk Analytics, Stress Testing and Scenario Analytics* with Funds Axis Ltd, Dr Fearghal Kearney, and Dr Colm Kelly. (KTP 2021 -2023)
-6.  *Financial Conduct Authority* Tech Sprint Mentor (2023-present)
-7.  *AI and the Future of Financial Regulation* with Fearghal Kearney and Abhishek Praminick published in The Economic Observatory (2023)
+1.  *Three PhD Scholarships - Centre for Finance and Responsible Technology* (Funded by Department of the Economy NI, £360K, 2025) - Including two collaborative doctoral partnerships with local fintech firms: Pytillia and Napier AI
+2.  *Understanding and Enhancing regulatory compliance in the Investment Management industry using AI* with Funds Axis Ltd and Momentum 1.0 (Funded by UKFin+ and UKRI Nov 2024 - Nov 2025)
+3.  *Anomaly detection of large heterogeneous trading transaction and communication data* with Citigroup Belfast and Momentum 1.0 (2022-2023)
+4.  *AI and Advanced Retail Analytics* with Pearlai Ltd and Dr Byron Graham (KTP 2017-2019)
+5.  *E.S.G Fair Value Analytics* with Research Associates, Dr. Lisa Sheenan, Dr. Byron Graham. (KTP 2021)
+6.  *Tail Risk Analytics, Stress Testing and Scenario Analytics* with Funds Axis Ltd, Dr Fearghal Kearney, and Dr Colm Kelly. (KTP 2021 -2023)
+7.  *Financial Conduct Authority* Tech Sprint Mentor (2023-present)
+8.  *AI and the Future of Financial Regulation* with Fearghal Kearney and Abhishek Praminick published in The Economic Observatory (2023)
 
 ## Completed PhD Supervisions
 
@@ -333,7 +334,7 @@ employment_table <- tribble(
   2010, "2020", "Lecturer", "Department of Finance, Queen's Management School",
   2020, "2024", "Senior Lecturer in Finance, Technology and Data Science", "Queen's Management School",
   2024, "present", "Professor of Finance and FinTech", "Ulster University Business School",
-  2024, "present", "Director, Centre for Financial and Regulatory Technology", "Ulster University Business School"
+  2024, "present", "Director, Centre for Finance and Responsible Technology", "Ulster University Business School"
 ) |>
   arrange(desc(Start)) |>
   mutate(

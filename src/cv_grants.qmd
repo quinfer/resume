@@ -32,15 +32,15 @@ library(knitr)
 
 # Research Profile Summary
 
-Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School, where he is developing the Centre for Financial and Regulatory Technology. He is an applied econometrician and Chartered Statistician whose work integrates econometrics, machine learning, and computational approaches to address challenges in financial markets, risk, and regulatory compliance.
+Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School, where he is Director of the Centre for Finance and Responsible Technology. The Centre has been established with £360K in PhD scholarships from the Department of the Economy NI, including collaborative doctoral partnerships with local fintech firms Pytillia and Napier AI. He is an applied econometrician and Chartered Statistician whose work integrates econometrics, machine learning, and computational approaches to address challenges in financial markets, risk, and regulatory compliance.
 
 His research combines causal policy analysis, algorithmic trading risk detection, and trustworthy AI methods, with a particular interest in how financial technology can support resilient markets and evidence-based regulation. Barry's work is collaborative and interdisciplinary, bridging economics, statistics, computer science, and law.
 
 He teaches across quantitative finance, econometrics, and AI applications in finance, encouraging students to engage with rigorous, ethical, and reproducible methods. Pedagogically, he emphasises employability, resilience, and critical thinking.
 
-Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance from Queen's University Belfast, is a Chartered Statistician, and is completing an MSc in Artificial Intelligence. He actively collaborates with industry and policy partners to ensure his research delivers academic, societal, and regulatory impact.
+Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance from Queen's University Belfast, is a Chartered Statistician, and holds an MSc in Artificial Intelligence with Distinction from Queen's University Belfast. He actively collaborates with industry and policy partners to ensure his research delivers academic, societal, and regulatory impact.
 
-**Research Interests**: AI applications in finance, causal AI, financial data science, market manipulation detection, systemic risk assessment, regulatory technology, cooperative finance, sustainable finance, generative AI in capital markets.
+**Research Interests**: AI applications in finance, causal AI, financial data science, market manipulation detection, systemic risk assessment, computational approaches to financial regulation, cooperative finance, sustainable finance, generative AI in capital markets.
 
 # Education and Professional Qualifications
 
@@ -49,7 +49,7 @@ tribble(
   ~Degree, ~Institution, ~Year, ~Relevance,
   "Ph.D. Finance", "Queen's University Belfast", "2012", "Thesis: Cooperative Financial Institutions",
   "MSc Quantitative Finance", "RMIT University Melbourne", "2006", "Advanced derivatives and risk management",
-  "MSc Artificial Intelligence", "Queen's University Belfast", "2025*", "Current: Deep learning, NLP, computer vision",
+  "MSc Artificial Intelligence (Distinction)", "Queen's University Belfast", "2025", "Deep learning, NLP, computer vision",
   "Chartered Statistician", "Royal Statistical Society", "2019", "Professional statistical expertise",
   "B.Sc.(Hons) Accounting and Finance", "Queen's University Belfast", "1995", "First Class Honours"
 ) |>
@@ -84,7 +84,7 @@ tribble(
 - **Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Liu, Weilong, Spence, Ivor, Rafferty, Karen, Wang, Hui** (2025). *Detecting Market Manipulation with Self-supervised Learning: A Hybrid Framework Using Frequency-based Synthetic Anomaly and Domain-Specific Features*. Working paper.
 - **Quinn, Barry** (2023). *Explaining AI in Finance: Past, Present, Prospects*. arXiv preprint arXiv:2306.02773.
 - **Zhang, Ying (Veronica), Quinn, Barry, Sheenan, Lisa** (2025). *Ownership Dynamics, Risk and Regulation in Chinese Banking: New Evidence*
-- **Kearney, Fearghal, Quinn, Barry, Pramanick, Abhishek** (Under Review) *Innovation Signals and Strategic Exits: How Technological Readiness Shapes RegTech Venture Outcomes*
+- **Kearney, Fearghal, Quinn, Barry, Pramanick, Abhishek** (Under Review) *Innovation Signals and Strategic Exits: How Technological Readiness Shapes Outcomes in Computational Approaches to Financial Regulation*
 
 # Research Funding Track Record
 
@@ -94,12 +94,12 @@ tribble(
 
 # Simple test - just create a basic table with hardcoded values
 test_data <- data.frame(
-  Source = c("Innovate UK", "Innovate UK", "UKRI/InnovateUK", "DofE CAST Award NI"),
-  Role = c("PI", "PI", "PI", "Co-I"),
-  Period = c("2022-2023", "2021-2023", "2024-2025", "2023"),
-  Title = c("E.S.G fair value analytics platform", "Regulatory technology and portfolio analytics", "AI regulatory compliance in Investment Management", "Welfare Cost of Cultural Displays using AI"),
-  Value = c("£173,000", "£173,000", "£100,000", "£70,000"),
-  Type = c("Research", "Research", "Research", "Research")
+  Source = c("Department of the Economy NI", "Department of the Economy NI", "Department of the Economy NI", "Innovate UK", "Innovate UK", "UKRI/InnovateUK", "DofE CAST Award NI"),
+  Role = c("PI", "PI", "PI", "PI", "PI", "PI", "Co-I"),
+  Period = c("2025", "2025", "2025", "2022-2023", "2021-2023", "2024-2025", "2023"),
+  Title = c("PhD Scholarship - Collaborative Doctoral Partnership with Pytillia", "PhD Scholarship - Collaborative Doctoral Partnership with Napier AI", "PhD Scholarship - Centre for Finance and Responsible Technology", "E.S.G fair value analytics platform", "Computational approaches to financial regulation and portfolio analytics", "AI regulatory compliance in Investment Management", "Welfare Cost of Cultural Displays using AI"),
+  Value = c("£120,000", "£120,000", "£120,000", "£173,000", "£173,000", "£100,000", "£70,000"),
+  Type = c("PhD Scholarship", "PhD Scholarship", "PhD Scholarship", "Research", "Research", "Research", "Research")
 )
 
 knitr::kable(test_data, 
@@ -107,14 +107,16 @@ knitr::kable(test_data,
              format = "pipe")
 ```
 
-**Total Research Income**: £1,075,000+ (direct awards as PI/Co-I)  
+**Total Research Income**: £1,435,000+ (direct awards as PI/Co-I)  
 **Success Rate**: High success rate in competitive funding schemes  
-**Industry Leverage**: Strong track record of industry co-funding and partnerships
+**Industry Leverage**: Strong track record of industry co-funding and partnerships, including collaborative doctoral partnerships with fintech firms
 
 # Research Impact and Knowledge Transfer
 
 ## Industry Collaborations
-- **Funds Axis Ltd** - RegTech and compliance solutions (ongoing)
+- **Pytillia** - Collaborative Doctoral Partnership (PhD scholarship, £120K, 2025)
+- **Napier AI** - Collaborative Doctoral Partnership (PhD scholarship, £120K, 2025)
+- **Funds Axis Ltd** - Computational approaches to financial regulation and compliance solutions (ongoing)
 - **Citigroup Belfast** - Market manipulation detection (2022-2023)
 - **Pearl AI Ltd** - Advanced retail analytics (2017-2019)
 - **Financial Conduct Authority** - Tech Sprint Mentor (2023-present)
@@ -152,8 +154,8 @@ knitr::kable(test_data,
 
 ## Research Facilities
 - **Queen's Business School Remote Analytics Lab Platform** (Lead Developer, 2021-2024)
-- **Finance and AI Research Lab** (Co-founder with Dr Fearghal Kearney, 2022-2024)
-- **Ulster University Centre for Financial and Regulatory Technology** (Director, 2024-present)
+- **Finance and AI Research Lab** (Co-director, 2022-2024)
+- **Ulster University Centre for Finance and Responsible Technology** (Director, 2024-present)
 
 ## Training & Capacity Building
 - Design and delivery of graduate teaching in Financial Data Science and causal AI, with applications in trading, market microstructure, and policy analysis
@@ -176,7 +178,7 @@ knitr::kable(test_data,
 # Professional Recognition and Service
 
 ## Academic Leadership
-- **Director**, Centre for Financial and Regulatory Technology (2024-present)
+- **Director**, Centre for Finance and Responsible Technology (2024-present)
 - **Programme Director**, MSc Quantitative Finance (2018-2022)
 - **Organizer**, Major symposiums on AI and Financial Regulation
 
