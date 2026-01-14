@@ -33,15 +33,11 @@ library(knitr)
 
 # Personal Statement
 
-Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School, where he is Director of the Centre for Finance and Responsible Technology. The Centre has been established with £360K in PhD scholarships from the Department of the Economy NI, including collaborative doctoral partnerships with local fintech firms Pytillia and Napier AI. The Centre is built on three pillars of excellence: statistical rigour and intellectual humility, practical industry relevance, and responsible algorithmic innovation.
+Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School and Director of the Centre for Finance and Responsible Technology. The Centre is guided by three pillars: statistical rigour and intellectual humility; practical industry relevance; and responsible algorithmic innovation. It has been established with £360K in funded PhD scholarships from the Department of the Economy (NI), including two collaborative doctoral partnerships with local firms (Pytillia and Napier AI).
 
-As an applied econometrician and Chartered Statistician, Barry's work integrates econometrics, machine learning, and computational approaches to address challenges in financial markets, risk, and regulatory compliance. Financial decisions have real consequences, and his approach emphasises making assumptions explicit, quantifying uncertainty, and stress-testing results so we can say plainly when evidence does (and does not) support confident conclusions. He values rigorous peer review and publication in high-quality journals, and also asks whether work is transparent, reproducible, and useful to those making decisions.
+Barry is a Chartered Statistician and views econometrics as an applied statistical science. His work emphasises explicit assumptions, uncertainty quantification, and stress-testing—so claims remain proportionate to evidence. He values transparency and reproducibility, and focuses on methods that remain interpretable and auditable when used in real decision settings.
 
-His research addresses real financial challenges through the co-development of research and innovation with technology companies and financial institutions. This practical industry relevance ensures that academic research translates into solutions that matter. Barry's work combines causal policy analysis, algorithmic trading risk detection, and trustworthy AI methods, with a particular interest in how financial technology can support resilient markets and evidence-based regulation. His research is collaborative and interdisciplinary, bridging economics, statistics, computer science, and law.
-
-Responsible algorithmic innovation starts with the same discipline: clarity about assumptions, evidence, and limits. Barry develops and evaluates algorithmic systems that are transparent and auditable, tested under realistic conditions. This includes attention to explainability, bias and fairness risks, validation and controls, and privacy, so that innovation improves financial services whilst maintaining public trust and regulatory compliance.
-
-He teaches across quantitative finance, econometrics, and AI applications in finance, encouraging students to engage with rigorous, ethical, and reproducible methods. Pedagogically, he emphasises employability, resilience, and critical thinking.
+His research sits at the intersection of finance, statistical learning, and responsible use of algorithms, addressing markets and institutions, risk measurement, and evidence for regulation and compliance. He teaches across quantitative finance, econometrics, and AI applications in finance, emphasising ethical practice, reproducibility, and critical thinking.
 
 Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance from Queen's University Belfast, is a Chartered Statistician, and holds an MSc in Artificial Intelligence with Distinction from Queen's University Belfast. He actively collaborates with industry and policy partners to ensure his research delivers academic, societal, and regulatory impact.
 
@@ -132,7 +128,7 @@ grants_academic |>
 ```{r}
 employment_academic <- tribble(
   ~Period, ~Position, ~Institution,
-  "**2024 - Present**", "Professor of Finance and FinTech", "Ulster University Business School",
+  "**2024 - Present**", "Professor of Finance & Financial Technology", "Ulster University Business School",
   "**2024 - Present**", "Director, Centre for Finance and Responsible Technology", "Ulster University Business School",
   "**2020 - 2024**", "Senior Lecturer in Finance, Technology and Data Science", "Queen's Management School",
   "**2010 - 2020**", "Lecturer", "Department of Finance, Queen's Management School",

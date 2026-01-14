@@ -8,13 +8,26 @@ Always update the **Long Bio** first (master version), then cascade edits to the
 ## 🎯 Taglines (One-liners)
 
 - **Academic emphasis**:  
-  *Applied econometrician and Chartered Statistician researching AI, financial markets, and regulatory technology.*  
+  *Chartered Statistician treating econometrics as an applied statistical science—building careful, testable evidence for finance.*  
 
 - **Interdisciplinary impact**:  
-  *Professor of Finance & FinTech exploring how AI and data science can build resilient, well-regulated financial markets.*  
+  *Director, Centre for Finance and Responsible Technology—applying statistical learning to markets, risk, and evidence for regulation.*  
 
 - **Teaching & collaboration**:  
-  *Educator and researcher integrating econometrics, AI, and finance to support ethical, reproducible, and impactful decision-making.*  
+  *Educator and collaborator bridging finance, computing, and applied statistics—with rigour, reproducibility, and intellectual humility.*  
+
+---
+
+## 🧭 Overarching research interest (choose a one-liner)
+
+- **Option A (broad, accurate, non-buzzy)**:  
+  *Applied statistical learning for financial markets, risk, and evidence-based regulation.*  
+
+- **Option B (emphasises humility and uncertainty)**:  
+  *Stress-tested, transparent evidence for financial decision-making under uncertainty and regulation.*  
+
+- **Option C (centred on “responsible technology”)**:  
+  *Responsible data-driven methods for finance: from inference and measurement to auditable algorithms.*  
 
 ---
 
@@ -23,36 +36,34 @@ Always update the **Long Bio** first (master version), then cascade edits to the
 For GitHub, Twitter/X, bylines, speaker intros.
 
 ```text
-Prof. Barry Quinn — applied econometrician and Chartered Statistician researching AI, financial markets, and regulatory technology. Professor of Finance & FinTech at Ulster University.
+Prof. Barry Quinn is Professor of Finance at Ulster University and Director of the Centre for Finance and Responsible Technology. A Chartered Statistician, he applies econometrics and statistical learning to markets, risk, and evidence for regulation. MSc AI (Distinction).
+```
 
+---
 
-⸻
-
-🔹 Medium Bio (~150–180 words)
+## 🔹 Medium Bio (~150–180 words)
 
 For LinkedIn, RSS directory, conference profiles.
 
-Professor Barry Quinn is Professor of Finance & FinTech at Ulster University Business School. An applied econometrician and Chartered Statistician, he researches how AI and data science can build resilient, well-regulated financial markets.
+Professor Barry Quinn is Professor of Finance at Ulster University Business School and Director of the Centre for Finance and Responsible Technology. A Chartered Statistician, he treats econometrics as an applied statistical science: making assumptions explicit, quantifying uncertainty, and stress-testing results before drawing conclusions. His work sits at the intersection of finance, statistical learning, and responsible use of algorithms, with an emphasis on transparent methods that can be explained and audited.
 
-His teaching spans quantitative finance, econometrics, and machine learning, with an emphasis on ethical data use and reproducibility. Before academia, Barry worked in currency trading and liquidity management, experience that continues to inform both his research and teaching.
+He works with industry and policy partners on practical problems in markets, risk, and compliance—aiming to reduce avoidable complexity and improve decision-making with evidence that is reproducible and fit for purpose. Before academia, Barry worked in currency trading and liquidity management, experience that continues to shape his focus on operational realism. He holds a PhD in Finance and an MSc in Artificial Intelligence (Distinction).
 
+---
 
-⸻
-
-🔹 Long Bio (~300–350 words)
+## 🔹 Long Bio (~300–350 words)
 
 For Ulster Pure, ORCID, personal CV/resume site, grant applications.
 
-Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School, where he is developing the Centre for Financial and Regulatory Technology. He is an applied econometrician and Chartered Statistician whose work integrates econometrics, machine learning, and computational approaches to address challenges in financial markets, risk, and regulatory compliance.
+Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School and Director of the Centre for Finance and Responsible Technology. The Centre’s work is guided by three pillars: statistical rigour and intellectual humility; practical industry relevance; and responsible algorithmic innovation. In practice, that means making assumptions explicit, quantifying uncertainty, stress-testing results, and being clear about limits—so we can say plainly when evidence does (and does not) support a confident conclusion.
 
-His research combines causal policy analysis, algorithmic trading risk detection, and trustworthy AI methods, with a particular interest in how financial technology can support resilient markets and evidence-based regulation. Barry’s work is collaborative and interdisciplinary, bridging economics, statistics, computer science, and law.
+Barry is a Chartered Statistician and views econometrics as an applied statistical science. His research integrates econometrics, statistical learning, and computational methods to address problems in financial markets and institutions, risk measurement, and evidence for regulation and compliance. He is particularly interested in approaches that are transparent, reproducible, and auditable, with attention to explainability, bias and fairness risks, validation and controls, and privacy.
 
-He teaches across quantitative finance, econometrics, and AI applications in finance, encouraging students to engage with rigorous, ethical, and reproducible methods. Pedagogically, he emphasises employability, resilience, and critical thinking.
+The Centre has secured £360K in funded PhD scholarships from the Department of the Economy (NI), including two collaborative doctoral partnerships with local firms (Pytillia and Napier AI). These projects reflect the Centre’s focus on co-developing research with organisations that face real constraints—data quality, operational risk, governance, and regulatory scrutiny—so that results translate into practice rather than staying as prototypes.
 
-Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance from Queen’s University Belfast, is a Chartered Statistician, and is completing an MSc in Artificial Intelligence. He actively collaborates with industry and policy partners to ensure his research delivers academic, societal, and regulatory impact.
+Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance and an MSc in Artificial Intelligence (Distinction) from Queen’s University Belfast. He also holds the Advanced Data Science Professional award from the Royal Statistical Society. He teaches across quantitative finance, econometrics, and AI applications in finance, emphasising ethical practice, reproducibility, and critical thinking.
 
-
-⸻
+---
 
 📌 Deployment Mapping
 
@@ -74,10 +85,7 @@ Before entering academia, Barry worked in financial markets, specialising in cur
 📌 Workflow for Updates
 	1.	Update the Long Bio whenever roles, titles, or fellowships change.
 	2.	Cascade changes to Medium and Short bios.
-	3.	Ensure key terms are consistent: Finance, FinTech, AI, regulation, econometrics.
+	3.	Ensure key terms are consistent: Finance, applied statistics (econometrics), AI, risk, regulation, responsible technology.
 	4.	Keep quinfer.github.io/resume as the canonical hub link for all profiles.
-
-⸻
-
 
 ---

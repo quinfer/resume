@@ -1,6 +1,6 @@
 ---
 title: "Prof. Barry Quinn"
-subtitle: "Finance & FinTech Leader | AI & Data Science Expert"
+subtitle: "Finance Leader | AI & Data Science Expert"
 format:
   html:
     template: ../assets/custom-template.html
@@ -25,7 +25,7 @@ library(knitr)
 
 # Contact Information
 
-**Prof. Barry Quinn** | Professor of Finance and FinTech  
+**Prof. Barry Quinn** | Professor of Finance & Financial Technology  
 📧 b.quinn1@ulster.ac.uk | 🔗 [GitHub: quinfer](https://github.com/quinfer) | 🆔 [ORCID: 0000-0002-8637-9060](https://orcid.org/0000-0002-8637-9060)  
 📍 Ulster University Business School, Belfast, N. Ireland | 📅 Born: 10 July 1973
 
@@ -33,15 +33,11 @@ library(knitr)
 
 # Executive Summary
 
-Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School, where he is Director of the Centre for Finance and Responsible Technology. The Centre has been established with £360K in PhD scholarships from the Department of the Economy NI, including collaborative doctoral partnerships with local fintech firms Pytillia and Napier AI. The Centre is built on three pillars of excellence: statistical rigour and intellectual humility, practical industry relevance, and responsible algorithmic innovation.
+Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School and Director of the Centre for Finance and Responsible Technology. The Centre is guided by three pillars: statistical rigour and intellectual humility; practical industry relevance; and responsible algorithmic innovation. It has been established with £360K in funded PhD scholarships from the Department of the Economy (NI), including two collaborative doctoral partnerships with local firms (Pytillia and Napier AI).
 
-As an applied econometrician and Chartered Statistician, Barry's work integrates econometrics, machine learning, and computational approaches to address challenges in financial markets, risk, and regulatory compliance. Financial decisions have real consequences, and his approach emphasises making assumptions explicit, quantifying uncertainty, and stress-testing results. He values work that is transparent, reproducible, and useful to those making decisions.
+Barry is a Chartered Statistician and views econometrics as an applied statistical science. He focuses on decision-relevant evidence for markets, risk, and compliance—making assumptions explicit, quantifying uncertainty, and stress-testing results before drawing conclusions. He values methods that are transparent, reproducible, and auditable in real operational settings.
 
-His research addresses real financial challenges through the co-development of research and innovation with technology companies and financial institutions. This practical industry relevance ensures that academic research translates into solutions that matter. Barry's work combines causal policy analysis, algorithmic trading risk detection, and trustworthy AI methods, with a particular interest in how financial technology can support resilient markets and evidence-based regulation.
-
-Responsible algorithmic innovation is central to his approach: developing and evaluating algorithmic systems that are transparent and auditable, tested under realistic conditions. This includes attention to explainability, bias and fairness risks, validation and controls, and privacy, so that innovation improves financial services whilst maintaining public trust and regulatory compliance.
-
-Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance from Queen's University Belfast, is a Chartered Statistician, and holds an MSc in Artificial Intelligence with Distinction from Queen's University Belfast. He actively collaborates with industry and policy partners to ensure his research delivers academic, societal, and regulatory impact.
+Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance and an MSc in Artificial Intelligence (Distinction) from Queen's University Belfast, and works with external partners to ensure that research translates into robust practice rather than prototypes.
 
 **Core Value Proposition:**
 - **Industry Experience**: Former currency trader and liquidity manager at Janus Henderson Investors
@@ -73,7 +69,7 @@ Before entering academia, Barry worked in financial markets, specialising in cur
 ```{r}
 employment_industry <- tribble(
   ~Period, ~Role, ~Organization, ~Key_Achievements,
-  "2024-Present", "Professor of Finance & FinTech", "Ulster University", "Director of Centre for Finance and Responsible Technology",
+  "2024-Present", "Professor of Finance & Financial Technology", "Ulster University", "Director of Centre for Finance and Responsible Technology",
   "2020-2024", "Senior Lecturer", "Queen's University Belfast", "Led £2M+ research portfolio, 12+ industry partnerships",
   "2010-2020", "Lecturer & Programme Director", "Queen's University Belfast", "Built MSc Quantitative Finance programme",
   "1998-2004", "Currency Trader & Liquidity Manager", "Janus Henderson Investors", "Managed multi-million GBP trading book"
@@ -90,7 +86,7 @@ employment_industry <- tribble(
 
 **PhD Scholarships - Centre for Finance and Responsible Technology** (2025) | *£360K Department of the Economy NI*
 - Three PhD scholarships to establish the Centre for Finance and Responsible Technology
-- Two collaborative doctoral partnerships with local fintech firms: Pytillia and Napier AI
+- Two collaborative doctoral partnerships with local firms: Pytillia and Napier AI
 - Building research capacity in computational approaches to financial regulation
 
 **AI-Driven Regulatory Compliance** (2024-2025) | *£250K UKRI/InnovateUK*
@@ -110,7 +106,7 @@ employment_industry <- tribble(
 - **Napier AI** - Collaborative Doctoral Partnership (PhD scholarship, £120K, 2025)
 - **Financial Conduct Authority** Tech Sprint Mentor (2023-present)
 - **Citigroup Belfast** - Anomaly detection for trading data (2022-2023)
-- **Multiple FinTech partnerships** - Computational approaches to financial regulation and compliance solutions
+- **Multiple industry partnerships** - Computational approaches to financial regulation and compliance solutions
 
 # Education & Professional Credentials
 
