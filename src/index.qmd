@@ -66,7 +66,7 @@ Choose the CV version most appropriate for your needs:
 
 # Personal Statement
 
-Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School and Director of the Centre for Finance and Responsible Technology. The Centre is guided by three pillars: statistical rigour and intellectual humility; practical industry relevance; and responsible algorithmic innovation. It has been established with £360K in funded PhD scholarships from the Department of the Economy (NI), including two collaborative doctoral partnerships with local firms (Pytillia and Napier AI).
+Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School and Director of the Centre for Finance and Responsible Technology. The Centre is guided by three pillars: statistical rigour and intellectual humility; practical industry relevance; and responsible algorithmic innovation.
 
 Barry is a Chartered Statistician and views econometrics as an applied statistical science. In practice, that means making assumptions explicit, quantifying uncertainty, stress-testing results, and being clear about limits—so we can say plainly when evidence does (and does not) support confident conclusions. He values work that is transparent, reproducible, and useful to those making decisions.
 
@@ -78,12 +78,13 @@ Before entering academia, Barry worked in financial markets, specialising in cur
 
 ```{r degrees, results='asis'}
 tribble(
-  ~Degree, ~Institution, ~Year,
+  ~Qualification, ~Institution, ~Year,
   "B.Sc.(Hons) Accounting and Finance", "Queen's University Belfast", "1995",
   "MSc Quantitative Finance", "RMIT University Melbourne", "2006",
   "Ph.D. Finance", "Queen's University Belfast", "2012",
   "Chartered Statistician", "Royal Statistical Society", "2019",
-  "MSc Artificial Intelligence (Distinction)", "Queen's University Belfast", "2025"
+  "Advanced Data Science Professional","Royal Statistical Society","2023",
+  "MSc Artificial Intelligence", "Queen's University Belfast", "2025"
 ) |>
   knitr::kable()
 ```
@@ -239,6 +240,7 @@ if (knitr::is_html_output()) {
 
 ## Conference presentations
 
+- Invited Speaker, "Dynamic Signal Weighting of Performance Signals for Managerial Turnover Decisions: Evidence from Professional Footbal", INFINIT Conference, Edinburgh Napier University, Jun 2025
 -   Invited Talk, *Rethinking Research Impact: Combining Effect Sizes and Economic Significance in Finance*,Royal Statistics Society Annual Conference, Brighton UK, Sep 2024
 -   Keynote Speaker, *Estimating Systemic Risk*, Irish Finance Association, Maynooth University, Ireland, April 2023
 -   Invited Talk, *Teaching data science in the age of FinTech*, Royal Statistics Society Annual Conference, Aberdeen UK, Sep 2022
@@ -250,6 +252,10 @@ if (knitr::is_html_output()) {
 -   Invited Panelist, *Statistical inference and credibility in finance*, Emerging Scholars in Banking and Finance, Bayes Business School, London, Dec 2016
 -   Invited Speaker, *Capital regulation compliance and the performance of European banks*, International Workshop on Financial System Architecture and Stability, HEC Montreal, Aug 2016
 -   Participant, *Bloomberg Annual Educational Symposium*, Bloomberg London HQ, Sep 2015
+
+## Research Grant Income (Selected)
+
+Awarded £360K from the Department of the Economy (NI) to support three PhD scholarships for the Centre for Finance and Responsible Technology (including two collaborative doctoral partnerships with Pytillia and Napier AI). Recruitment is subject to standard eligibility and admissions processes.
 
 ```{r}
 #| label: tbl-research-grants
@@ -298,7 +304,7 @@ if (knitr::is_latex_output()) {
 # Citizenship
 
 ## Academic Service
-
+-   **Director**, Centre for Finance and Responsible Technology, Ulster University Business School, 2025 - 
 -   **Co-founder**, Finance and AI Research lab (with Dr Fearghal Kearney), Queen's University Belfast, 2022--2024.
 -   **Lead Developer**, Queen's Business School Remote Analytics Lab Platform (Q-RaP), 2021--2024.
 -   **QUB Academic Lead**, Steering group for Northern Ireland global centre in secure connected intelligence for regulatory technology in finance, 2022--2024.
@@ -376,10 +382,10 @@ if (knitr::is_latex_output()) {
 
 # Skills and Expertise
 
--   Advanced statistical modeling and machine learning
--   Ethical econometrics
--   AI applications in finance and trading
--   Economics of AI and machine learning
--   Financial risk management and systemic risk analysis
--   Data science and big data analytics in finance
--   Interdisciplinary research leadership
+-   **Econometrics as applied statistical science**: explicit assumptions, uncertainty quantification, and stress-tested inference for finance
+-   **Financial statistical learning**: time-series ML, anomaly detection, and decision support in markets and trading settings
+-   **Causal analysis for policy and practice**: treatment-effect estimation and causal ML for evaluation and decision-making under uncertainty
+-   **Risk analytics**: tail risk, stress testing, and scenario analysis for financial institutions and portfolios
+-   **Reproducible financial data science**: end-to-end pipelines (ETL), feature engineering, and governance for models used in operational contexts
+-   **Responsible algorithmic methods**: interpretability, validation/controls, and attention to bias/fairness and privacy where relevant
+-   **Cross-disciplinary and industry collaboration**: translating research into practice with partners across finance, computing, and policy

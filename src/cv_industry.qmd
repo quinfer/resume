@@ -33,7 +33,7 @@ library(knitr)
 
 # Executive Summary
 
-Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School and Director of the Centre for Finance and Responsible Technology. The Centre is guided by three pillars: statistical rigour and intellectual humility; practical industry relevance; and responsible algorithmic innovation. It has been established with £360K in funded PhD scholarships from the Department of the Economy (NI), including two collaborative doctoral partnerships with local firms (Pytillia and Napier AI).
+Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School and Director of the Centre for Finance and Responsible Technology. The Centre is guided by three pillars: statistical rigour and intellectual humility; practical industry relevance; and responsible algorithmic innovation.
 
 Barry is a Chartered Statistician and views econometrics as an applied statistical science. He focuses on decision-relevant evidence for markets, risk, and compliance—making assumptions explicit, quantifying uncertainty, and stress-testing results before drawing conclusions. He values methods that are transparent, reproducible, and auditable in real operational settings.
 
