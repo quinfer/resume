@@ -48,6 +48,7 @@ tribble(
   "Ph.D. Finance", "Queen's University Belfast", "2012", "Thesis: Cooperative Financial Institutions",
   "MSc Quantitative Finance", "RMIT University Melbourne", "2006", "Advanced derivatives and risk management",
   "MSc Artificial Intelligence (Distinction)", "Queen's University Belfast", "2025", "Deep learning, NLP, computer vision",
+  "Advanced Data Science Professional", "Royal Statistical Society", "2023", "Professional recognition in data science",
   "Chartered Statistician", "Royal Statistical Society", "2019", "Professional statistical expertise",
   "B.Sc.(Hons) Accounting and Finance", "Queen's University Belfast", "1995", "First Class Honours"
 ) |>
@@ -183,7 +184,7 @@ knitr::kable(test_data,
 ## Professional Recognition
 - **Chartered Statistician**, Royal Statistical Society (2019)
 - **1st Place**, CFA European Quantitative Finance Awards (2018)
-- **Advanced Data Science Professional**, Royal Statistical Society (2024)
+- **Advanced Data Science Professional**, Royal Statistical Society (2023)
 
 ## Editorial and Review Activities
 - Regular reviewer for major finance and technology journals

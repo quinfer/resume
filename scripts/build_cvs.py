@@ -32,15 +32,20 @@ def build_cv(filename):
     
     print(f"📄 Building {filename}...")
     
-    # Build HTML version (output to dist/)
+    # Build HTML version (output to project-root dist/)
+    # NOTE: Quarto resolves --output-dir relative to the input file location.
+    # Since our .qmd files live in src/, use an absolute dist/ path.
+    project_root = Path(__file__).parent.parent
+    dist_dir = (project_root / "dist").resolve()
+
     html_success = run_command(
-        f"quarto render {filename} --to html --output-dir dist",
+        f"quarto render {filename} --to html --output-dir \"{dist_dir}\"",
         f"HTML version of {filename}"
     )
     
-    # Build PDF version (output to dist/)
+    # Build PDF version (output to project-root dist/)
     pdf_success = run_command(
-        f"quarto render {filename} --to pdf --output-dir dist", 
+        f"quarto render {filename} --to pdf --output-dir \"{dist_dir}\"", 
         f"PDF version of {filename}"
     )
     

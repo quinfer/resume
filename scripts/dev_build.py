@@ -22,8 +22,12 @@ def build_html(filename):
     
     print(f"🔄 Building HTML for {filename}...")
     try:
+        # NOTE: Quarto resolves --output-dir relative to the input file location.
+        # Our .qmd files live in src/, so use an absolute project-root dist/ path.
+        dist_dir = (project_root / "dist").resolve()
+
         result = subprocess.run(
-            f"quarto render {filename} --to html --output-dir dist", 
+            f"quarto render {filename} --to html --output-dir \"{dist_dir}\"", 
             shell=True, 
             capture_output=True, 
             text=True

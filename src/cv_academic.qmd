@@ -39,7 +39,7 @@ Barry is a Chartered Statistician and views econometrics as an applied statistic
 
 His research sits at the intersection of finance, statistical learning, and responsible use of algorithms, addressing markets and institutions, risk measurement, and evidence for regulation and compliance. He teaches across quantitative finance, econometrics, and AI applications in finance, emphasising ethical practice, reproducibility, and critical thinking.
 
-Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance from Queen's University Belfast, is a Chartered Statistician, and holds an MSc in Artificial Intelligence with Distinction from Queen's University Belfast. He actively collaborates with industry and policy partners to ensure his research delivers academic, societal, and regulatory impact.
+Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance and an MSc in Artificial Intelligence (Distinction) from Queen's University Belfast, and works with external partners to ensure research translates into robust practice.
 
 ## Education and Professional Qualifications
 
@@ -50,6 +50,7 @@ tribble(
   "MSc Quantitative Finance", "RMIT University Melbourne", "2006",
   "Ph.D. Finance", "Queen's University Belfast", "2012",
   "Chartered Statistician", "Royal Statistical Society", "2019",
+  "Advanced Data Science Professional", "Royal Statistical Society", "2023",
   "MSc Artificial Intelligence (Distinction)", "Queen's University Belfast", "2025"
 ) |>
   knitr::kable()
@@ -143,7 +144,7 @@ employment_academic <- tribble(
 # Professional Recognition
 
 - **Chartered Statistician**, Royal Statistical Society (2019)
-- **Advanced Data Science Professional**, Royal Statistical Society (2024)
+- **Advanced Data Science Professional**, Royal Statistical Society (2023)
 - **1st Place**, CFA European Quantitative Finance Awards (2018)
 - **Associate Research Fellow**, QUB Momentum One Zero (2021-2024)
 

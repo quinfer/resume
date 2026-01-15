@@ -50,10 +50,11 @@ Before entering academia, Barry worked in financial markets, specialising in cur
 # Key Expertise & Skills
 
 ## Technical Competencies
-- **AI & Machine Learning**: Deep learning, causal AI, market manipulation detection, anomaly detection
-- **Financial Data Science**: Data pipelines, feature engineering, time-series ML, MLOps
-- **Financial Technology**: Computational approaches to financial regulation, algorithmic trading, risk analytics, stress testing
-- **Data Science**: Advanced statistical modeling, big data analytics, predictive modeling
+- **Econometrics as applied statistical science**: explicit assumptions, uncertainty quantification, stress-testing
+- **Financial statistical learning**: time-series ML, anomaly detection, decision support for markets and trading
+- **Causal analysis**: causal inference and causal ML for evaluation and decision-making under uncertainty
+- **Risk analytics**: tail risk, stress testing, scenario analysis
+- **Reproducible data science**: ETL, feature engineering, and governance for models used in operational contexts
 - **Programming**: R, Python, statistical software development
 
 ## Business Applications
@@ -116,6 +117,7 @@ credentials_industry <- tribble(
   "Ph.D. Finance", "Queen's University Belfast", "2012", "Advanced quantitative finance research",
   "MSc Artificial Intelligence (Distinction)", "Queen's University Belfast", "2025", "Cutting-edge AI applications in finance",
   "MSc Quantitative Finance", "RMIT University Melbourne", "2006", "Advanced derivatives and risk management",
+  "Advanced Data Science Professional", "Royal Statistical Society", "2023", "Professional recognition in data science",
   "Chartered Statistician", "Royal Statistical Society", "2019", "Professional statistical expertise"
 ) |>
   knitr::kable(
@@ -128,7 +130,7 @@ credentials_industry <- tribble(
 
 ## Awards & Recognition
 - **1st Place** - CFA European Quantitative Finance Awards (2018)
-- **Advanced Data Science Professional** - Royal Statistical Society (2024)
+- **Advanced Data Science Professional** - Royal Statistical Society (2023)
 - **Teaching Fellow** - Higher Education Authority (2012)
 
 ## Research Impact

@@ -15,6 +15,10 @@ echo
 # CV files to build (in src directory)
 cv_files=("src/index.qmd" "src/cv_academic.qmd" "src/cv_industry.qmd" "src/cv_grants.qmd")
 
+# IMPORTANT: Quarto resolves --output-dir relative to the input file location.
+# Since our .qmd files live in src/, use an absolute dist/ path at the project root.
+DIST_DIR="$PROJECT_ROOT/dist"
+
 success_count=0
 total_files=${#cv_files[@]}
 
@@ -25,7 +29,7 @@ for file in "${cv_files[@]}"; do
         
         # Build HTML version
         echo "  → HTML version..."
-        if quarto render "$file" --to html --output-dir dist --quiet; then
+        if quarto render "$file" --to html --output-dir "$DIST_DIR" --quiet; then
             echo "  ✅ HTML version completed"
             html_success=true
         else
@@ -35,7 +39,7 @@ for file in "${cv_files[@]}"; do
         
         # Build PDF version
         echo "  → PDF version..."
-        if quarto render "$file" --to pdf --output-dir dist --quiet; then
+        if quarto render "$file" --to pdf --output-dir "$DIST_DIR" --quiet; then
             echo "  ✅ PDF version completed"
             pdf_success=true
         else
