@@ -339,7 +339,7 @@ employment_table <- tribble(
   2009, "2009", "Teaching Fellow", "Business School, Ulster University",
   2010, "2020", "Lecturer", "Department of Finance, Queen's Management School",
   2020, "2024", "Senior Lecturer in Finance, Technology and Data Science", "Queen's Management School",
-  2024, "present", "Professor of Finance & Financial Technology", "Ulster University Business School",
+  2024, "present", "Professor of Finance and Financial Technology", "Ulster University Business School",
   2024, "present", "Director, Centre for Finance and Responsible Technology", "Ulster University Business School"
 ) |>
   arrange(desc(Start)) |>
