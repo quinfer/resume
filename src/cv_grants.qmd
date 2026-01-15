@@ -79,8 +79,8 @@ tribble(
 - **Financial Machine Learning (fml)** (2020) - R Package for financial ML applications (DOI: 10.5281/zenodo.6376114)
 
 ### Working Papers & Under Review
-- **Kearney, Fearghal, Quinn, Barry, Dai, Yongsheng** (2025) *Signal Amplification in Market Manipulation Detection*
-- **Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Liu, Weilong, Spence, Ivor, Rafferty, Karen, Wang, Hui** (2025). *Detecting Market Manipulation with Self-supervised Learning: A Hybrid Framework Using Frequency-based Synthetic Anomaly and Domain-Specific Features*. Working paper.
+- **Dai, Yongsheng; Quinn, Barry; Kearney, Fearghal; Wang, Hui** (Submitted). *Amplifying Market Manipulation Detection Signals*. Submitted to *Economics Letters*. Manuscript EL66561.
+- **Dai, Yongsheng; Quinn, Barry; Kearney, Fearghal; Liu, Weilong; Spence, Ivor; Rafferty, Karen; Wang, Hui** (Submitted). *Detecting Market Manipulation with Dual-branch Self-supervised Learning: A Unified Framework Integrating Frequency-informed Anomaly Synthesis and Domain-Specific Features*. Submitted to *Information Processing and Management*. Manuscript IPM-D-25-06138.
 - **Quinn, Barry** (2023). *Explaining AI in Finance: Past, Present, Prospects*. arXiv preprint arXiv:2306.02773.
 - **Zhang, Ying (Veronica), Quinn, Barry, Sheenan, Lisa** (2025). *Ownership Dynamics, Risk and Regulation in Chinese Banking: New Evidence*
 - **Kearney, Fearghal, Quinn, Barry, Pramanick, Abhishek** (Under Review) *Innovation Signals and Strategic Exits: How Technological Readiness Shapes Outcomes in Computational Approaches to Financial Regulation*
