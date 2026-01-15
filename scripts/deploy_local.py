@@ -32,6 +32,7 @@ def main():
     
     files_to_copy = [
         "index.html",
+        "custom-styles.css",
         "index_files",   # Directory with assets for index
         "img",           # Image directory
         # CV HTML pages and their asset directories

@@ -4,7 +4,7 @@ subtitle: "Finance Leader | AI & Data Science Expert"
 format:
   html:
     template: ../assets/custom-template.html
-    css: ../assets/custom-styles.css
+    css: custom-styles.css
   pdf:
     documentclass: article
     geometry:

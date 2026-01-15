@@ -19,6 +19,10 @@ cv_files=("src/index.qmd" "src/cv_academic.qmd" "src/cv_industry.qmd" "src/cv_gr
 # Since our .qmd files live in src/, use an absolute dist/ path at the project root.
 DIST_DIR="$PROJECT_ROOT/dist"
 
+# Ensure custom CSS is available in dist/ so HTML can reference `custom-styles.css`
+mkdir -p "$DIST_DIR"
+cp -f "$PROJECT_ROOT/assets/custom-styles.css" "$DIST_DIR/custom-styles.css"
+
 success_count=0
 total_files=${#cv_files[@]}
 
