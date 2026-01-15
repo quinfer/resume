@@ -22,8 +22,8 @@ h3 {
     margin-bottom: 5px;
 }
 .headshot-container {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
     border-radius: 50%;
     border: 3px solid #3182ce;
@@ -112,13 +112,20 @@ h3 {
 
 @media (max-width: 768px) {
     .headshot-container {
-        width: 100px;
-        height: 100px;
+        width: 140px;
+        height: 140px;
     }
     
     .cv-download-links a {
         display: block;
         margin: 5px 0;
         text-align: center;
+    }
+}
+
+@media (min-width: 1024px) {
+    .headshot-container {
+        width: 230px;
+        height: 230px;
     }
 }
