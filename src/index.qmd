@@ -255,8 +255,6 @@ if (knitr::is_html_output()) {
 
 ## Research Grant Income (Selected)
 
-Awarded £360K from the Department of the Economy (NI) to support three PhD scholarships for the Centre for Finance and Responsible Technology (including two collaborative doctoral partnerships with Pytillia and Napier AI). Recruitment is subject to standard eligibility and admissions processes.
-
 ```{r}
 #| label: tbl-research-grants
 #| tbl-cap: "Research Grant Income"
