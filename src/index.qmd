@@ -192,6 +192,8 @@ if (knitr::is_html_output()) {
 
 -   Kearney, Fearghal, Quinn, Barry, Pramanick, Abhishek (Under Review at Journal of Business Venturing) *Innovation Signals and Strategic Exits: How Technological Readiness Shapes Outcomes in Computational Approaches to Financial Regulation*
 
+-   Hannon, James (Corresponding Author), French, Declan, Quinn, Barry, O'Hagan, Adrian (Submitted). *Geospatial modeling of vehicle crime in Northern Ireland using computer vision to identify environmental factors*. Submitted to *Insurance: Mathematics and Economics*. Manuscript IME-D-25-00419.
+
 - Quinn, Barry, Gallagher, Ronan *Great Expectations: Managerial Turnover and Market Expectation in Association Football*
 
 

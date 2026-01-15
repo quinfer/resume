@@ -95,6 +95,7 @@ grants_academic |>
 - Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal (2025). *Signal Amplification in Market Manipulation Detection*. Working paper.
 - Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Liu, Weilong, Spence, Ivor, Rafferty, Karen, Wang, Hui (2025). *Detecting Market Manipulation with Self-supervised Learning: A Hybrid Framework Using Frequency-based Synthetic Anomaly and Domain-Specific Features*. Working paper.
 - Quinn, Barry (2023). *Explaining AI in Finance: Past, Present, Prospects*. arXiv preprint arXiv:2306.02773.
+- Hannon, James (Corresponding Author), French, Declan, Quinn, Barry, O'Hagan, Adrian (Submitted). *Geospatial modeling of vehicle crime in Northern Ireland using computer vision to identify environmental factors*. Submitted to *Insurance: Mathematics and Economics*. Manuscript IME-D-25-00419.
 
 ## PhD Supervision Excellence
 

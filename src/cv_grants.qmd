@@ -84,6 +84,7 @@ tribble(
 - **Quinn, Barry** (2023). *Explaining AI in Finance: Past, Present, Prospects*. arXiv preprint arXiv:2306.02773.
 - **Zhang, Ying (Veronica), Quinn, Barry, Sheenan, Lisa** (2025). *Ownership Dynamics, Risk and Regulation in Chinese Banking: New Evidence*
 - **Kearney, Fearghal, Quinn, Barry, Pramanick, Abhishek** (Under Review) *Innovation Signals and Strategic Exits: How Technological Readiness Shapes Outcomes in Computational Approaches to Financial Regulation*
+- **Hannon, James; French, Declan; Quinn, Barry; O'Hagan, Adrian** (Submitted). *Geospatial modeling of vehicle crime in Northern Ireland using computer vision to identify environmental factors*. Submitted to *Insurance: Mathematics and Economics*. Manuscript IME-D-25-00419.
 
 # Research Funding Track Record
 
