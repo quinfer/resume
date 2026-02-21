@@ -91,19 +91,19 @@ tribble(
 
 # Teaching
 
+I prepare students to reason carefully about finance and technology—teaching them to make assumptions explicit, quantify uncertainty, and be honest about what evidence does and does not support. My goal is to develop analysts who are technically capable, intellectually honest, and able to produce work that is transparent and reproducible. These qualities—rigour, humility, and critical thinking—equip students for roles where decisions carry real consequences.
+
 I have extensive teaching experience at both undergraduate and postgraduate levels, specialising in:
 
-1.  **Quantitative Finance**: My teaching integrates cutting-edge quantitative techniques with practical applications in financial markets.
+1.  **Algorithmic Trading and Investment**: A postgraduate course grounded in the López de Prado framework for machine learning in financial markets. Covers the full pipeline from financial data structures and feature engineering to portfolio construction, backtesting, and strategy evaluation—with emphasis on avoiding the methodological pitfalls (backtest overfitting, data snooping, and leakage) that plague practitioner and academic research alike.
 
-2.  **Financial Econometrics**: Instructing students in econometrics as an applied statistics discipline, avoiding the statistical cavaliering that plagues the econometric publication playbook.
+2.  **Financial Econometrics**: Taught as an applied statistical science rather than a recipe book. Students learn to treat econometric models as tools for quantifying uncertainty and stress-testing assumptions—not as black boxes that produce publishable numbers. The course confronts the replication crisis and the statistical practices that drive it, asking students to be explicit about what their models can and cannot establish.
 
 3.  **FinTech and Data Science** (Ulster University): The disciplined study of variation and uncertainty in financial data—covering return predictability, volatility modelling, factor models, and ML for cross-sectional analysis. Emphasises distinguishing signal from noise, proper model validation, and intellectual humility about the limits of prediction in noisy markets. Supported by an open companion textbook, [*Statistical Science for Finance: Rigorous Methods for Technology-Enabled Markets*](https://quinfer.github.io/financial-data-science/).
 
 4.  **Trading Principles** (Queen's University Belfast): A postgraduate learning-by-doing course in market microstructure, built around approximately 18 live in-class trading simulations using UpTick technology integrated with Bloomberg Terminal data. Students assume distinct industry roles—market maker, speculator, liquidity trader—and their collective decisions endogenously determine prices and liquidity, making core concepts such as the law of one price, price formation, market efficiency, and event arbitrage directly observable consequences of their own behaviour. Simulation performance counts toward the final grade, removing the gap between doing and understanding. The course pairs foundational academic work (Kyle 1985; Glosten-Milgrom 1985) with industry research to bridge theory and practice.
 
 ## Teaching Philosophy
-
-I prepare students to reason carefully about finance and technology—teaching them to make assumptions explicit, quantify uncertainty, and be honest about what evidence does and does not support. My goal is to develop analysts who are technically capable, intellectually honest, and able to produce work that is transparent and reproducible. These qualities—rigour, humility, and critical thinking—equip students for roles where decisions carry real consequences.
 
 ## Teaching Publication
 
@@ -313,9 +313,8 @@ if (knitr::is_latex_output()) {
 -   **Co-founder**, Finance and AI Research lab (with Dr Fearghal Kearney), Queen's University Belfast, 2022--2024.
 -   **Lead Developer**, Queen's Business School Remote Analytics Lab Platform (Q-RaP), 2021--2024.
 -   **QUB Academic Lead**, Steering group for Northern Ireland global centre in secure connected intelligence for regulatory technology in finance, 2022--2024.
--   **Programme Director**, MSc Quantitative Finance, Queen's University Belfast, 2018--2022.
--   **Programme Director**, MSc Computational Finance & Trading, Queen's University Belfast, 2014--2018.
--   **Co-Founder**, Queen's Student Managed Fund, 2012--2024.
+-   **Programme Director**, MSc Quantitative Finance (formerly MSc Computational Finance & Trading), Queen's University Belfast, 2014--2022.
+-   **Founder**, Queen's Student Managed Fund.
 -   **Organiser** of Symposium on AI and the Future of Financial Regulation, Queen's University Belfast, November 2023
 -   **Organiser** of Symposium on Safety and Assurance in Finance. Queen's Business School, November 2024
 -   **Chair**, Panel debate on "Digital Regulation: Shaping digital markets and safeguarding consumer rights in Northern Ireland", Northern Ireland Competition Forum, May 2024
