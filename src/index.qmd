@@ -97,21 +97,24 @@ I have extensive teaching experience at both undergraduate and postgraduate leve
 
 2.  **Financial Econometrics**: Instructing students in econometrics as an applied statistics discipline, avoiding the statistical cavaliering that plagues the econometric publication playbook.
 
-3.  **Financial Data Science & Causal AI**: End-to-end data pipelines, feature engineering, and time-series ML, with causal inference and causal representation learning for decision support. 
-   - Outcomes: reproducible ETL and feature stores, treatment-effect estimation and uplift modeling, model risk management and governance in financial settings.
+3.  **FinTech and Data Science** (Ulster University): The disciplined study of variation and uncertainty in financial data—covering return predictability, volatility modelling, factor models, and ML for cross-sectional analysis. Emphasises distinguishing signal from noise, proper model validation, and intellectual humility about the limits of prediction in noisy markets. Supported by an open companion textbook, [*Statistical Science for Finance: Rigorous Methods for Technology-Enabled Markets*](https://quinfer.github.io/financial-data-science/).
+
+4.  **Trading Principles** (Queen's University Belfast): A postgraduate learning-by-doing course in market microstructure, built around approximately 18 live in-class trading simulations using UpTick technology integrated with Bloomberg Terminal data. Students assume distinct industry roles—market maker, speculator, liquidity trader—and their collective decisions endogenously determine prices and liquidity, making core concepts such as the law of one price, price formation, market efficiency, and event arbitrage directly observable consequences of their own behaviour. Simulation performance counts toward the final grade, removing the gap between doing and understanding. The course pairs foundational academic work (Kyle 1985; Glosten-Milgrom 1985) with industry research to bridge theory and practice.
 
 ## Teaching Philosophy
 
-I help students prepare for the future of finance and technology by teaching essential skills like analysing data, making evidence-based decisions under uncertainty, and applying advanced statistical techniques to real-world financial problems. My goal is to equip them with the knowledge and tools they'll need to succeed in a rapidly evolving job market, while also fostering qualities like resilience, humility, and intellectual curiosity.
+I prepare students to reason carefully about finance and technology—teaching them to make assumptions explicit, quantify uncertainty, and be honest about what evidence does and does not support. My goal is to develop analysts who are technically capable, intellectually honest, and able to produce work that is transparent and reproducible. These qualities—rigour, humility, and critical thinking—equip students for roles where decisions carry real consequences.
 
 ## Teaching Publication
+
+- Quinn, Barry (2026). *Statistical Science for Finance: Rigorous Methods for Technology-Enabled Markets*. Open educational resource and companion textbook for FIN306, Ulster University Business School. [https://quinfer.github.io/financial-data-science/](https://quinfer.github.io/financial-data-science/)
 
 - Quinn, Barry, Hanna, Alan, Gallagher, Aine (2018). Queen's Student Managed Fund: Investing in the student Experience. Reflections, 27, p16-17
 
 
 # Research
 
-I have published fourteen peer reviewed internationally acclaimed academic papers (1 ABS4, 11 ABS3s, and 2 ABS2s), three commission research reports, and two statistical software research packages. My research lies at the intersection of finance, economics, technology and data science, with a focus on developing innovative analytical approaches to address complex issues in financial markets, regulation, and sustainability. My work is characterised by the application of advanced statistical, econometric, and machine learning techniques across a diverse range of financial and economic contexts.
+I have published fourteen peer-reviewed academic papers (1 ABS4, 11 ABS3s, and 2 ABS2s), three commissioned research reports, and two statistical software packages. My research sits at the intersection of finance, statistical learning, and responsible use of algorithms—with a focus on markets and institutions, risk measurement, and evidence for regulation and compliance. The work is collaborative, crossing disciplines and industry boundaries, and aims to reduce avoidable complexity: producing analysis that is transparent, reproducible, and stands up under operational and regulatory scrutiny.
 
 ## Peer-Reviewed Publications
 
@@ -181,6 +184,8 @@ if (knitr::is_html_output()) {
 ```
 
 ## Working Paper
+
+-   Birem, AbderRaouf, Abidi Perier, Zineb, Quinn, Barry, Kearney, Fearghal (Under Review). *Transformer-Based Sentiment Analysis for Stock Market Crash Risk*. Under Review at *European Journal of Operational Research*. Manuscript EJOR-S-26-00902.
 
 -   Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Wang, Hui (Submitted). *Amplifying Market Manipulation Detection Signals*. Submitted to *Economics Letters*. Manuscript EL66561.
 
