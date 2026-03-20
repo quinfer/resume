@@ -35,9 +35,9 @@ library(knitr)
 
 Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School and Director of the Centre for Finance and Responsible Technology. The Centre is guided by three pillars: statistical rigour and intellectual humility; practical industry relevance; and responsible algorithmic innovation.
 
-Barry is a Chartered Statistician and views econometrics as an applied statistical science. His work emphasises explicit assumptions, uncertainty quantification, and stress-testing—so claims remain proportionate to evidence. He values transparency and reproducibility, and focuses on methods that remain interpretable and auditable when used in real decision settings.
+Barry is a Chartered Statistician and views econometrics as an applied statistical science. His work combines applied econometrics and causal inference with trustworthy machine learning and computational approaches to produce decision-relevant evidence for markets, risk, market integrity, and regulatory compliance. In practice, that means making assumptions explicit, quantifying uncertainty, stress-testing results, and being clear about limits—so claims remain proportionate to evidence.
 
-His research sits at the intersection of finance, statistical learning, and responsible use of algorithms, addressing markets and institutions, risk measurement, and evidence for regulation and compliance. He teaches across quantitative finance, econometrics, and AI applications in finance, emphasising ethical practice, reproducibility, and critical thinking.
+His research spans causal policy evaluation, algorithmic trading risk detection, and trustworthy AI methods. He works collaboratively across finance, statistics, computer science, and law, and teaches across quantitative finance, econometrics, and AI applications in finance, emphasising ethical practice, reproducibility, and critical thinking.
 
 Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance and an MSc in Artificial Intelligence (Distinction) from Queen's University Belfast, and works with external partners to ensure research translates into robust practice.
 
@@ -124,6 +124,9 @@ grants_academic |>
 - **Programme Director**, MSc Quantitative Finance (2018-2022)
 - **Lead Developer**, Queen's Business School Remote Analytics Lab Platform
 - **Organiser**, Symposium on AI and Future of Financial Regulation (2023)
+- **Senior Research Fellow** (Sabbatical), International Research Centre on Cooperative Finance, HEC Montreal University, Canada (May-September 2018)
+- **Implementation Team Member**, Bloomberg Trading Room, Queen's University Belfast
+- **External Grant Reviewer**, UKFin+ (UKRI specialist funded project) - Reviewed feasibility grant application (£100K) for financial services innovation research (2024)
 
 # Professional Experience
 

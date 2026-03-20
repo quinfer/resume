@@ -68,7 +68,9 @@ Choose the CV version most appropriate for your needs:
 
 Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School and Director of the Centre for Finance and Responsible Technology. The Centre is guided by three pillars: statistical rigour and intellectual humility; practical industry relevance; and responsible algorithmic innovation.
 
-Barry is a Chartered Statistician and views econometrics as an applied statistical science. In practice, that means making assumptions explicit, quantifying uncertainty, stress-testing results, and being clear about limits—so we can say plainly when evidence does (and does not) support confident conclusions. He values work that is transparent, reproducible, and useful to those making decisions.
+Barry is a Chartered Statistician and views econometrics as an applied statistical science. His work combines applied econometrics and causal inference with trustworthy machine learning and computational approaches to produce decision-relevant evidence for markets, risk, market integrity, and regulatory compliance. In practice, that means making assumptions explicit, quantifying uncertainty, stress-testing results, and being clear about limits—so we can say plainly when evidence does (and does not) support confident conclusions.
+
+His research spans causal policy evaluation, algorithmic trading risk detection, and trustworthy AI methods, and is collaborative and interdisciplinary—bridging finance, statistics, computer science, and law.
 
 His research sits at the intersection of finance, statistical learning, and responsible use of algorithms, with a focus on markets and institutions, risk measurement, and evidence for regulation and compliance. He works collaboratively across disciplines and with external partners, aiming to reduce avoidable complexity and produce analysis that stands up under operational and regulatory scrutiny.
 
@@ -313,8 +315,12 @@ if (knitr::is_latex_output()) {
 -   **Co-founder**, Finance and AI Research lab (with Dr Fearghal Kearney), Queen's University Belfast, 2022--2024.
 -   **Lead Developer**, Queen's Business School Remote Analytics Lab Platform (Q-RaP), 2021--2024.
 -   **QUB Academic Lead**, Steering group for Northern Ireland global centre in secure connected intelligence for regulatory technology in finance, 2022--2024.
--   **Programme Director**, MSc Quantitative Finance (formerly MSc Computational Finance & Trading), Queen's University Belfast, 2014--2022.
--   **Founder**, Queen's Student Managed Fund.
+-   **Programme Director**, MSc Quantitative Finance, Queen's University Belfast, 2018--2022.
+-   **Senior Research Fellow** (Sabbatical), International Research Centre on Cooperative Finance, HEC Montreal University, Canada, May--September 2018.
+-   **Programme Director**, MSc Computational Finance & Trading, Queen's University Belfast, 2014--2018.
+-   **Co-Founder**, Queen's Student Managed Fund, 2012--2024.
+-   **Implementation Team Member**, Bloomberg Trading Room, Queen's University Belfast.
+-   **External Grant Reviewer**, UKFin+ (UKRI specialist funded project) - Reviewed feasibility grant application (£100K) for financial services innovation research, 2024.
 -   **Organiser** of Symposium on AI and the Future of Financial Regulation, Queen's University Belfast, November 2023
 -   **Organiser** of Symposium on Safety and Assurance in Finance. Queen's Business School, November 2024
 -   **Chair**, Panel debate on "Digital Regulation: Shaping digital markets and safeguarding consumer rights in Northern Ireland", Northern Ireland Competition Forum, May 2024

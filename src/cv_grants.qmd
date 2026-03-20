@@ -34,7 +34,7 @@ library(knitr)
 
 Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School and Director of the Centre for Finance and Responsible Technology. The Centre is guided by three pillars: statistical rigour and intellectual humility; practical industry relevance; and responsible algorithmic innovation.
 
-Barry is a Chartered Statistician and views econometrics as an applied statistical science. His work integrates econometrics, statistical learning, and computational methods to address problems in financial markets and institutions, risk measurement, and evidence for regulation and compliance. A core aim is to produce analysis that is transparent, reproducible, and auditable, and to keep conclusions proportionate to the strength of the evidence.
+Barry is a Chartered Statistician and views econometrics as an applied statistical science. His work combines applied econometrics and causal inference with trustworthy machine learning and computational approaches to address problems in financial markets and institutions, risk measurement, market integrity, and evidence for regulation and compliance. A core aim is to produce analysis that is transparent, reproducible, and auditable, and to keep conclusions proportionate to the strength of the evidence.
 
 Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance and an MSc in Artificial Intelligence (Distinction) from Queen's University Belfast. He actively collaborates with industry and policy partners to ensure his research delivers academic, societal, and public value.
 
@@ -181,6 +181,8 @@ knitr::kable(test_data,
 - **Director**, Centre for Finance and Responsible Technology (2024-present)
 - **Programme Director**, MSc Quantitative Finance (2018-2022)
 - **Organizer**, Major symposiums on AI and Financial Regulation
+- **Implementation Team Member**, Bloomberg Trading Room, Queen's University Belfast
+- **External Grant Reviewer**, UKFin+ (UKRI specialist funded project) - Reviewed feasibility grant application (£100K) for financial services innovation research (2024)
 
 ## Professional Recognition
 - **Chartered Statistician**, Royal Statistical Society (2019)
