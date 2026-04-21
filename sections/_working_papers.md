@@ -12,4 +12,6 @@
 
 - Hannon, James (Corresponding Author), French, Declan, Quinn, Barry, O'Hagan, Adrian (Submitted). *Geospatial modeling of vehicle crime in Northern Ireland using computer vision to identify environmental factors*. Submitted to *Insurance: Mathematics and Economics*. Manuscript IME-D-25-00419.
 
+- Quinn, Barry (2025). *Hierarchical Flag Classification through Economic Domain Knowledge: A Vision Transformer Approach for Cultural Symbol Recognition*. MSc thesis and reproducible research codebase ([economic-flag-classification](https://github.com/quinfer/economic-flag-classification)), Queen's University Belfast; manuscript for journal submission in preparation.
+
 - Quinn, Barry, Gallagher, Ronan. *Great Expectations: Managerial Turnover and Market Expectation in Association Football*.

@@ -6,3 +6,4 @@
 6. *Tail Risk Analytics, Stress Testing and Scenario Analytics* with Funds Axis Ltd, Dr Fearghal Kearney and Dr Colm Kelly (KTP, 2021–2023).
 7. *Financial Conduct Authority Tech Sprint Mentor* (2023–present).
 8. *AI and the Future of Financial Regulation* with Fearghal Kearney and Abhishek Pramanick, published in The Economic Observatory (2023).
+9. *Hierarchical Flag Classification for Cultural-Symbol Monitoring* (QUB MSc AI project, 2024–2025): developed a 4,501-image Northern Ireland street-scene dataset and a hierarchy-aware taxonomy (70→16→7) with a ViT-H-14 baseline achieving 94.78% on the 7-category task; code and methods are documented in [economic-flag-classification](https://github.com/quinfer/economic-flag-classification).
