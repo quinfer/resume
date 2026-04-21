@@ -1,0 +1,43 @@
+```{r}
+#| label: part-tbl-grants
+#| tbl-cap: "Research Grant Income"
+if (knitr::is_latex_output()) {
+  read.csv("../data/Grant_income.csv", check.names = FALSE) %>%
+    mutate(Amount = scales::comma(Amount, prefix = "£")) %>%
+    knitr::kable(
+      col.names = c("Source", "Role", "Start", "End", "People", "Title", "Full Economic Costs (£)", "Type"),
+      align = c("l", "l", "l", "l", "l", "l", "r", "l"),
+      format = "latex",
+      booktabs = TRUE,
+      escape = FALSE,
+      longtable = TRUE
+    ) %>%
+    kableExtra::kable_styling(
+      font_size = 9,
+      latex_options = c("repeat_header")
+    ) %>%
+    kableExtra::column_spec(1, width = "1.5cm") %>%
+    kableExtra::column_spec(2, width = "1.5cm") %>%
+    kableExtra::column_spec(3, width = "1.2cm") %>%
+    kableExtra::column_spec(4, width = "1.2cm") %>%
+    kableExtra::column_spec(5, width = "2cm") %>%
+    kableExtra::column_spec(6, width = "4cm") %>%
+    kableExtra::column_spec(7, width = "2cm") %>%
+    kableExtra::column_spec(8, width = "1.5cm")
+} else {
+  read.csv("../data/Grant_income.csv", check.names = FALSE) %>%
+    mutate(Amount = scales::comma(Amount, prefix = "£")) %>%
+    knitr::kable(
+      col.names = c("Source", "Role", "Start", "End", "People", "Title", "Full Economic Costs (£)", "Type"),
+      align = c("l", "l", "l", "l", "l", "l", "r", "l"),
+      format = "pipe",
+      caption = "Research Grant Income",
+      escape = FALSE
+    ) %>%
+    kableExtra::kable_styling(
+      bootstrap_options = c("striped", "hover"),
+      full_width = FALSE,
+      position = "left"
+    )
+}
+```

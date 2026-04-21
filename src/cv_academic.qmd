@@ -16,7 +16,7 @@ bibliography: ../data/bqpubs.bib
 ---
 
 ```{r}
-#| label: setup 
+#| label: setup
 #| include: FALSE
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = FALSE)
 library(tidyverse)
@@ -25,11 +25,7 @@ library(knitr)
 
 # Contact Information
 
-- **Address**: Ulster University Business School, Belfast Campus, York Street, Belfast, BT1 5AB, N. Ireland
-- **Email**: b.quinn1@ulster.ac.uk
-- **GitHub**: [quinfer](https://github.com/quinfer)
-- **ORCID**: [0000-0002-8637-9060](https://orcid.org/0000-0002-8637-9060)
-- **Date of Birth**: 10 July 1973
+{{< include ../sections/_contact.md >}}
 
 # Personal Statement
 
@@ -43,52 +39,50 @@ Before entering academia, Barry worked in financial markets, specialising in cur
 
 ## Education and Professional Qualifications
 
-```{r degrees, results='asis'}
-tribble(
-  ~Degree, ~Institution, ~Year,
-  "B.Sc.(Hons) Accounting and Finance", "Queen's University Belfast", "1995",
-  "MSc Quantitative Finance", "RMIT University Melbourne", "2006",
-  "Ph.D. Finance", "Queen's University Belfast", "2012",
-  "Chartered Statistician", "Royal Statistical Society", "2019",
-  "Advanced Data Science Professional", "Royal Statistical Society", "2023",
-  "MSc Artificial Intelligence (Distinction)", "Queen's University Belfast", "2025"
-) |>
-  knitr::kable()
-```
+{{< include ../sections/_education_core.qmd >}}
 
 # Research Excellence
 
 ## Key Publications (Selected from 14 peer-reviewed papers)
 
-**ABS4* Journal:**
-- Liu, Weilong, Zhang, Yong, Liu, Kailong, Quinn, Barry, Yang, Xingyu, Peng, Qiao (2024). Evolutionary Multi-Objective Optimisation for Large-Scale Portfolio Selection With Both Random and Uncertain Returns. *IEEE Transactions on Evolutionary Computation* (ABS4)
+**ABS4 Journal:**
+
+- Liu, Weilong, Zhang, Yong, Liu, Kailong, Quinn, Barry, Yang, Xingyu, Peng, Qiao (2024). Evolutionary Multi-Objective Optimisation for Large-Scale Portfolio Selection With Both Random and Uncertain Returns. *IEEE Transactions on Evolutionary Computation* (ABS4).
 
 **Recent ABS3 Publications:**
-- McKillop, Donal, Liu, Kailong, Quinn, Barry, Peng, Qiao (Forthcoming). Modelling and Predicting Credit Union Failures. *International Journal of Forecasting* (ABS3)
-- Bouri, E., Quinn, B., Sheenan, L. & Tang, Y. (2024). Investigating extreme linkage topology in the aerospace and defence industry. *International Review of Financial Analysis* (ABS3)
-- Quinn, Barry, Gallagher, Ronan, Kuosmanen, Timo (2023). Lurking in the shadows: The impact of CO2 emissions target setting on carbon pricing in the Kyoto agreement period. *Energy Economics* (ABS3)
+
+- McKillop, Donal, Liu, Kailong, Quinn, Barry, Peng, Qiao (Forthcoming). Modelling and Predicting Credit Union Failures. *International Journal of Forecasting* (ABS3).
+- Bouri, E., Quinn, B., Sheenan, L. & Tang, Y. (2024). Investigating extreme linkage topology in the aerospace and defence industry. *International Review of Financial Analysis* (ABS3).
+- Quinn, Barry, Gallagher, Ronan, Kuosmanen, Timo (2023). Lurking in the shadows: The impact of CO2 emissions target setting on carbon pricing in the Kyoto agreement period. *Energy Economics* (ABS3).
+
+*Full publication list: see `index.qmd` or request on application.*
 
 ## Research Impact and Funding
 
 ```{r}
-#| label: tbl-research-grants-academic
+#| label: tbl-grants-academic
 #| tbl-cap: "Major Research Grants (Selected)"
+#| results: asis
+grants_academic <- read.csv("../data/Grant_income.csv", check.names = FALSE) %>%
+  filter(Type == "Research") %>%
+  arrange(desc(Amount)) %>%
+  slice_head(n = 5) %>%
+  mutate(
+    Period = ifelse(End == "" | is.na(End),
+                    as.character(Start),
+                    paste0(Start, "–", End)),
+    Amount = scales::comma(Amount, prefix = "£")
+  ) %>%
+  select(Source, `My Role`, Period, Title, Amount)
 
-grants_academic <- tribble(
-  ~Source, ~Role, ~Period, ~Title, ~Amount,
-  "Department of the Economy NI", "PI", "2025", "Three PhD Scholarships - Centre for Finance and Responsible Technology", "£360K",
-  "UKRI/InnovateUK", "PI", "2024-2025", "Understanding and Enhancing regulatory compliance using AI", "£250K",
-  "InnovateUK", "PI", "2021-2023", "Tail Risk Analytics and Stress Testing", "£180K", 
-  "InnovateUK", "Co-I", "2017-2019", "AI and Advanced Retail Analytics", "£150K",
-  "Various KTPs", "PI/Co-I", "2017-2023", "Multiple Knowledge Transfer Partnerships", "£800K+"
-)
-
-grants_academic |>
+grants_academic %>%
   knitr::kable(
-    col.names = c("Funding Body", "Role", "Period", "Project Title", "Value"),
+    col.names = c("Funding Body", "Role", "Period", "Project Title", "Full Economic Costs"),
     format = "pipe"
   )
 ```
+
+Figures are read from the canonical `data/Grant_income.csv`. For the full grants register and total research income across 13 awards, see `cv_grants.qmd`.
 
 ## Working Papers
 
@@ -100,37 +94,36 @@ grants_academic |>
 ## PhD Supervision Excellence
 
 **Completed Supervisions (6):**
-- Dr. Jiadong Liu (2018): *Momentum in Empirical Asset Pricing*
-- Dr. Ashleigh Neil (2019): *Law and Financial Stability*
-- Dr. Colm Kelly (2021): *Machine Learning in Empirical Asset Pricing*
-- Dr. Qiao Peng (2021): *US Credit Union Mergers: Causes and Consequences*
-- Dr. Kevin Johnson (2019): *Industrial Consolidation: The Irish Credit Union Sector*
-- Veronica Zhang (2024): *Capital Policy and State Sponsorship in Chinese Banking*
 
-**Current Supervisions (6):** Including students working on AI applications in finance, sustainable investing, and computational approaches to financial regulation.
+{{< include ../sections/_supervision_completed.md >}}
+
+**Current Supervisions (6):** Including students working on AI applications in finance, sustainable investing, and computational approaches to financial regulation — see `cv_grants.qmd` for the full current register.
 
 # Teaching and Academic Leadership
 
 ## Teaching Excellence
-- **Programme Director**, MSc Quantitative Finance (2018-2022)
-- **Programme Director**, MSc Computational Finance & Trading (2014-2018)
-- **Co-Founder**, Queen's Student Managed Fund (2012-2024)
-- **Teaching Award**, QUB (2016)
 
-**Current Modules**: Financial Data Science; Causal AI; AI in Trading; Financial Econometrics
+- **Programme Director**, MSc Quantitative Finance (2018–2022).
+- **Programme Director**, MSc Computational Finance & Trading (2014–2018).
+- **Co-Founder**, Queen's Student Managed Fund (2012–2024).
+- **Teaching Award**, QUB (2016).
+
+**Current Modules**: Financial Data Science; Causal AI; AI in Trading; Financial Econometrics.
 
 ## Academic Service
-- **Co-founder**, Finance and AI Research Lab (with Dr Fearghal Kearney), Queen's University Belfast (2022-2024)
-- **Programme Director**, MSc Quantitative Finance (2018-2022)
-- **Lead Developer**, Queen's Business School Remote Analytics Lab Platform
-- **Organiser**, Symposium on AI and Future of Financial Regulation (2023)
-- **Senior Research Fellow** (Sabbatical), International Research Centre on Cooperative Finance, HEC Montreal University, Canada (May-September 2018)
-- **Implementation Team Member**, Bloomberg Trading Room, Queen's University Belfast
-- **External Grant Reviewer**, UKFin+ (UKRI specialist funded project) - Reviewed feasibility grant application (£100K) for financial services innovation research (2024)
+
+- **Co-founder**, Finance and AI Research Lab (with Dr Fearghal Kearney), Queen's University Belfast (2022–2024).
+- **Programme Director**, MSc Quantitative Finance (2018–2022).
+- **Lead Developer**, Queen's Business School Remote Analytics Lab Platform.
+- **Organiser**, Symposium on AI and the Future of Financial Regulation (2023).
+- **Senior Research Fellow** (Sabbatical), International Research Centre on Cooperative Finance, HEC Montreal University, Canada (May–September 2018).
+- **Implementation Team Member**, Bloomberg Trading Room, Queen's University Belfast.
+- **External Grant Reviewer**, UKFin+ (UKRI specialist funded project) — reviewed feasibility grant application (£100K) for financial services innovation research (2024).
 
 # Professional Experience
 
 ```{r}
+#| label: tbl-employment-academic
 employment_academic <- tribble(
   ~Period, ~Position, ~Institution,
   "**2024 - Present**", "Professor of Finance & Financial Technology", "Ulster University Business School",
@@ -143,14 +136,17 @@ employment_academic <- tribble(
     col.names = c("Period", "Position", "Institution"),
     format = "pipe"
   )
+
+employment_academic
 ```
 
 # Professional Recognition
 
-- **Chartered Statistician**, Royal Statistical Society (2019)
-- **Advanced Data Science Professional**, Royal Statistical Society (2023)
-- **1st Place**, CFA European Quantitative Finance Awards (2018)
-- **Associate Research Fellow**, QUB Momentum One Zero (2021-2024)
+{{< include ../sections/_professional_recognition.md >}}
+
+- **1st Place**, CFA European Quantitative Finance Awards (2018).
+- **Associate Research Fellow**, QUB Momentum One Zero (2021–2024).
 
 ---
-*Full publication list and detailed CV available upon request*
+
+*Full publication list and detailed CV available upon request.*

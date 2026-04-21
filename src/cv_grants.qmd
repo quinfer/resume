@@ -16,7 +16,7 @@ bibliography: ../data/bqpubs.bib
 ---
 
 ```{r}
-#| label: setup 
+#| label: setup
 #| include: FALSE
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = FALSE)
 library(tidyverse)
@@ -25,10 +25,7 @@ library(knitr)
 
 # Contact Information
 
-- **Address**: Ulster University Business School, Belfast Campus, York Street, Belfast, BT1 5AB, N. Ireland
-- **Email**: b.quinn1@ulster.ac.uk | **GitHub**: [quinfer](https://github.com/quinfer)
-- **ORCID**: [0000-0002-8637-9060](https://orcid.org/0000-0002-8637-9060)
-- **Date of Birth**: 10 July 1973
+{{< include ../sections/_contact.md >}}
 
 # Research Profile Summary
 
@@ -42,7 +39,7 @@ Before entering academia, Barry worked in financial markets, specialising in cur
 
 # Education and Professional Qualifications
 
-```{r degrees, results='asis'}
+```{r degrees-grants, results='asis'}
 tribble(
   ~Degree, ~Institution, ~Year, ~Relevance,
   "Ph.D. Finance", "Queen's University Belfast", "2012", "Thesis: Cooperative Financial Institutions",
@@ -60,140 +57,117 @@ tribble(
 
 # Research Excellence
 
-## Publication Record (h-index: Available upon request)
+## Publication Record
 
-### Peer-Reviewed Publications (14 total)
+Fourteen peer-reviewed publications (1 ABS4, 11 ABS3s, 2 ABS2s), three commissioned research reports, and two statistical software packages.
 
-**Recent High-Impact Publications:**
+### Peer-Reviewed Publications
 
-- **Liu, Weilong, Zhang, Yong, Liu, Kailong, Quinn, Barry**, Yang, Xingyu, Peng, Qiao (2024). Evolutionary Multi-Objective Optimisation for Large-Scale Portfolio Selection With Both Random and Uncertain Returns. *IEEE Transactions on Evolutionary Computation* (**ABS4**)
-
-- **McKillop, Donal, Liu, Kailong, Quinn, Barry**, Peng, Qiao (Forthcoming). Modelling and Predicting Credit Union Failures. *International Journal of Forecasting* (**ABS3**)
-
-- **Bouri, E., Quinn, B., Sheenan, L. & Tang, Y.** (2024). Investigating extreme linkage topology in the aerospace and defence industry. *International Review of Financial Analysis* (**ABS3**)
-
-- **Quinn, Barry, Gallagher, Ronan, Kuosmanen, Timo** (2023). Lurking in the shadows: The impact of CO2 emissions target setting on carbon pricing in the Kyoto agreement period. *Energy Economics* (**ABS3**)
+{{< include ../sections/_peer_reviewed_publications.md >}}
 
 ### Software Publications
-- **Time Series Econometrics (tsfe)** (2022) - R Package for advanced time series analysis (DOI: 10.5281/zenodo.6376113)
-- **Financial Machine Learning (fml)** (2020) - R Package for financial ML applications (DOI: 10.5281/zenodo.6376114)
 
-### Working Papers & Under Review
-- **Dai, Yongsheng; Quinn, Barry; Kearney, Fearghal; Wang, Hui** (Submitted). *Amplifying Market Manipulation Detection Signals*. Submitted to *Economics Letters*. Manuscript EL66561.
-- **Dai, Yongsheng; Quinn, Barry; Kearney, Fearghal; Liu, Weilong; Spence, Ivor; Rafferty, Karen; Wang, Hui** (Submitted). *Detecting Market Manipulation with Dual-branch Self-supervised Learning: A Unified Framework Integrating Frequency-informed Anomaly Synthesis and Domain-Specific Features*. Submitted to *Information Processing and Management*. Manuscript IPM-D-25-06138.
-- **Quinn, Barry** (2023). *Explaining AI in Finance: Past, Present, Prospects*. arXiv preprint arXiv:2306.02773.
-- **Zhang, Ying (Veronica), Quinn, Barry, Sheenan, Lisa** (2025). *Ownership Dynamics, Risk and Regulation in Chinese Banking: New Evidence*
-- **Kearney, Fearghal, Quinn, Barry, Pramanick, Abhishek** (Under Review) *Innovation Signals and Strategic Exits: How Technological Readiness Shapes Outcomes in Computational Approaches to Financial Regulation*
-- **Hannon, James; French, Declan; Quinn, Barry; O'Hagan, Adrian** (Submitted). *Geospatial modeling of vehicle crime in Northern Ireland using computer vision to identify environmental factors*. Submitted to *Insurance: Mathematics and Economics*. Manuscript IME-D-25-00419.
+{{< include ../sections/_software_publications.qmd >}}
+
+### Working Papers and Under Review
+
+{{< include ../sections/_working_papers.md >}}
 
 # Research Funding Track Record
 
-```{r}
-#| label: tbl-grants-detailed
-#| tbl-cap: "Research Grant Portfolio"
+{{< include ../sections/_grants_table.qmd >}}
 
-# Simple test - just create a basic table with hardcoded values
-test_data <- data.frame(
-  Source = c("Department of the Economy NI", "Department of the Economy NI", "Department of the Economy NI", "Innovate UK", "Innovate UK", "UKRI/InnovateUK", "DofE CAST Award NI"),
-  Role = c("PI", "PI", "PI", "PI", "PI", "PI", "Co-I"),
-  Period = c("2025", "2025", "2025", "2022-2023", "2021-2023", "2024-2025", "2023"),
-  Title = c("PhD Scholarship - Collaborative Doctoral Partnership with Pytillia", "PhD Scholarship - Collaborative Doctoral Partnership with Napier AI", "PhD Scholarship - Centre for Finance and Responsible Technology", "E.S.G fair value analytics platform", "Computational approaches to financial regulation and portfolio analytics", "AI regulatory compliance in Investment Management", "Welfare Cost of Cultural Displays using AI"),
-  Value = c("£120,000", "£120,000", "£120,000", "£173,000", "£173,000", "£100,000", "£70,000"),
-  Type = c("PhD Scholarship", "PhD Scholarship", "PhD Scholarship", "Research", "Research", "Research", "Research")
-)
+{{< include ../sections/_grants_total.qmd >}}
 
-knitr::kable(test_data, 
-             col.names = c("Funding Body", "Role", "Period", "Project Title", "Value", "Type"),
-             format = "pipe")
-```
-
-**Total Research Income**: £1,435,000+ (direct awards as PI/Co-I)  
-**Success Rate**: High success rate in competitive funding schemes  
-**Industry Leverage**: Strong track record of industry co-funding and partnerships, including collaborative doctoral partnerships with local firms  
+**Industry Leverage**: Strong track record of industry co-funding and partnerships, including collaborative doctoral partnerships with local firms.  
 
 # Research Impact and Knowledge Transfer
 
+{{< include ../sections/_impact_projects.md >}}
+
 ## Industry Collaborations
-- **Pytillia** - Collaborative Doctoral Partnership (PhD scholarship, £120K, 2025)
-- **Napier AI** - Collaborative Doctoral Partnership (PhD scholarship, £120K, 2025)
-- **Funds Axis Ltd** - Computational approaches to financial regulation and compliance solutions (ongoing)
-- **Citigroup Belfast** - Market manipulation detection (2022-2023)
-- **Pearl AI Ltd** - Advanced retail analytics (2017-2019)
-- **Financial Conduct Authority** - Tech Sprint Mentor (2023-present)
 
-## Research Supervision Excellence
+- **Pytillia** — Collaborative Doctoral Partnership (PhD scholarship, £120K, 2025).
+- **Napier AI** — Collaborative Doctoral Partnership (PhD scholarship, £120K, 2025).
+- **Funds Axis Ltd** — Computational approaches to financial regulation and compliance solutions (ongoing).
+- **Citigroup Belfast** — Market manipulation detection (2022–2023).
+- **Pearl AI Ltd** — Advanced retail analytics (2017–2019).
+- **Financial Conduct Authority** — Tech Sprint Mentor (2023–present).
 
-### Completed PhD Supervisions (6)
-1. **Dr. Jiadong Liu** (2018): *Momentum in Empirical Asset Pricing* - Now research scientist
-2. **Dr. Ashleigh Neil** (2019): *Law and Financial Stability* - Now policy analyst
-3. **Dr. Colm Kelly** (2021): *Machine Learning in Empirical Asset Pricing* - Now quant researcher
-4. **Dr. Qiao Peng** (2021): *US Credit Union Mergers* - Now assistant professor
-5. **Dr. Kevin Johnson** (2019): *Industrial Consolidation* - Now senior analyst
-6. **Veronica Zhang** (2024): *Capital Policy in Chinese Banking* - Graduating
+# Research Supervision
 
-### Current PhD Supervisions (6)
-- **Fei Li**: Sustainable Investing and Gender Diversity (QBS scholarship)
-- **Abhishek Pramanick**: AI and Future of Financial Regulation (QBS scholarship)  
-- **Dongwei Li**: Economics of AI Patents in Finance (DofE scholarship)
-- **Yuqi Ding**: Economics of Generative AI in Finance (QBS scholarship)
-- **Yongsheng Dai**: Market Manipulation Detection (PWC scholarship)
-- **Brandon Cochrane**: Economic Cost of Cultural Displays (DofE CAST scholarship)
+## Completed PhD Supervisions
+
+{{< include ../sections/_supervision_completed.md >}}
+
+## Current PhD Supervisions
+
+{{< include ../sections/_supervision_current.md >}}
+
+## Visiting PhD Supervision
+
+{{< include ../sections/_supervision_visiting.md >}}
 
 ## International Research Network
-- **Visiting PhD Supervisors**: Students from China (SYSU), Ireland (UCD), France (UPEC Paris)
-- **International Collaborations**: Active research partnerships across Europe, Asia, and North America
-- **Conference Presentations**: Regular invited speaker at major international conferences
+
+- **Visiting PhD Supervisors**: Students from China (SYSU), Ireland (UCD), France (UPEC Paris).
+- **International Collaborations**: Active research partnerships across Europe, Asia, and North America.
+- **Conference Presentations**: Regular invited speaker at major international conferences — see below.
+
+## Conference Presentations
+
+{{< include ../sections/_conference_talks.md >}}
 
 # Research Infrastructure and Capabilities
 
 ## Technical Expertise
-- **Advanced Statistical Methods**: Time series econometrics, machine learning, deep learning
-- **Programming Languages**: R (expert), Python (advanced), SQL, MATLAB
-- **Specialized Software**: Bloomberg Terminal, Reuters, specialized financial databases
-- **High-Performance Computing**: Experience with cluster computing and big data analytics
+
+- **Advanced statistical methods**: time series econometrics, machine learning, deep learning.
+- **Programming languages**: R (expert), Python (advanced), SQL, MATLAB.
+- **Specialised software**: Bloomberg Terminal, Reuters, specialised financial databases.
+- **High-performance computing**: cluster computing and big-data analytics.
 
 ## Research Facilities
-- **Queen's Business School Remote Analytics Lab Platform** (Lead Developer, 2021-2024)
-- **Finance and AI Research Lab** (Co-director, 2022-2024)
-- **Ulster University Centre for Finance and Responsible Technology** (Director, 2024-present)
 
-## Training & Capacity Building
-- Design and delivery of graduate teaching in Financial Data Science and causal AI, with applications in trading, market microstructure, and policy analysis
-- Supervision and mentoring across econometrics, machine learning, and computational finance, including industry-partnered projects
-- Emphasis on reproducible research (versioned data pipelines, model governance) and rigorous statistical standards for evidence-based decision-making
+- **Queen's Business School Remote Analytics Lab Platform** (Lead Developer, 2021–2024).
+- **Finance and AI Research Lab** (Co-director, 2022–2024).
+- **Ulster University Centre for Finance and Responsible Technology** (Director, 2024–present).
+
+## Training and Capacity Building
+
+- Design and delivery of graduate teaching in Financial Data Science and causal AI, with applications in trading, market microstructure, and policy analysis.
+- Supervision and mentoring across econometrics, machine learning, and computational finance, including industry-partnered projects.
+- Emphasis on reproducible research (versioned data pipelines, model governance) and rigorous statistical standards for evidence-based decision-making.
 
 # Future Research Directions
 
 ## Emerging Research Themes
-1. **Generative AI in Capital Markets**: Applications and regulatory implications
-2. **Explainable AI for Financial Regulation**: Transparent algorithmic decision-making
-3. **Systemic Risk in Digital Finance**: Cryptocurrency and DeFi risk assessment
-4. **Sustainable Finance Analytics**: ESG integration and climate risk modeling
+
+1. **Generative AI in capital markets**: applications and regulatory implications.
+2. **Explainable AI for financial regulation**: transparent algorithmic decision-making.
+3. **Systemic risk in digital finance**: cryptocurrency and DeFi risk assessment.
+4. **Sustainable finance analytics**: ESG integration and climate risk modelling.
 
 ## Methodology Innovation
-- Integration of large language models with traditional econometric approaches
-- Development of hybrid AI systems for financial decision-making
-- Advanced causal inference methods for policy evaluation
+
+- Integration of large language models with traditional econometric approaches.
+- Development of hybrid AI systems for financial decision-making.
+- Advanced causal inference methods for policy evaluation.
 
 # Professional Recognition and Service
 
 ## Academic Leadership
-- **Director**, Centre for Finance and Responsible Technology (2024-present)
-- **Programme Director**, MSc Quantitative Finance (2018-2022)
-- **Organizer**, Major symposiums on AI and Financial Regulation
-- **Implementation Team Member**, Bloomberg Trading Room, Queen's University Belfast
-- **External Grant Reviewer**, UKFin+ (UKRI specialist funded project) - Reviewed feasibility grant application (£100K) for financial services innovation research (2024)
+
+{{< include ../sections/_academic_service.md >}}
 
 ## Professional Recognition
-- **Chartered Statistician**, Royal Statistical Society (2019)
-- **1st Place**, CFA European Quantitative Finance Awards (2018)
-- **Advanced Data Science Professional**, Royal Statistical Society (2023)
 
-## Editorial and Review Activities
-- Regular reviewer for major finance and technology journals
-- Conference program committee member
-- Grant review panels (available upon request)
+{{< include ../sections/_professional_recognition.md >}}
+
+## Awards
+
+{{< include ../sections/_awards.md >}}
 
 ---
 
-**Research Philosophy**: Bridging cutting-edge quantitative methods with practical financial applications, maintaining statistical rigor while ensuring real-world relevance and regulatory compliance.
+**Research Philosophy**: Bridging cutting-edge quantitative methods with practical financial applications, maintaining statistical rigour while ensuring real-world relevance and regulatory compliance.

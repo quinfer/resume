@@ -1,0 +1,29 @@
+```{r}
+#| label: part-tbl-software
+#| tbl-cap: "Software Publications"
+software_table <- tribble(
+  ~Package, ~Year, ~Description, ~DOI,
+  "Time Series Econometrics (tsfe)", "2022", "R Package for time series analysis", "10.5281/zenodo.6376113",
+  "Financial Machine Learning (fml)", "2020", "R Package for financial ML", "10.5281/zenodo.6376114"
+)
+
+if (knitr::is_html_output()) {
+  software_table %>%
+    mutate(
+      Package = paste0("[", Package, "](https://doi.org/", DOI, ")"),
+      Metrics = case_when(
+        str_detect(Package, "tsfe") ~ "[![GitHub stars](https://img.shields.io/github/stars/quinfer/tsfe?style=social)](https://github.com/quinfer/tsfe)",
+        str_detect(Package, "fml") ~ "[![GitHub stars](https://img.shields.io/github/stars/quinfer/fml?style=social)](https://github.com/quinfer/fml)"
+      )
+    ) %>%
+    select(Package, Year, Description, Metrics) %>%
+    knitr::kable(escape = FALSE)
+} else {
+  software_table %>%
+    mutate(
+      Package = paste0(Package, " (DOI: ", DOI, ")")
+    ) %>%
+    select(Package, Year, Description) %>%
+    knitr::kable()
+}
+```

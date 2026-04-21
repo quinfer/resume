@@ -1,0 +1,2 @@
+- Chartered Statistician, Royal Statistical Society (2019).
+- Advanced Data Science Professional, Royal Statistical Society (2023).

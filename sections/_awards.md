@@ -1,0 +1,5 @@
+- Teaching Fellow of the Higher Education Authority (2012).
+- QUB Teaching Award (2016).
+- 1st place, CFA European Quantitative Finance Awards (2018).
+- EEECS Scholarship for AI MSc (2023).
+- Associate Research Fellow, QUB Momentum One Zero (formerly Global Innovation Institute), 2021–2024.

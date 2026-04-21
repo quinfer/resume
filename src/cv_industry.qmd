@@ -43,7 +43,7 @@ Before entering academia, Barry worked in financial markets, specialising in cur
 - **Industry Experience**: Former currency trader and liquidity manager at Janus Henderson Investors
 - **Academic Excellence**: 14 peer-reviewed publications, Chartered Statistician
 - **Technology Leadership**: AI/ML expert with MSc in Artificial Intelligence (Distinction)
-- **Business Impact**: £2.4M+ research funding, multiple successful industry partnerships including collaborative doctoral partnerships
+- **Business Impact**: approximately £1.18M in direct research awards as PI or Co-I, across 13 projects, with additional leverage through industry partnerships and collaborative doctoral partnerships with local firms
 
 ---
 
@@ -71,7 +71,7 @@ Before entering academia, Barry worked in financial markets, specialising in cur
 employment_industry <- tribble(
   ~Period, ~Role, ~Organization, ~Key_Achievements,
   "2024-Present", "Professor of Finance & Financial Technology", "Ulster University", "Director of Centre for Finance and Responsible Technology",
-  "2020-2024", "Senior Lecturer", "Queen's University Belfast", "Led £2M+ research portfolio, 12+ industry partnerships",
+  "2020-2024", "Senior Lecturer", "Queen's University Belfast", "Led research portfolio spanning 10+ industry partnerships and multiple KTPs",
   "2010-2020", "Lecturer & Programme Director", "Queen's University Belfast", "Built MSc Quantitative Finance programme",
   "1998-2004", "Currency Trader & Liquidity Manager", "Janus Henderson Investors", "Managed multi-million GBP trading book"
 ) |>
@@ -83,24 +83,27 @@ employment_industry <- tribble(
 
 # Business Impact & Industry Partnerships
 
-## Recent Major Projects (£2M+ Value)
+## Recent Major Projects
 
-**PhD Scholarships - Centre for Finance and Responsible Technology** (2025) | *£360K Department of the Economy NI*
-- Three PhD scholarships to establish the Centre for Finance and Responsible Technology
-- Two collaborative doctoral partnerships with local firms: Pytillia and Napier AI
-- Building research capacity in computational approaches to financial regulation
+Grant figures below are the full economic costs recorded in the canonical `data/Grant_income.csv`.
 
-**AI-Driven Regulatory Compliance** (2024-2025) | *£250K UKRI/InnovateUK*
-- Partnership with Funds Axis Ltd developing AI solutions for investment management compliance
-- Reducing regulatory burden through automated compliance monitoring
+**PhD Scholarships — Centre for Finance and Responsible Technology** (2025) | *£360K, Department of the Economy NI*
+- Three PhD scholarships to establish the Centre for Finance and Responsible Technology.
+- Two collaborative doctoral partnerships with local firms: Pytillia and Napier AI.
+- Building research capacity in computational approaches to financial regulation.
 
-**Financial Risk Analytics Platform** (2021-2023) | *£180K InnovateUK KTP*
-- Developed advanced tail risk and stress testing analytics with Funds Axis Ltd
-- Created commercial-grade VaR modeling and scenario analysis tools
+**AI-Driven Regulatory Compliance** (2024–2025) | *£100K, UKFin+ / UKRI*
+- Partnership with Funds Axis Ltd developing AI solutions for investment-management compliance.
+- Reducing regulatory burden through automated compliance monitoring.
 
-**AI Retail Analytics** (2017-2019) | *£150K InnovateUK KTP*
-- Machine learning and predictive analytics for retail business optimization
-- Delivered measurable ROI improvements through advanced analytics
+**ESG Fair-Value Analytics Platform** (2022–2023) | *£173K, Innovate UK*
+- State-of-the-art financial data science and business analytics for ESG prediction.
+
+**Regulatory Technology and Portfolio Analytics** (2021–2023) | *£173K, Innovate UK*
+- Econometrics and financial machine learning for regulatory and portfolio applications.
+
+**AI Retail Analytics** (2018–2021) | *£165K, Innovate UK KTP*
+- Machine learning and predictive analytics for retail business optimisation with Pearl AI Ltd.
 
 ## Industry Advisory & Consulting
 - **Pytillia** - Collaborative Doctoral Partnership (PhD scholarship, £120K, 2025)
@@ -135,8 +138,8 @@ credentials_industry <- tribble(
 
 ## Research Impact
 - **14 peer-reviewed publications** in top-tier finance and technology journals
-- **£2.4M+ research funding** from UKRI, InnovateUK, Department of the Economy NI, and industry partners
-- **International recognition** - invited speaker at major finance conferences
+- **~£1.18M in direct research awards** as PI or Co-I across 13 projects, from Department of the Economy NI, Innovate UK, UKFin+/UKRI, and industry partners, with additional industry co-funding through KTPs and collaborative doctoral partnerships
+- **International recognition** — invited speaker at major finance conferences
 
 ## Leadership & Innovation
 - **Director** - Centre for Finance and Responsible Technology (2024-present)

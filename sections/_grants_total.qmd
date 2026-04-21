@@ -1,0 +1,10 @@
+```{r}
+#| label: part-grants-total
+#| results: asis
+.grants <- read.csv("../data/Grant_income.csv", check.names = FALSE)
+cat(sprintf(
+  "**Total Research Income**: approximately %s in direct awards as PI or Co-I across %d projects (source: `data/Grant_income.csv`).  \n",
+  scales::comma(sum(.grants$Amount, na.rm = TRUE), prefix = "£"),
+  nrow(.grants)
+))
+```

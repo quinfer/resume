@@ -1,0 +1,13 @@
+- **Director**, Centre for Finance and Responsible Technology, Ulster University Business School, 2025–.
+- **Co-founder**, Finance and AI Research Lab (with Dr Fearghal Kearney), Queen's University Belfast, 2022–2024.
+- **Lead Developer**, Queen's Business School Remote Analytics Lab Platform (Q-RaP), 2021–2024.
+- **QUB Academic Lead**, Steering Group for Northern Ireland Global Centre in Secure Connected Intelligence for Regulatory Technology in Finance, 2022–2024.
+- **Programme Director**, MSc Quantitative Finance, Queen's University Belfast, 2018–2022.
+- **Senior Research Fellow** (Sabbatical), International Research Centre on Cooperative Finance, HEC Montreal University, Canada, May–September 2018.
+- **Programme Director**, MSc Computational Finance & Trading, Queen's University Belfast, 2014–2018.
+- **Co-founder**, Queen's Student Managed Fund, 2012–2024.
+- **Implementation Team Member**, Bloomberg Trading Room, Queen's University Belfast.
+- **External Grant Reviewer**, UKFin+ (UKRI specialist funded project) — reviewed feasibility grant application (£100K) for financial services innovation research, 2024.
+- **Organiser**, Symposium on AI and the Future of Financial Regulation, Queen's University Belfast, November 2023.
+- **Organiser**, Symposium on Safety and Assurance in Finance, Queen's Business School, November 2024.
+- **Chair**, Panel Debate on "Digital Regulation: Shaping Digital Markets and Safeguarding Consumer Rights in Northern Ireland", Northern Ireland Competition Forum, May 2024.

@@ -1,0 +1,7 @@
+- **Econometrics as applied statistical science**: explicit assumptions, uncertainty quantification, and stress-tested inference for finance.
+- **Financial statistical learning**: time-series ML, anomaly detection, and decision support in markets and trading settings.
+- **Causal analysis for policy and practice**: treatment-effect estimation and causal ML for evaluation and decision-making under uncertainty.
+- **Risk analytics**: tail risk, stress testing, and scenario analysis for financial institutions and portfolios.
+- **Reproducible financial data science**: end-to-end pipelines (ETL), feature engineering, and governance for models used in operational contexts.
+- **Responsible algorithmic methods**: interpretability, validation / controls, and attention to bias, fairness, and privacy where relevant.
+- **Cross-disciplinary and industry collaboration**: translating research into practice with partners across finance, computing, and policy.

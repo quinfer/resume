@@ -1,0 +1,5 @@
+- Bryon Graham, Barry Quinn (2019). *Price comparison and web analytics* (commissioned by InvestNI).
+- Bryon Graham, Barry Quinn (2017). *Machine learning and predictive analytics in the mall retail business* (commissioned by InvestNI).
+- Fearghal Kearney, Barry Quinn (2020). *The theoretical foundations of value at risk modelling* (commissioned by InvestNI and Funds Axis Ltd).
+- French, Declan, McKillop, Donal, Quinn, Barry (2018). *Landscape review of Northern Ireland Credit Union Sector* (commissioned by the NI Department of Communities and Rural Affairs).
+- McKillop, Donal, Quinn, Barry (2012). *Report of the Irish Commission on Credit Unions — An Efficiency Study* (4* REF 2014 Impact Case).

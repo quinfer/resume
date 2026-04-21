@@ -1,0 +1,12 @@
+- Invited Speaker, *Dynamic Signal Weighting of Performance Signals for Managerial Turnover Decisions: Evidence from Professional Football*, INFINIT Conference, Edinburgh Napier University, Jun 2025.
+- Invited Talk, *Rethinking Research Impact: Combining Effect Sizes and Economic Significance in Finance*, Royal Statistical Society Annual Conference, Brighton UK, Sep 2024.
+- Keynote Speaker, *Estimating Systemic Risk*, Irish Finance Association, Maynooth University, Ireland, April 2023.
+- Invited Talk, *Teaching Data Science in the Age of FinTech*, Royal Statistical Society Annual Conference, Aberdeen UK, Sep 2022.
+- Invited Talk, *Carbon Pricing and Machine Learning*, Multidisciplinary Workshop on Fintech, Islamic Finance and Sustainability (online), Hamad Bin Khalifa University, Qatar, Nov 2022.
+- Invited Speaker, *Understanding Fintech and Financial Stability*, International Workshop on Financial System Architecture and Stability, Bayes Business School, London, Sep 2018.
+- Invited Speaker, *Systemic Risk and Basel Compliance*, British Accounting and Finance Association Annual Conference, London, Apr 2018.
+- Invited Speaker, *Differential Regulation of Irish Credit Unions: Does One Size Fit All?*, 2nd Conference on Contemporary Issues in Banking, Centre for Responsible Banking and Finance, St Andrews, Dec 2017.
+- Invited Speaker, *Business Model Diversity, Efficiency and Productivity of Cooperatives*, European Workshop in Efficiency and Productivity Analysis, Aalto University, Finland, Jun 2017.
+- Invited Panellist, *Statistical Inference and Credibility in Finance*, Emerging Scholars in Banking and Finance, Bayes Business School, London, Dec 2016.
+- Invited Speaker, *Capital Regulation Compliance and the Performance of European Banks*, International Workshop on Financial System Architecture and Stability, HEC Montreal, Aug 2016.
+- Participant, *Bloomberg Annual Educational Symposium*, Bloomberg London HQ, Sep 2015.

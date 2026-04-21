@@ -1,0 +1,50 @@
+```{r}
+#| label: part-tbl-employment
+employment_table <- tribble(
+  ~Start, ~End, ~Position, ~Institution,
+  1995, "1998", "Financial Adviser", "City Financial Partners, London",
+  1998, "2004", "Currency Trader and Liquidity Manager", "Janus Henderson Investors, London",
+  2005, "2005", "Teaching Fellow and Quantitative Researcher", "Department of Finance, RMIT University Melbourne",
+  2009, "2009", "Teaching Fellow", "Business School, Ulster University",
+  2010, "2020", "Lecturer", "Department of Finance, Queen's Management School",
+  2020, "2024", "Senior Lecturer in Finance, Technology and Data Science", "Queen's Management School",
+  2024, "present", "Professor of Finance and Financial Technology", "Ulster University Business School",
+  2024, "present", "Director, Centre for Finance and Responsible Technology", "Ulster University Business School"
+) |>
+  arrange(desc(Start)) |>
+  mutate(
+    Start = as.character(Start),
+    Years = if_else(End == "present",
+                    paste0("**", Start, " - Present**"),
+                    paste0("**", Start, " - ", End, "**"))
+  ) |>
+  select(Years, Position, Institution)
+
+if (knitr::is_latex_output()) {
+  employment_table |>
+    knitr::kable(
+      col.names = c("Period", "Position", "Institution"),
+      format = "latex",
+      caption = "Professional Experience",
+      booktabs = TRUE,
+      escape = FALSE
+    ) |>
+    kableExtra::kable_styling(
+      latex_options = "scale_down",
+      font_size = 9
+    )
+} else {
+  employment_table |>
+    knitr::kable(
+      col.names = c("Period", "Position", "Institution"),
+      format = "pipe",
+      caption = "Professional Experience",
+      escape = FALSE
+    ) |>
+    kableExtra::kable_styling(
+      bootstrap_options = c("striped", "hover"),
+      full_width = FALSE,
+      position = "left"
+    )
+}
+```
