@@ -1,6 +1,6 @@
-- Birem, AbderRaouf, Abidi Perier, Zineb, Quinn, Barry, Kearney, Fearghal (Under Review). *Transformer-Based Sentiment Analysis for Stock Market Crash Risk*. Under Review at *European Journal of Operational Research*. Manuscript EJOR-S-26-00902.
+- Birem, AbderRaouf, Abidi Perier, Zineb, Quinn, Barry, Kearney, Fearghal. *Transformer-Based Sentiment Analysis for Stock Market Crash Risk*. Working paper.
 
-- Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Wang, Hui (Submitted). *Amplifying Market Manipulation Detection Signals*. Submitted to *Economics Letters*. Manuscript EL66561.
+- Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Wang, Hui. *Amplifying Market Manipulation Detection Signals*. Working paper.
 
 - Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Liu, Weilong, Spence, Ivor, Rafferty, Karen, Wang, Hui (Submitted). *Detecting Market Manipulation with Dual-branch Self-supervised Learning: A Unified Framework Integrating Frequency-informed Anomaly Synthesis and Domain-Specific Features*. Submitted to *Information Processing and Management*. Manuscript IPM-D-25-06138.
 
