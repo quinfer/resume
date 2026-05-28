@@ -35,7 +35,7 @@ Barry is a Chartered Statistician and views econometrics as an applied statistic
 
 His research spans causal policy evaluation, algorithmic trading risk detection, and trustworthy AI methods. He works collaboratively across finance, statistics, computer science, and law, and teaches across quantitative finance, econometrics, and AI applications in finance, emphasising ethical practice, reproducibility, and critical thinking.
 
-Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance and an MSc in Artificial Intelligence (Distinction) from Queen's University Belfast, and works with external partners to ensure research translates into robust practice.
+Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance and an MSc in Artificial Intelligence from Queen's University Belfast, and works with external partners to ensure research translates into robust practice.
 
 ## Education and Professional Qualifications
 

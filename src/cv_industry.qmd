@@ -37,12 +37,12 @@ Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster U
 
 Barry is a Chartered Statistician and views econometrics as an applied statistical science. He focuses on decision-relevant evidence for markets, risk, and compliance—making assumptions explicit, quantifying uncertainty, and stress-testing results before drawing conclusions. He values methods that are transparent, reproducible, and auditable in real operational settings.
 
-Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance and an MSc in Artificial Intelligence (Distinction) from Queen's University Belfast, and works with external partners to ensure that research translates into robust practice rather than prototypes.
+Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance and an MSc in Artificial Intelligence from Queen's University Belfast, and works with external partners to ensure that research translates into robust practice rather than prototypes.
 
 **Core Value Proposition:**
 - **Industry Experience**: Former currency trader and liquidity manager at Janus Henderson Investors
 - **Academic Excellence**: 14 peer-reviewed publications, Chartered Statistician
-- **Technology Leadership**: AI/ML expert with MSc in Artificial Intelligence (Distinction)
+- **Technology Leadership**: AI/ML expert with MSc in Artificial Intelligence
 - **Business Impact**: approximately £1.18M in direct research awards as PI or Co-I, across 13 projects, with additional leverage through industry partnerships and collaborative doctoral partnerships with local firms
 
 ---
@@ -118,7 +118,7 @@ Grant figures below are the full economic costs recorded in the canonical `data/
 credentials_industry <- tribble(
   ~Qualification, ~Institution, ~Year, ~Relevance,
   "Ph.D. Finance", "Queen's University Belfast", "2012", "Advanced quantitative finance research",
-  "MSc Artificial Intelligence (Distinction)", "Queen's University Belfast", "2025", "Cutting-edge AI applications in finance",
+  "MSc Artificial Intelligence", "Queen's University Belfast", "2025", "Cutting-edge AI applications in finance",
   "MSc Quantitative Finance", "RMIT University Melbourne", "2006", "Advanced derivatives and risk management",
   "Advanced Data Science Professional", "Royal Statistical Society", "2023", "Professional recognition in data science",
   "Chartered Statistician", "Royal Statistical Society", "2019", "Professional statistical expertise"

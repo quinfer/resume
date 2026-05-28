@@ -33,7 +33,7 @@ Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster U
 
 Barry is a Chartered Statistician and views econometrics as an applied statistical science. His work combines applied econometrics and causal inference with trustworthy machine learning and computational approaches to address problems in financial markets and institutions, risk measurement, market integrity, and evidence for regulation and compliance. A core aim is to produce analysis that is transparent, reproducible, and auditable, and to keep conclusions proportionate to the strength of the evidence.
 
-Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance and an MSc in Artificial Intelligence (Distinction) from Queen's University Belfast. He actively collaborates with industry and policy partners to ensure his research delivers academic, societal, and public value.
+Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance and an MSc in Artificial Intelligence from Queen's University Belfast. He actively collaborates with industry and policy partners to ensure his research delivers academic, societal, and public value.
 
 **Research Interests**: AI applications in finance, causal AI, financial data science, market manipulation detection, systemic risk assessment, computational approaches to financial regulation, cooperative finance, sustainable finance, generative AI in capital markets.
 
@@ -44,7 +44,7 @@ tribble(
   ~Degree, ~Institution, ~Year, ~Relevance,
   "Ph.D. Finance", "Queen's University Belfast", "2012", "Thesis: Cooperative Financial Institutions",
   "MSc Quantitative Finance", "RMIT University Melbourne", "2006", "Advanced derivatives and risk management",
-  "MSc Artificial Intelligence (Distinction)", "Queen's University Belfast", "2025", "Deep learning, NLP, computer vision",
+  "MSc Artificial Intelligence", "Queen's University Belfast", "2025", "Deep learning, NLP, computer vision",
   "Advanced Data Science Professional", "Royal Statistical Society", "2023", "Professional recognition in data science",
   "Chartered Statistician", "Royal Statistical Society", "2019", "Professional statistical expertise",
   "B.Sc.(Hons) Accounting and Finance", "Queen's University Belfast", "1995", "First Class Honours"

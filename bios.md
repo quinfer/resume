@@ -36,7 +36,7 @@ Always update the **Long Bio** first (master version), then cascade edits to the
 For GitHub, Twitter/X, bylines, speaker intros.
 
 ```text
-Prof. Barry Quinn is Professor of Finance at Ulster University and Director of the Centre for Finance and Responsible Technology. A Chartered Statistician, he treats econometrics as applied statistical science for markets, risk, and evidence for regulation. MSc AI (Distinction).
+Prof. Barry Quinn is Professor of Finance at Ulster University and Director of the Centre for Finance and Responsible Technology. A Chartered Statistician, he treats econometrics as applied statistical science for markets, risk, and evidence for regulation.
 ```
 
 ---
@@ -47,7 +47,7 @@ For LinkedIn, RSS directory, conference profiles.
 
 Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School and Director of the Centre for Finance and Responsible Technology. A Chartered Statistician, he treats econometrics as an applied statistical science: making assumptions explicit, quantifying uncertainty, and stress-testing results before drawing conclusions. His work sits at the intersection of finance, statistical learning, and responsible use of algorithms, with an emphasis on transparent methods that can be explained and audited.
 
-He works with industry and policy partners on practical problems in markets, risk, and compliance—aiming to reduce avoidable complexity and improve decision-making with evidence that is reproducible and fit for purpose. Before academia, Barry worked in currency trading and liquidity management, experience that continues to shape his focus on operational realism. He holds a PhD in Finance and an MSc in Artificial Intelligence (Distinction).
+He works with industry and policy partners on practical problems in markets, risk, and compliance—aiming to reduce avoidable complexity and improve decision-making with evidence that is reproducible and fit for purpose. Before academia, Barry worked in currency trading and liquidity management, experience that continues to shape his focus on operational realism. He holds a PhD in Finance and an MSc in Artificial Intelligence.
 
 ---
 
@@ -61,7 +61,7 @@ Barry is a Chartered Statistician and views econometrics as an applied statistic
 
 The Centre has secured £360K in funded PhD scholarships from the Department of the Economy (NI), including two collaborative doctoral partnerships with local firms (Pytillia and Napier AI). These projects reflect the Centre’s focus on co-developing research with organisations that face real constraints—data quality, operational risk, governance, and regulatory scrutiny—so that results translate into practice rather than staying as prototypes.
 
-Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance and an MSc in Artificial Intelligence (Distinction) from Queen’s University Belfast. He also holds the Advanced Data Science Professional award from the Royal Statistical Society (2023). He teaches across quantitative finance, econometrics, and AI applications in finance, emphasising ethical practice, reproducibility, and critical thinking.
+Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance and an MSc in Artificial Intelligence from Queen’s University Belfast. He also holds the Advanced Data Science Professional award from the Royal Statistical Society (2023). He teaches across quantitative finance, econometrics, and AI applications in finance, emphasising ethical practice, reproducibility, and critical thinking.
 
 ---
 

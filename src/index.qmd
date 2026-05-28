@@ -72,7 +72,7 @@ His research spans causal policy evaluation, algorithmic trading risk detection,
 
 His research sits at the intersection of finance, statistical learning, and responsible use of algorithms, with a focus on markets and institutions, risk measurement, and evidence for regulation and compliance. He works collaboratively across disciplines and with external partners, aiming to reduce avoidable complexity and produce analysis that stands up under operational and regulatory scrutiny.
 
-Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance and an MSc in Artificial Intelligence (Distinction) from Queen's University Belfast. He teaches across quantitative finance, econometrics, and AI applications in finance, emphasising ethical practice, reproducibility, and critical thinking.
+Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance and an MSc in Artificial Intelligence from Queen's University Belfast. He teaches across quantitative finance, econometrics, and AI applications in finance, emphasising ethical practice, reproducibility, and critical thinking.
 
 ## Education and Professional Qualifications
 

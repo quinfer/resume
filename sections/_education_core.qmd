@@ -8,7 +8,7 @@ tribble(
   "Ph.D. Finance", "Queen's University Belfast", "2012",
   "Chartered Statistician", "Royal Statistical Society", "2019",
   "Advanced Data Science Professional", "Royal Statistical Society", "2023",
-  "MSc Artificial Intelligence (Distinction)", "Queen's University Belfast", "2025"
+  "MSc Artificial Intelligence", "Queen's University Belfast", "2025"
 ) |>
   knitr::kable()
 ```
