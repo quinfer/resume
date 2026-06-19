@@ -86,7 +86,7 @@ employment_industry <- tribble(
 
 ## Recent Major Projects
 
-Grant figures below are the full economic costs recorded in the canonical `data/Grant_income.csv`.
+Grant figures below are full economic costs from direct research awards as PI or Co-I.
 
 **PhD Scholarships — Centre for Finance and Responsible Technology** (2025) | *£360K, Department of the Economy NI*
 - Three PhD scholarships to establish the Centre for Finance and Responsible Technology.
@@ -174,6 +174,3 @@ credentials_industry <- tribble(
 - **Technology Leadership**: At forefront of AI/ML applications in finance
 
 **Available for**: Board positions, strategic consulting, research partnerships, executive roles in financial technology and computational approaches to financial regulation
-
----
-*References and detailed project portfolios available upon request*
