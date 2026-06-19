@@ -45,13 +45,13 @@ Before entering academia, Barry worked in financial markets, specialising in cur
 
 ## Research Programme
 
-My research develops across three methodological strands. The first is **trustworthy machine learning for market integrity and risk**, covering representation-learning approaches to market-manipulation detection (Dai, Quinn, Kearney *et al.*, under review at *Information Processing and Management* and at *Economics Letters*) and transformer-based crash-risk modelling (Birem, Abidi Perier, Quinn & Kearney, under review at the *European Journal of Operational Research*). The methodological commitment throughout is that model performance and model trustworthiness are separable properties, both of which must be evidenced before deployment in operational or regulatory settings.
+My research develops across three methodological strands. The first is **trustworthy machine learning for market integrity and risk**, covering representation-learning approaches to market-manipulation detection (Dai, Quinn, Kearney *et al.*, published online in *Information Processing & Management*, June 2026; FMISD at revise-and-resubmit at *IEEE Transactions on Cybernetics*; signal-amplification paper retargeting *Quantitative Finance*) and transformer-based crash-risk modelling (Birem, Abidi Perier, Quinn & Kearney, resubmitting to *European Financial Management*). The methodological commitment throughout is that model performance and model trustworthiness are separable properties, both of which must be evidenced before deployment in operational or regulatory settings.
 
-The second is **computer vision for socio-economic measurement**: the Hannon, French, Quinn & O'Hagan geospatial study of vehicle crime in Northern Ireland (submitted to *Insurance: Mathematics and Economics*), and the hierarchical flag-classification programme (4,501-image NI dataset; 70→16→7 taxonomy; ViT-H-14 baseline at 94.78% on the 7-category task; codebase at `economic-flag-classification`). Both treat vision pipelines as measurement instruments rather than accuracy-maximising systems.
+The second is **computer vision for socio-economic measurement**: the Hannon, French, Quinn & O'Hagan geospatial study of vehicle crime in Northern Ireland (resubmitting to *Regional Science and Urban Economics*); Cochrane, Bryan, Quinn, Graham & French, IGPSJ WP 02/26 (2026) on flag displays in Northern Ireland; and the hierarchical flag-classification programme (4,501-image NI dataset; 70→16→7 taxonomy; ViT-H-14 baseline at 94.78% on the 7-category task; codebase at `economic-flag-classification`). All treat vision pipelines as measurement instruments rather than accuracy-maximising systems.
 
-The third is **causal and statistical evidence for governance and regulation**: innovation signals and strategic exits in computational approaches to financial regulation (Kearney, Quinn & Pramanick, under review at the *Journal of Business Venturing*); ownership, risk and regulation in Chinese banking (Zhang, Quinn & Sheenan, CRBF WP 25-017); and the collaborative doctoral partnerships with Pytillia, Napier AI and Funds Axis. Across all three strands the methodological priority is that evidence survive operational and regulatory scrutiny — assumptions explicit, uncertainty quantified, and claims proportionate to what the data can support.
+The third is **causal and statistical evidence for governance and regulation**: innovation signals and strategic exits in computational approaches to financial regulation (Kearney, Quinn & Pramanick, desk rejected at the *Journal of Business Venturing*, retargeting); Basel III's cross-border transmission through foreign bank subsidiaries (Quinn, Sheenan & Zhang, CRBF WP 25-017, JFS submission in preparation); and the collaborative doctoral partnerships with Pytillia, Napier AI and Funds Axis. Across all three strands the methodological priority is that evidence survive operational and regulatory scrutiny — assumptions explicit, uncertainty quantified, and claims proportionate to what the data can support.
 
-## Key Publications (Selected from 14 peer-reviewed papers)
+## Key Publications (Selected from 15 peer-reviewed papers)
 
 **ABS4 Journal:**
 
@@ -62,6 +62,10 @@ The third is **causal and statistical evidence for governance and regulation**: 
 - McKillop, Donal, Liu, Kailong, Quinn, Barry, Peng, Qiao (Forthcoming). Modelling and Predicting Credit Union Failures. *International Journal of Forecasting* (ABS3).
 - Bouri, E., Quinn, B., Sheenan, L. & Tang, Y. (2024). Investigating extreme linkage topology in the aerospace and defence industry. *International Review of Financial Analysis* (ABS3).
 - Quinn, Barry, Gallagher, Ronan, Kuosmanen, Timo (2023). Lurking in the shadows: The impact of CO2 emissions target setting on carbon pricing in the Kyoto agreement period. *Energy Economics* (ABS3).
+
+**Recent ABS2 Publication:**
+
+- Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Liu, Weilong, Spence, Ivor, Rafferty, Karen, Wang, Hui (2026). Detecting market manipulation with dual-branch self-supervised learning: A unified framework integrating frequency-informed anomaly synthesis and domain-specific features. *Information Processing & Management* 63(8), Article 104961 ([DOI](https://doi.org/10.1016/j.ipm.2026.104961)).
 
 *Full publication list: see `index.qmd` or request on application.*
 
@@ -94,9 +98,10 @@ Figures are read from the canonical `data/Grant_income.csv`. For the full grants
 
 ## Working Papers
 
-- Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Wang, Hui (Submitted). *Amplifying Market Manipulation Detection Signals*. Submitted to *Economics Letters*. Manuscript EL66561.
-- Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Liu, Weilong, Spence, Ivor, Rafferty, Karen, Wang, Hui (Submitted). *Detecting Market Manipulation with Dual-branch Self-supervised Learning: A Unified Framework Integrating Frequency-informed Anomaly Synthesis and Domain-Specific Features*. Submitted to *Information Processing and Management*. Manuscript IPM-D-25-06138.
-- Hannon, James (Corresponding Author), French, Declan, Quinn, Barry, O'Hagan, Adrian (Submitted). *Geospatial modeling of vehicle crime in Northern Ireland using computer vision to identify environmental factors*. Submitted to *Insurance: Mathematics and Economics*. Manuscript IME-D-25-00419.
+- Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Wang, Hui (Resubmitting). *Signal Amplification and Strategic Deterrence in Market Surveillance*. Retargeting *Quantitative Finance* (ABS 3) after desk rejection at *Economics Letters* (EL66561).
+- Dai, Yongsheng, Huang, Ji, Ren, Spence, Ivor, Rafferty, Karen, Quinn, Barry, Wang, Hui (Revise and resubmit). *FMISD: Fine-grained Multi-Scale Modeling for Inexact Supervised Anomaly Detection of Time Series*. *IEEE Transactions on Cybernetics* (ABS 3).
+- Hannon, James (Corresponding Author), French, Declan, Quinn, Barry, O'Hagan, Adrian (Resubmitting). *Geospatial modeling of vehicle crime in Northern Ireland using computer vision to identify environmental factors*. Retargeting *Regional Science and Urban Economics* (ABS 3) after rejection at *Insurance: Mathematics and Economics* (IME-D-25-00419).
+- Cochrane, Brandon, Bryan, Dominic, Quinn, Barry, Graham, Bryon, French, Declan (2026). *Flying the Flag: Cultural Expression as Territorial Demarcation*. IGPSJ Working Paper WP 02/26, Queen's University Belfast.
 
 ## PhD Supervision Excellence
 
@@ -134,7 +139,7 @@ Figures are read from the canonical `data/Grant_income.csv`. For the full grants
 employment_academic <- tribble(
   ~Period, ~Position, ~Institution,
   "**2024 - Present**", "Professor of Finance & Financial Technology", "Ulster University Business School",
-  "**2024 - Present**", "Director, Centre for Finance and Responsible Technology", "Ulster University Business School",
+  "**September 2025 - Present**", "Director, Centre for Finance and Responsible Technology", "Ulster University Business School",
   "**2020 - 2024**", "Senior Lecturer in Finance, Technology and Data Science", "Queen's Management School",
   "**2010 - 2020**", "Lecturer", "Department of Finance, Queen's Management School",
   "**1998 - 2004**", "Currency Trader and Liquidity Manager", "Janus Henderson Investors, London"

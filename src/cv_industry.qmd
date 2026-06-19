@@ -41,7 +41,7 @@ Before entering academia, Barry worked in financial markets, specialising in cur
 
 **Core Value Proposition:**
 - **Industry Experience**: Former currency trader and liquidity manager at Janus Henderson Investors
-- **Academic Excellence**: 14 peer-reviewed publications, Chartered Statistician
+- **Academic Excellence**: 15 peer-reviewed publications, Chartered Statistician
 - **Technology Leadership**: AI/ML expert with MSc in Artificial Intelligence
 - **Business Impact**: approximately £1.18M in direct research awards as PI or Co-I, across 13 projects, with additional leverage through industry partnerships and collaborative doctoral partnerships with local firms
 
@@ -70,7 +70,8 @@ Before entering academia, Barry worked in financial markets, specialising in cur
 ```{r}
 employment_industry <- tribble(
   ~Period, ~Role, ~Organization, ~Key_Achievements,
-  "2024-Present", "Professor of Finance & Financial Technology", "Ulster University", "Director of Centre for Finance and Responsible Technology",
+  "September 2025-Present", "Director, Centre for Finance and Responsible Technology", "Ulster University", "Established Centre with £360K DfE NI PhD scholarship funding",
+  "2024-Present", "Professor of Finance & Financial Technology", "Ulster University", "Research leadership in finance, AI, and responsible technology",
   "2020-2024", "Senior Lecturer", "Queen's University Belfast", "Led research portfolio spanning 10+ industry partnerships and multiple KTPs",
   "2010-2020", "Lecturer & Programme Director", "Queen's University Belfast", "Built MSc Quantitative Finance programme",
   "1998-2004", "Currency Trader & Liquidity Manager", "Janus Henderson Investors", "Managed multi-million GBP trading book"
@@ -137,12 +138,12 @@ credentials_industry <- tribble(
 - **Teaching Fellow** - Higher Education Authority (2012)
 
 ## Research Impact
-- **14 peer-reviewed publications** in top-tier finance and technology journals
+- **15 peer-reviewed publications** in top-tier finance and technology journals
 - **~£1.18M in direct research awards** as PI or Co-I across 13 projects, from Department of the Economy NI, Innovate UK, UKFin+/UKRI, and industry partners, with additional industry co-funding through KTPs and collaborative doctoral partnerships
 - **International recognition** — invited speaker at major finance conferences
 
 ## Leadership & Innovation
-- **Director** - Centre for Finance and Responsible Technology (2024-present)
+- **Director** - Centre for Finance and Responsible Technology (September 2025–present)
 - **Co-founder** - Queen's Student Managed Fund (managing real investment portfolio)
 - **Programme Director** - MSc Quantitative Finance (2018-2022)
 
@@ -150,9 +151,10 @@ credentials_industry <- tribble(
 
 ## Working Papers (Selected)
 
-- Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Wang, Hui (Submitted). *Amplifying Market Manipulation Detection Signals*. Submitted to *Economics Letters*. Manuscript EL66561.
-- Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Liu, Weilong, Spence, Ivor, Rafferty, Karen, Wang, Hui (Submitted). *Detecting Market Manipulation with Dual-branch Self-supervised Learning: A Unified Framework Integrating Frequency-informed Anomaly Synthesis and Domain-Specific Features*. Submitted to *Information Processing and Management*. Manuscript IPM-D-25-06138.
-- Hannon, James (Corresponding Author), French, Declan, Quinn, Barry, O'Hagan, Adrian (Submitted). *Geospatial modeling of vehicle crime in Northern Ireland using computer vision to identify environmental factors*. Submitted to *Insurance: Mathematics and Economics*. Manuscript IME-D-25-00419.
+- Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Wang, Hui (Resubmitting). *Signal Amplification and Strategic Deterrence in Market Surveillance*. Retargeting *Quantitative Finance* after desk rejection at *Economics Letters*.
+- Dai, Yongsheng, Huang, Ji, Ren, Spence, Ivor, Rafferty, Karen, Quinn, Barry, Wang, Hui (Revise and resubmit). *FMISD: Fine-grained Multi-Scale Modeling for Inexact Supervised Anomaly Detection of Time Series*. *IEEE Transactions on Cybernetics*.
+- Hannon, James (Corresponding Author), French, Declan, Quinn, Barry, O'Hagan, Adrian (Resubmitting). *Geospatial modeling of vehicle crime in Northern Ireland using computer vision to identify environmental factors*. Retargeting *Regional Science and Urban Economics*.
+- Cochrane, Brandon, Bryan, Dominic, Quinn, Barry, Graham, Bryon, French, Declan (2026). *Flying the Flag: Cultural Expression as Territorial Demarcation*. IGPSJ Working Paper WP 02/26, Queen's University Belfast.
 - Quinn, Barry (2025). *Hierarchical Flag Classification through Economic Domain Knowledge: A Vision Transformer Approach for Cultural Symbol Recognition*. MSc thesis and reproducible research codebase ([economic-flag-classification](https://github.com/quinfer/economic-flag-classification)), Queen's University Belfast; manuscript for journal submission in preparation.
 
 ---

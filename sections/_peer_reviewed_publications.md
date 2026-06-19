@@ -1,3 +1,5 @@
+- [Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Liu, Weilong, Spence, Ivor, Rafferty, Karen, Wang, Hui (2026). Detecting market manipulation with dual-branch self-supervised learning: A unified framework integrating frequency-informed anomaly synthesis and domain-specific features. *Information Processing & Management* 63(8), Article 104961, 1–30](https://doi.org/10.1016/j.ipm.2026.104961) (ABS2; published online 8 Jun 2026; [Pure](https://pure.ulster.ac.uk/en/publications/detecting-market-manipulation-with-dual-branch-self-supervised-le/))
+
 - [Wang, Hui, Dai, Yongsheng, Spence, Ivor, Rafferty, Karen, Quinn, Barry, Huang, Ji (2025). TDSRL: Time Series Dual Self-Supervised Representation Learning for Anomaly Detection from Different Perspectives. IEEE Internet of Things Journal](https://ieeexplore.ieee.org/document/11048680/authors#authors)
 
 - McKillop, Donal, Liu, Kailong, Quinn, Barry, Peng, Qiao (Forthcoming). Modelling and Predicting Credit Union Failures. *International Journal of Forecasting* (ABS3)
