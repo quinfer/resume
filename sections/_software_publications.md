@@ -1,0 +1,2 @@
+- **Time Series Econometrics (tsfe)** (2022) — R package for time series analysis. [10.5281/zenodo.6376113](https://doi.org/10.5281/zenodo.6376113)
+- **Financial Machine Learning (fml)** (2020) — R package for financial machine learning. [10.5281/zenodo.6376114](https://doi.org/10.5281/zenodo.6376114)

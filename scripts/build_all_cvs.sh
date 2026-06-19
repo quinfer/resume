@@ -44,9 +44,13 @@ for file in "${cv_files[@]}"; do
             html_success=false
         fi
         
-        # Build PDF version
-        echo "  → PDF version..."
-        if quarto render "$file" --to pdf --output-dir "$DIST_DIR" --quiet; then
+        # Build PDF version (Typst for complete CV, LaTeX for variant extracts)
+        pdf_format="pdf"
+        if [[ "$file" == "src/index.qmd" ]]; then
+            pdf_format="typst"
+        fi
+        echo "  → PDF version ($pdf_format)..."
+        if quarto render "$file" --to "$pdf_format" --output-dir "$DIST_DIR" --quiet; then
             echo "  ✅ PDF version completed"
             pdf_success=true
         else

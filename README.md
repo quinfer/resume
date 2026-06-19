@@ -11,7 +11,7 @@ The main resume website is generated from `index.qmd` and provides access to all
 
 | File | Purpose | Published |
 |------|---------|-----------|
-| `index.qmd` | **Complete CV / website** | Yes (default build) |
+| `index.qmd` | **Complete CV / website** | Yes (HTML + Typst PDF) |
 | `cv_academic.qmd` | Academic extract | No (build with `--all`) |
 | `cv_industry.qmd` | Industry extract | No (build with `--all`) |
 | `cv_grants.qmd` | Grants extract | No (build with `--all`) |
@@ -112,7 +112,7 @@ Tailored extracts (`cv_academic`, `cv_industry`, `cv_grants`) remain in `src/` f
 4. Iterate until satisfied
 
 ### For Final Production Build
-1. Run `python3 scripts/build_cvs.py` to generate the website and `index.pdf`
+1. Run `python3 scripts/build_cvs.py` to generate the website and `index.pdf` (Typst)
 2. Test the download link on the website
 3. Commit and push changes
 
@@ -153,7 +153,8 @@ This script:
 
 - **Quarto** (includes R runtime for executing R code blocks)
 - **Python 3** (for build scripts)
-- **LaTeX distribution** (for PDF generation)
+- **Typst** (for the complete CV PDF; bundled with Quarto 1.4+)
+- **LaTeX distribution** (only needed for optional variant PDFs via `--all`)
 
 **R Packages** (automatically managed by Quarto):
 - `tidyverse`, `knitr`, `kableExtra` (loaded in .qmd files as needed)

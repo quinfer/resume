@@ -67,7 +67,7 @@ Fourteen peer-reviewed publications (1 ABS4, 11 ABS3s, 2 ABS2s), three commissio
 
 ### Software Publications
 
-{{< include ../sections/_software_publications.qmd >}}
+{{< include ../sections/_software_publications.md >}}
 
 ### Working Papers and Under Review
 

@@ -8,18 +8,13 @@ format:
     toc: true
     toc-location: right
     toc-title: "Navigation"
-  pdf:
-    documentclass: article
-    geometry:
-      - margin=1in
-    fontsize: 10pt
-    linkcolor: blue
-    urlcolor: blue
-    include-in-header:
-      - text: |
-          \usepackage{needspace}
-          \usepackage{float}
-bibliography: ../data/bqpubs.bib
+  typst:
+    papersize: a4
+    margin:
+      x: 2.5cm
+      y: 2.5cm
+    font-size: 10pt
+    toc: false
 ---
 
 ```{r}
@@ -92,7 +87,7 @@ I have published fifteen peer-reviewed academic papers (1 ABS4, 11 ABS3s, and 3 
 
 ## Software Publications
 
-{{< include ../sections/_software_publications.qmd >}}
+{{< include ../sections/_software_publications.md >}}
 
 ## Working Papers
 

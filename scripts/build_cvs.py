@@ -24,8 +24,15 @@ def run_command(command, description):
         print(f"  ❌ Exception in {description}: {e}")
         return False
 
+def pdf_output_format(filename):
+    """Use Typst for the complete CV; LaTeX PDF for optional variant extracts."""
+    if filename == "src/index.qmd":
+        return "typst"
+    return "pdf"
+
+
 def build_cv(filename):
-    """Build both HTML and PDF versions of a CV file"""
+    """Build HTML and PDF versions of a CV file"""
     if not Path(filename).exists():
         print(f"❌ File not found: {filename}")
         return False
@@ -37,16 +44,16 @@ def build_cv(filename):
     # Since our .qmd files live in src/, use an absolute dist/ path.
     project_root = Path(__file__).parent.parent
     dist_dir = (project_root / "dist").resolve()
+    pdf_format = pdf_output_format(filename)
 
     html_success = run_command(
         f"quarto render {filename} --to html --output-dir \"{dist_dir}\"",
         f"HTML version of {filename}"
     )
     
-    # Build PDF version (output to project-root dist/)
     pdf_success = run_command(
-        f"quarto render {filename} --to pdf --output-dir \"{dist_dir}\"", 
-        f"PDF version of {filename}"
+        f"quarto render {filename} --to {pdf_format} --output-dir \"{dist_dir}\"",
+        f"PDF version of {filename} ({pdf_format})"
     )
     
     return html_success and pdf_success
