@@ -1,0 +1,8 @@
+- **2025 - Present** — Director, Centre for Finance and Responsible Technology (from September 2025), Ulster University Business School
+- **2024 - Present** — Professor of Finance and Financial Technology, Ulster University Business School
+- **2020 - 2024** — Senior Lecturer in Finance, Technology and Data Science, Queen's Management School
+- **2010 - 2020** — Lecturer, Department of Finance, Queen's Management School
+- **2009 - 2009** — Teaching Fellow, Business School, Ulster University
+- **2005 - 2005** — Teaching Fellow and Quantitative Researcher, Department of Finance, RMIT University Melbourne
+- **1998 - 2004** — Currency Trader and Liquidity Manager, Janus Henderson Investors, London
+- **1995 - 1998** — Financial Adviser, City Financial Partners, London

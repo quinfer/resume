@@ -45,7 +45,7 @@ Before entering academia, Barry worked in financial markets, specialising in cur
 
 ## Education and Professional Qualifications
 
-{{< include ../sections/_education_core.qmd >}}
+{{< include ../sections/_education_core.md >}}
 
 # Research Excellence
 
@@ -58,6 +58,8 @@ Before entering academia, Barry worked in financial markets, specialising in cur
 {{< include ../sections/_peer_reviewed_publications_academic.md >}}
 
 ## Research Impact and Funding
+
+### Major Research Grants (Selected)
 
 {{< include ../sections/_grants_selected_academic.qmd >}}
 
@@ -107,7 +109,7 @@ Before entering academia, Barry worked in financial markets, specialising in cur
 
 # Professional Experience
 
-{{< include ../sections/_employment_academic.qmd >}}
+{{< include ../sections/_employment_academic.md >}}
 
 # Professional Recognition
 

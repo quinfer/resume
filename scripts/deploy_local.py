@@ -18,8 +18,8 @@ def main():
     import os
     os.chdir(project_root)
     
-    # First, build everything
-    print("📦 Building all CV versions...")
+    # First, build the primary CV website
+    print("📦 Building CV website...")
     result = subprocess.run(["python3", "scripts/build_cvs.py"], capture_output=True, text=True)
     if result.returncode != 0:
         print("❌ Build failed!")
@@ -35,22 +35,10 @@ def main():
         "custom-styles.css",
         "index_files",   # Directory with assets for index
         "img",           # Image directory
-        # CV HTML pages and their asset directories
-        "cv_academic.html",
-        "cv_academic_files",
-        "cv_industry.html",
-        "cv_industry_files",
-        "cv_grants.html",
-        "cv_grants_files",
     ]
-    
-    # Copy only CV-related PDF files
-    cv_pdf_files = [
-        "index.pdf",
-        "cv_academic.pdf", 
-        "cv_industry.pdf",
-        "cv_grants.pdf"
-    ]
+
+    # Only publish the complete CV PDF
+    cv_pdf_files = ["index.pdf"]
     
     pdf_files = []
     for pdf_name in cv_pdf_files:
@@ -82,19 +70,37 @@ def main():
                 print(f"  ✅ Copied file: {item}")
         else:
             print(f"  ⚠️  File not found: {item}")
-    
+
+    # Remove demoted variant CVs from previous deployments
+    stale_items = [
+        "cv_academic.html",
+        "cv_academic_files",
+        "cv_academic.pdf",
+        "cv_industry.html",
+        "cv_industry_files",
+        "cv_industry.pdf",
+        "cv_grants.html",
+        "cv_grants_files",
+        "cv_grants.pdf",
+    ]
+    print("\n🧹 Removing demoted variant CV files from root...")
+    for item in stale_items:
+        path = root_dir / item
+        if path.exists():
+            if path.is_dir():
+                shutil.rmtree(path)
+            else:
+                path.unlink()
+            print(f"  🗑️  Removed: {item}")
+
     print("\n🌐 Local GitHub Pages setup complete!")
     print("📋 Files in root directory:")
     print("   - index.html (main website)")
     print("   - index_files/ (website assets)")
     print("   - img/ (profile picture and images)")
-    print("   - cv_academic.html (+ _files assets)")
-    print("   - cv_industry.html (+ _files assets)")
-    print("   - cv_grants.html (+ _files assets)")
-    print(f"   - {len(pdf_files)} CV PDF files (index, academic, industry, grants)")
-    print("\n💡 Note: dist/ folder still contains all CV versions")
+    print(f"   - {len(pdf_files)} CV PDF file(s) (index.pdf)")
+    print("\n💡 Tailored extracts remain in src/; build with: python3 scripts/build_cvs.py --all")
     print("🔗 GitHub Pages will now work from root directory")
-    print("📄 All download links should now work!")
     
     return 0
 

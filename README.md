@@ -1,6 +1,6 @@
 # Prof. Barry Quinn - Resume Website
 
-This repository contains multiple versions of Prof. Barry Quinn's CV, optimized for different purposes and audiences.
+This repository contains Prof. Barry Quinn's CV website and source files. The **complete CV** (`index.qmd`) is the canonical published version.
 
 ## 🌐 Website
 The main resume website is generated from `index.qmd` and provides access to all CV versions.
@@ -9,12 +9,12 @@ The main resume website is generated from `index.qmd` and provides access to all
 
 ## 📄 CV Versions
 
-| File | Purpose | Target Audience | Length |
-|------|---------|----------------|---------|
-| `index.qmd` | **Resume Website** | General public, website visitors | Full |
-| `cv_academic.qmd` | **Academic CV** | University positions, tenure applications | 4 pages |
-| `cv_industry.qmd` | **Executive Summary** | Corporate roles, board positions | 2 pages |
-| `cv_grants.qmd` | **Research Portfolio** | Grant applications, fellowships | 5 pages |
+| File | Purpose | Published |
+|------|---------|-----------|
+| `index.qmd` | **Complete CV / website** | Yes (default build) |
+| `cv_academic.qmd` | Academic extract | No (build with `--all`) |
+| `cv_industry.qmd` | Industry extract | No (build with `--all`) |
+| `cv_grants.qmd` | Grants extract | No (build with `--all`) |
 
 ## 🔧 Building the CVs
 
@@ -22,7 +22,8 @@ The main resume website is generated from `index.qmd` and provides access to all
 
 **Python (Recommended)**
 ```bash
-python3 scripts/build_cvs.py
+python3 scripts/build_cvs.py          # Complete CV only
+python3 scripts/build_cvs.py --all    # Include tailored extracts
 ```
 
 **Bash**
@@ -98,17 +99,9 @@ resume/
 
 ## 🎯 Usage Guidelines
 
-### For Academic Applications
-Use `cv_academic.pdf` - emphasizes research excellence, publications, and academic leadership.
+Share the website link or **`index.pdf`** — the complete CV covers research, teaching, grants, and service.
 
-### For Industry Opportunities  
-Use `cv_industry.pdf` - focuses on business impact, technology leadership, and practical applications.
-
-### For Grant Applications
-Use `cv_grants.pdf` - detailed research track record, funding history, and future directions.
-
-### For General Reference
-Share the website link or `index.pdf` for comprehensive overview.
+Tailored extracts (`cv_academic`, `cv_industry`, `cv_grants`) remain in `src/` for internal use. Build locally with `python3 scripts/build_cvs.py --all` when needed.
 
 ## 🔄 Development Workflow
 
@@ -119,8 +112,8 @@ Share the website link or `index.pdf` for comprehensive overview.
 4. Iterate until satisfied
 
 ### For Final Production Build
-1. Run `python3 scripts/build_cvs.py` to generate all HTML and PDF versions
-2. Test all download links in the website
+1. Run `python3 scripts/build_cvs.py` to generate the website and `index.pdf`
+2. Test the download link on the website
 3. Commit and push changes
 
 ### Typical Development Session
@@ -140,9 +133,8 @@ python3 scripts/build_cvs.py
 
 ### Automatic Deployment (Recommended)
 The repository includes GitHub Actions that automatically build and deploy to GitHub Pages on every push to main branch. The workflow:
-1. Builds all CV versions using our Python build system
+1. Builds the complete CV using our Python build system
 2. Deploys the `dist/` folder contents to GitHub Pages
-3. Your website is automatically updated
 
 ### Manual Local Deployment
 For local GitHub Pages testing or manual deployment:
@@ -153,11 +145,9 @@ python3 scripts/deploy_local.py
 ```
 
 This script:
-- Builds all CV versions
-- Copies `index.html`, `index_files/`, `img/`, and CV PDF files to root directory
-- Only copies relevant PDFs: `index.pdf`, `cv_academic.pdf`, `cv_industry.pdf`, `cv_grants.pdf`
-- Ensures all download links work on GitHub Pages
-- Maintains clean `dist/` folder structure
+- Builds the complete CV website
+- Copies `index.html`, `index_files/`, `img/`, and `index.pdf` to root directory
+- Removes previously published variant CV files from the root directory
 
 ## 📋 Dependencies
 

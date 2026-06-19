@@ -75,7 +75,7 @@ Fourteen peer-reviewed publications (1 ABS4, 11 ABS3s, 2 ABS2s), three commissio
 
 # Research Funding Track Record
 
-{{< include ../sections/_grants_table.qmd >}}
+{{< include ../sections/_grants_list.qmd >}}
 
 {{< include ../sections/_grants_total.qmd >}}
 

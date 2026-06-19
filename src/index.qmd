@@ -36,37 +36,12 @@ library(scales)
 
 {{< include ../sections/_contact.md >}}
 
-# CV Downloads
+# CV Download
 
-Choose the CV version most appropriate for your needs:
+**Recommended:** [Download complete CV (PDF)](index.pdf) — comprehensive profile covering research, teaching, grants, and service.  
+*You are currently viewing the online version.*
 
-::: {.panel-tabset}
-
-## For Academic Positions
-**Academic CV** - Focused on research excellence, publications, and academic achievements  
-📄 [Download Academic CV (PDF)](cv_academic.pdf) | [View Online](cv_academic.html)
-
-*Ideal for: University positions, tenure applications, academic conferences, research collaborations*
-
-## For Industry Roles  
-**Executive Summary** - Business-focused with industry impact and leadership experience  
-📄 [Download Industry CV (PDF)](cv_industry.pdf) | [View Online](cv_industry.html)
-
-*Ideal for: Corporate roles, board positions, consulting opportunities, financial technology partnerships*
-
-## For Grant Applications
-**Research Portfolio** - Comprehensive research track record and future directions  
-📄 [Download Research CV (PDF)](cv_grants.pdf) | [View Online](cv_grants.html)
-
-*Ideal for: Research funding applications, fellowship applications, international collaborations*
-
-## Complete Profile
-**Full Resume** - Comprehensive overview of all achievements and experience  
-📄 [Download Complete CV (PDF)](index.pdf) | *You are currently viewing the online version*
-
-*Ideal for: General reference, comprehensive overview, personal website*
-
-:::
+Tailored extracts (academic, industry, grants) remain in the repository for internal use but are not published while the complete CV is consolidated.
 
 # Personal Statement
 
@@ -82,7 +57,7 @@ Before entering academia, Barry worked in financial markets, specialising in cur
 
 ## Education and Professional Qualifications
 
-{{< include ../sections/_education_core.qmd >}}
+{{< include ../sections/_education_core.md >}}
 
 # Teaching
 
@@ -152,7 +127,7 @@ I have published fifteen peer-reviewed academic papers (1 ABS4, 11 ABS3s, and 3 
 
 ## Research Grant Income
 
-{{< include ../sections/_grants_table.qmd >}}
+{{< include ../sections/_grants_list.qmd >}}
 
 {{< include ../sections/_grants_total.qmd >}}
 
@@ -172,7 +147,7 @@ I have published fifteen peer-reviewed academic papers (1 ABS4, 11 ABS3s, and 3 
 
 # Professional Experience
 
-{{< include ../sections/_employment_full.qmd >}}
+{{< include ../sections/_employment_full.md >}}
 
 # Skills and Expertise
 

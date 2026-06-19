@@ -1,5 +1,5 @@
 ```{r}
-#| label: part-grants-selected
+#| label: part-grants-list
 #| results: asis
 
 library(dplyr)
@@ -19,25 +19,24 @@ format_grant_period <- function(start, end) {
   }
 }
 
-grants_selected <- read.csv("../data/Grant_income.csv", check.names = FALSE) %>%
-  filter(Type == "Research") %>%
-  arrange(desc(Amount)) %>%
-  slice_head(n = 5) %>%
+grants_list <- read.csv("../data/Grant_income.csv", check.names = FALSE) %>%
   mutate(
     Source = format_grant_source(Source),
     Period = mapply(format_grant_period, Start, End),
     Amount = scales::comma(Amount, prefix = "£"),
     Title = str_replace_all(Title, "–", "-")
-  )
+  ) %>%
+  arrange(desc(Start), desc(Amount))
 
-for (i in seq_len(nrow(grants_selected))) {
+for (i in seq_len(nrow(grants_list))) {
   cat(sprintf(
-    "- **%s** (%s, %s) — %s — **%s**\n",
-    grants_selected$Source[i],
-    grants_selected$`My Role`[i],
-    grants_selected$Period[i],
-    grants_selected$Title[i],
-    grants_selected$Amount[i]
+    "- **%s** (%s, %s) — %s — **%s** *(%s)*\n",
+    grants_list$Source[i],
+    grants_list$`My Role`[i],
+    grants_list$Period[i],
+    grants_list$Title[i],
+    grants_list$Amount[i],
+    grants_list$Type[i]
   ))
 }
 ```

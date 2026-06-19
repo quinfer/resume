@@ -93,9 +93,28 @@ def copy_assets():
         shutil.copy2(src_css, dst_css)
         print(f"  ✅ Copied assets/custom-styles.css to dist/")
 
+def remove_stale_variants():
+    """Remove demoted variant CV outputs from dist/ when not building --all."""
+    import shutil
+
+    stale = [
+        "cv_academic.html", "cv_academic.pdf", "cv_academic_files",
+        "cv_industry.html", "cv_industry.pdf", "cv_industry_files",
+        "cv_grants.html", "cv_grants.pdf", "cv_grants_files",
+    ]
+    dist_dir = Path("dist")
+    for name in stale:
+        path = dist_dir / name
+        if path.exists():
+            if path.is_dir():
+                shutil.rmtree(path)
+            else:
+                path.unlink()
+            print(f"  🗑️  Removed dist/{name}")
+
 def main():
     """Main build process"""
-    print("🚀 Building all CV versions...\n")
+    print("🚀 Building CV website...\n")
     
     # Change to project root directory
     script_dir = Path(__file__).parent
@@ -109,13 +128,18 @@ def main():
     # Copy assets first
     copy_assets()
     
-    # CV files to build (in src directory)
+    # Primary published CV (website + PDF)
     cv_files = [
-        "src/index.qmd",        # Main website
-        "src/cv_academic.qmd",  # Academic version
-        "src/cv_industry.qmd",  # Industry version
-        "src/cv_grants.qmd"     # Grant application version
+        "src/index.qmd",
     ]
+
+    # Optional tailored extracts — build with: python3 scripts/build_cvs.py --all
+    if "--all" in sys.argv:
+        cv_files.extend([
+            "src/cv_academic.qmd",
+            "src/cv_industry.qmd",
+            "src/cv_grants.qmd",
+        ])
     
     success_count = 0
     total_files = len(cv_files)
@@ -131,9 +155,14 @@ def main():
     print(f"📊 Success rate: {success_count}/{total_files} files built successfully")
     
     if success_count == total_files:
-        print("✨ All CV versions built successfully!")
+        if "--all" not in sys.argv:
+            print("\n🧹 Cleaning demoted variant outputs from dist/...")
+            remove_stale_variants()
+        print("✨ CV website built successfully!")
         list_generated_files()
-        print("\n🌐 Your resume website is ready! Open dist/index.html in a browser to view.")
+        print("\n🌐 Open dist/index.html in a browser to view.")
+        if "--all" not in sys.argv:
+            print("ℹ️  Tailored extracts are skipped by default. Use --all to build cv_academic, cv_industry, and cv_grants.")
     else:
         print("⚠️  Some files failed to build. Check the errors above.")
         return 1

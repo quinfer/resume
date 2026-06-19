@@ -9,11 +9,14 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 cd "$PROJECT_ROOT"
 
-echo "🚀 Building all CV versions..."
+echo "🚀 Building CV website..."
 echo
 
 # CV files to build (in src directory)
-cv_files=("src/index.qmd" "src/cv_academic.qmd" "src/cv_industry.qmd" "src/cv_grants.qmd")
+cv_files=("src/index.qmd")
+if [[ "${1:-}" == "--all" ]]; then
+    cv_files+=("src/cv_academic.qmd" "src/cv_industry.qmd" "src/cv_grants.qmd")
+fi
 
 # IMPORTANT: Quarto resolves --output-dir relative to the input file location.
 # Since our .qmd files live in src/, use an absolute dist/ path at the project root.
@@ -67,7 +70,7 @@ echo "📊 Success rate: $success_count/$total_files files built successfully"
 echo
 
 if [[ $success_count -eq $total_files ]]; then
-    echo "✨ All CV versions built successfully!"
+    echo "✨ CV website built successfully!"
     
     echo "📁 Generated files in dist/:"
     echo
@@ -83,7 +86,10 @@ if [[ $success_count -eq $total_files ]]; then
     done
     
     echo
-    echo "🌐 Your resume website is ready! Open dist/index.html in a browser to view."
+    echo "🌐 Open dist/index.html in a browser to view."
+    if [[ "${1:-}" != "--all" ]]; then
+        echo "ℹ️  Tailored extracts skipped. Use --all to build cv_academic, cv_industry, and cv_grants."
+    fi
 else
     echo "⚠️  Some files failed to build. Check the errors above."
     exit 1

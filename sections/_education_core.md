@@ -1,0 +1,6 @@
+- **B.Sc.(Hons) Accounting and Finance** — Queen's University Belfast, 1995
+- **MSc Quantitative Finance** — RMIT University Melbourne, 2006
+- **Ph.D. Finance** — Queen's University Belfast, 2012
+- **Chartered Statistician** — Royal Statistical Society, 2019
+- **Advanced Data Science Professional** — Royal Statistical Society, 2023
+- **MSc Artificial Intelligence** — Queen's University Belfast, 2025
