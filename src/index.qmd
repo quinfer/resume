@@ -108,13 +108,7 @@ I have published fifteen peer-reviewed academic papers (1 ABS4, 11 ABS3s, and 3 
 
 ## Research Expertise
 
-My research develops across three methodological strands.
-
-The first is **trustworthy machine learning for market integrity and risk**. This includes representation-learning approaches to market-manipulation detection, including work published in *Information Processing & Management*, and related projects on anomaly detection, signal amplification, and sentiment-conditioned crash-risk modelling. The methodological commitment throughout is that model performance and model trustworthiness are separable properties, both of which must be evidenced before deployment in operational or regulatory settings.
-
-The second is **computer vision for socio-economic measurement**. This work uses real-world imagery to develop auditable indicators of social, economic, and regulatory phenomena, including projects on environmental correlates of vehicle crime and the measurement of cultural-symbol displays in Northern Ireland. The aim is to treat vision pipelines as measurement instruments rather than accuracy-maximising systems alone.
-
-The third is **causal and statistical evidence for governance and regulation**. This includes work on innovation signals and strategic exits in RegTech, Basel III's cross-border transmission through foreign bank subsidiaries, credit-union risk and resilience, and collaborative doctoral partnerships with industry partners including Pytillia, Napier AI, and Funds Axis. Across all three strands, the priority is that evidence survive operational and regulatory scrutiny: assumptions explicit, uncertainty quantified, and claims proportionate to what the data can support.
+{{< include ../sections/_research_programme.md >}}
 
 ## Peer-Reviewed Publications
 
