@@ -1,5 +1,6 @@
 - **Director**, Centre for Finance and Responsible Technology, Ulster University Business School, September 2025–.
 - **Founder**, Trading and Investment Group, Ulster University Business School, 2026– (£100K alumni philanthropic fund; in partnership with Innovation Ulster Ltd; launching September 2026).
+- **Programme Lead**, MiniMBA in FinTech and Responsible Data Science, Magee Campus, Ulster University Business School, 2026– (DfE-sponsored; inaugural cohort 2026; a student from the cohort was awarded the Compare NI FinTech Scholarship; next delivery Spring 2027).
 - **Co-founder**, Finance and AI Research Lab (with Dr Fearghal Kearney), Queen's University Belfast, 2022–2024.
 - **Lead Developer**, Queen's Business School Remote Analytics Lab Platform (Q-RaP), 2021–2024.
 - **QUB Academic Lead**, Steering Group for Northern Ireland Global Centre in Secure Connected Intelligence for Regulatory Technology in Finance, 2022–2024.
