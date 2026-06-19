@@ -105,6 +105,8 @@ grants_academic %>%
 
 **Current Modules**: Financial Data Science; Causal AI; AI in Trading; Financial Econometrics.
 
+**Teaching software**: [TickLab](https://www.ticklab.co.uk) — web-based trading simulation for market microstructure teaching.
+
 ## Academic Service
 
 - **Co-founder**, Finance and AI Research Lab (with Dr Fearghal Kearney), Queen's University Belfast (2022–2024).
