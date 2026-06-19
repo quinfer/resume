@@ -2,7 +2,7 @@
 
 - [Wang, Hui, Dai, Yongsheng, Spence, Ivor, Rafferty, Karen, Quinn, Barry, Huang, Ji (2025). TDSRL: Time Series Dual Self-Supervised Representation Learning for Anomaly Detection from Different Perspectives. IEEE Internet of Things Journal](https://ieeexplore.ieee.org/document/11048680/authors#authors)
 
-- McKillop, Donal, Liu, Kailong, Quinn, Barry, Peng, Qiao (Forthcoming). Modelling and Predicting Credit Union Failures. *International Journal of Forecasting* (ABS3)
+- [Peng, Qiao (Olivia), McKillop, Donal, Quinn, Barry, Liu, Kailong (2025). Modeling and predicting failure in US credit unions. *International Journal of Forecasting* 41(3), 1237–1259](https://doi.org/10.1016/j.ijforecast.2024.12.004) (ABS3; published 4 Jun 2025; [Pure](https://pure.ulster.ac.uk/en/publications/modeling-and-predicting-failure-in-us-credit-unions/))
 
 - Liu, Weilong, Zhang, Yong, Liu, Kailong, Quinn, Barry, Yang, Xingyu, Peng, Qiao (2024). Evolutionary Multi-Objective Optimisation for Large-Scale Portfolio Selection With Both Random and Uncertain Returns. *IEEE Transactions on Evolutionary Computation* (ABS4)
 

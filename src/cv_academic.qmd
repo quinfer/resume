@@ -59,7 +59,7 @@ The third is **causal and statistical evidence for governance and regulation**: 
 
 **Recent ABS3 Publications:**
 
-- McKillop, Donal, Liu, Kailong, Quinn, Barry, Peng, Qiao (Forthcoming). Modelling and Predicting Credit Union Failures. *International Journal of Forecasting* (ABS3).
+- Peng, Qiao (Olivia), McKillop, Donal, Quinn, Barry, Liu, Kailong (2025). Modeling and predicting failure in US credit unions. *International Journal of Forecasting* 41(3), 1237–1259 ([DOI](https://doi.org/10.1016/j.ijforecast.2024.12.004); [Pure](https://pure.ulster.ac.uk/en/publications/modeling-and-predicting-failure-in-us-credit-unions/)) (ABS3).
 - Bouri, E., Quinn, B., Sheenan, L. & Tang, Y. (2024). Investigating extreme linkage topology in the aerospace and defence industry. *International Review of Financial Analysis* (ABS3).
 - Quinn, Barry, Gallagher, Ronan, Kuosmanen, Timo (2023). Lurking in the shadows: The impact of CO2 emissions target setting on carbon pricing in the Kyoto agreement period. *Energy Economics* (ABS3).
 
