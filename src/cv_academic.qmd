@@ -21,6 +21,8 @@ bibliography: ../data/bqpubs.bib
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = FALSE)
 library(tidyverse)
 library(knitr)
+library(kableExtra)
+library(scales)
 ```
 
 # Contact Information
@@ -53,28 +55,7 @@ Before entering academia, Barry worked in financial markets, specialising in cur
 
 ## Research Impact and Funding
 
-```{r}
-#| label: tbl-grants-academic
-#| tbl-cap: "Major Research Grants (Selected)"
-#| results: asis
-grants_academic <- read.csv("../data/Grant_income.csv", check.names = FALSE) %>%
-  filter(Type == "Research") %>%
-  arrange(desc(Amount)) %>%
-  slice_head(n = 5) %>%
-  mutate(
-    Period = ifelse(End == "" | is.na(End),
-                    as.character(Start),
-                    paste0(Start, "–", End)),
-    Amount = scales::comma(Amount, prefix = "£")
-  ) %>%
-  select(Source, `My Role`, Period, Title, Amount)
-
-grants_academic %>%
-  knitr::kable(
-    col.names = c("Funding Body", "Role", "Period", "Project Title", "Full Economic Costs"),
-    format = "pipe"
-  )
-```
+{{< include ../sections/_grants_selected_academic.qmd >}}
 
 ## Working Papers (Selected)
 
@@ -96,26 +77,29 @@ grants_academic %>%
 
 # Teaching and Academic Leadership
 
-## Teaching Excellence
+## Recent Teaching Innovations (Ulster University)
+
+- **Programme Lead**, MiniMBA in FinTech and Responsible Data Science, Magee Campus (DfE-sponsored; inaugural cohort 2026; Compare NI FinTech Scholarship winner; next delivery Spring 2027).
+- **Founder**, Trading and Investment Group (£100K alumni philanthropic fund; in partnership with Innovation Ulster Ltd; launching September 2026).
+- **Open textbook**, *Statistical Science for Finance: Rigorous Methods for Technology-Enabled Markets* — companion resource for FIN306 FinTech and Data Science.
+- **Teaching software**, [TickLab](https://www.ticklab.co.uk) — web-based trading simulation for market microstructure and classroom trading dynamics.
+- **Current modules**: Financial Data Science; Causal AI; AI in Trading; Financial Econometrics.
+
+## Teaching Publications
+
+{{< include ../sections/_teaching_publications.md >}}
+
+## Earlier Teaching Leadership (Queen's University Belfast)
 
 - **Programme Director**, MSc Quantitative Finance (2018–2022).
 - **Programme Director**, MSc Computational Finance & Trading (2014–2018).
-- **Co-Founder**, Queen's Student Managed Fund (2012–2024).
+- **Co-founder**, Queen's Student Managed Fund (2012–2024).
+- **Trading Principles**: postgraduate market-microstructure course built around live in-class trading simulations; extended subsequently as TickLab.
 - **Teaching Award**, QUB (2016).
-
-**Current Modules**: Financial Data Science; Causal AI; AI in Trading; Financial Econometrics.
-
-**Teaching software**: [TickLab](https://www.ticklab.co.uk) — web-based trading simulation for market microstructure teaching.
 
 ## Academic Service
 
-- **Co-founder**, Finance and AI Research Lab (with Dr Fearghal Kearney), Queen's University Belfast (2022–2024).
-- **Programme Director**, MSc Quantitative Finance (2018–2022).
-- **Lead Developer**, Queen's Business School Remote Analytics Lab Platform.
-- **Organiser**, Symposium on AI and the Future of Financial Regulation (2023).
-- **Senior Research Fellow** (Sabbatical), International Research Centre on Cooperative Finance, HEC Montreal University, Canada (May–September 2018).
-- **Implementation Team Member**, Bloomberg Trading Room, Queen's University Belfast.
-- **External Grant Reviewer**, UKFin+ (UKRI specialist funded project) — reviewed feasibility grant application (£100K) for financial services innovation research (2024).
+{{< include ../sections/_academic_service.md >}}
 
 # Professional Experience
 
