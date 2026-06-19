@@ -21,6 +21,7 @@ employment_table <- tribble(
   select(Years, Position, Institution)
 
 if (knitr::is_latex_output()) {
+  cat("\\Needspace{14\\baselineskip}\n")
   employment_table |>
     knitr::kable(
       col.names = c("Period", "Position", "Institution"),
@@ -30,9 +31,12 @@ if (knitr::is_latex_output()) {
       escape = FALSE
     ) |>
     kableExtra::kable_styling(
-      latex_options = "scale_down",
+      latex_options = c("hold_position", "scale_down"),
       font_size = 9
-    )
+    ) %>%
+    kableExtra::column_spec(1, width = "2.4cm") %>%
+    kableExtra::column_spec(2, width = "6.0cm") %>%
+    kableExtra::column_spec(3, width = "5.0cm")
 } else {
   employment_table |>
     knitr::kable(

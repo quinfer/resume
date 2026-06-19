@@ -9,36 +9,37 @@ grants_selected <- read.csv("../data/Grant_income.csv", check.names = FALSE) %>%
   mutate(
     Period = ifelse(End == "" | is.na(End),
                     as.character(Start),
-                    paste0(Start, "–", End)),
+                    paste0(Start, "-", End)),
     Amount = scales::comma(Amount, prefix = "£"),
     Source = str_replace_all(Source, fixed("(Department of the Economy NI)"), "DfE NI"),
-    Source = str_replace_all(Source, fixed("(UKFin+/EPSRC)"), "UKFin+")
+    Source = str_replace_all(Source, fixed("(UKFin+/EPSRC)"), "UKFin+"),
+    Title = str_replace_all(Title, "–", "-")
   ) %>%
   select(Source, `My Role`, Period, Title, Amount)
 
 if (knitr::is_latex_output()) {
+  cat("\\Needspace{14\\baselineskip}\n")
   grants_selected %>%
     knitr::kable(
-      col.names = c("Funder", "Role", "Period", "Project", "Costs"),
+      col.names = c("Funder", "Role", "Years", "Project", "Costs"),
       align = c("l", "l", "c", "l", "r"),
       format = "latex",
       booktabs = TRUE,
-      escape = TRUE,
-      longtable = TRUE
+      escape = TRUE
     ) %>%
     kableExtra::kable_styling(
-      font_size = 9,
-      latex_options = c("repeat_header", "hold_position")
+      font_size = 8.5,
+      latex_options = "hold_position"
     ) %>%
-    kableExtra::column_spec(1, width = "2.1cm") %>%
-    kableExtra::column_spec(2, width = "0.9cm") %>%
-    kableExtra::column_spec(3, width = "1.4cm") %>%
-    kableExtra::column_spec(4, width = "6.8cm") %>%
+    kableExtra::column_spec(1, width = "2.0cm") %>%
+    kableExtra::column_spec(2, width = "1.0cm") %>%
+    kableExtra::column_spec(3, width = "1.8cm") %>%
+    kableExtra::column_spec(4, width = "6.4cm") %>%
     kableExtra::column_spec(5, width = "1.5cm")
 } else {
   grants_selected %>%
     knitr::kable(
-      col.names = c("Funder", "Role", "Period", "Project", "Costs"),
+      col.names = c("Funder", "Role", "Years", "Project", "Costs"),
       align = c("l", "l", "l", "l", "r"),
       format = "pipe",
       escape = FALSE
