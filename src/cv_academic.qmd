@@ -47,23 +47,9 @@ Before entering academia, Barry worked in financial markets, specialising in cur
 
 {{< include ../sections/_research_programme.md >}}
 
-## Key Publications (Selected from 15 peer-reviewed papers)
+## Peer-Reviewed Publications
 
-**ABS4 Journal:**
-
-- Liu, Weilong, Zhang, Yong, Liu, Kailong, Quinn, Barry, Yang, Xingyu, Peng, Qiao (2024). Evolutionary Multi-Objective Optimisation for Large-Scale Portfolio Selection With Both Random and Uncertain Returns. *IEEE Transactions on Evolutionary Computation* (ABS4).
-
-**Recent ABS3 Publications:**
-
-- Peng, Qiao (Olivia), McKillop, Donal, Quinn, Barry, Liu, Kailong (2025). Modeling and predicting failure in US credit unions. *International Journal of Forecasting* 41(3), 1237–1259 ([DOI](https://doi.org/10.1016/j.ijforecast.2024.12.004); [Pure](https://pure.ulster.ac.uk/en/publications/modeling-and-predicting-failure-in-us-credit-unions/)) (ABS3).
-- Bouri, E., Quinn, B., Sheenan, L. & Tang, Y. (2024). Investigating extreme linkage topology in the aerospace and defence industry. *International Review of Financial Analysis* (ABS3).
-- Quinn, Barry, Gallagher, Ronan, Kuosmanen, Timo (2023). Lurking in the shadows: The impact of CO2 emissions target setting on carbon pricing in the Kyoto agreement period. *Energy Economics* (ABS3).
-
-**Recent ABS2 Publication:**
-
-- Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Liu, Weilong, Spence, Ivor, Rafferty, Karen, Wang, Hui (2026). Detecting market manipulation with dual-branch self-supervised learning: A unified framework integrating frequency-informed anomaly synthesis and domain-specific features. *Information Processing & Management* 63(8), Article 104961 ([DOI](https://doi.org/10.1016/j.ipm.2026.104961)).
-
-*Full publication list: available on the [resume website](https://quinfer.github.io/resume/) or upon request.*
+{{< include ../sections/_peer_reviewed_publications_academic.md >}}
 
 ## Research Impact and Funding
 
@@ -90,8 +76,6 @@ grants_academic %>%
   )
 ```
 
-Figures are read from the canonical `data/Grant_income.csv`. For the full grants register and total research income across 13 awards, see `cv_grants.qmd`.
-
 ## Working Papers (Selected)
 
 - Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Wang, Hui. *Signal Amplification and Strategic Deterrence in Market Surveillance*. Working paper.
@@ -106,7 +90,9 @@ Figures are read from the canonical `data/Grant_income.csv`. For the full grants
 
 {{< include ../sections/_supervision_completed.md >}}
 
-**Current Supervisions (6):** Including students working on AI applications in finance, sustainable investing, and computational approaches to financial regulation — see `cv_grants.qmd` for the full current register.
+**Current Supervisions (6):**
+
+{{< include ../sections/_supervision_current.md >}}
 
 # Teaching and Academic Leadership
 
@@ -155,7 +141,3 @@ employment_academic
 
 - **1st Place**, CFA European Quantitative Finance Awards (2018).
 - **Associate Research Fellow**, QUB Momentum One Zero (2021–2024).
-
----
-
-*Full publication list and detailed CV available upon request.*
