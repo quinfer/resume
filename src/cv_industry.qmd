@@ -41,7 +41,7 @@ Before entering academia, Barry worked in financial markets, specialising in cur
 
 **Core Value Proposition:**
 - **Industry Experience**: Former currency trader and liquidity manager at Janus Henderson Investors
-- **Academic Excellence**: 15 peer-reviewed publications, Chartered Statistician
+- **Academic Excellence**: 17 peer-reviewed publications, Chartered Statistician
 - **Technology Leadership**: AI/ML expert with MSc in Artificial Intelligence
 - **Business Impact**: approximately £1.18M in direct research awards as PI or Co-I, across 13 projects, with additional leverage through industry partnerships and collaborative doctoral partnerships with local firms
 
@@ -138,7 +138,7 @@ credentials_industry <- tribble(
 - **Teaching Fellow** - Higher Education Authority (2012)
 
 ## Research Impact
-- **15 peer-reviewed publications** in top-tier finance and technology journals
+- **17 peer-reviewed publications** in top-tier finance and technology journals
 - **~£1.18M in direct research awards** as PI or Co-I across 13 projects, from Department of the Economy NI, Innovate UK, UKFin+/UKRI, and industry partners, with additional industry co-funding through KTPs and collaborative doctoral partnerships
 - **International recognition** — invited speaker at major finance conferences
 

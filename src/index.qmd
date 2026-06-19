@@ -75,7 +75,7 @@ This commitment to experiential learning extends beyond the classroom. At Queen'
 
 # Research
 
-I have published fifteen peer-reviewed academic papers (1 ABS4, 11 ABS3s, and 3 ABS2s), three commissioned research reports, and two statistical software packages. My research sits at the intersection of finance, statistical learning, and responsible use of algorithms—with a focus on markets and institutions, risk measurement, and evidence for regulation and compliance. The work is collaborative, crossing disciplines and industry boundaries, and aims to reduce avoidable complexity: producing analysis that is transparent, reproducible, and stands up under operational and regulatory scrutiny.
+I have published seventeen peer-reviewed academic papers (1 ABS4, 10 ABS3s, and 5 ABS2s in ranked journals, plus one additional journal article), three commissioned research reports, and two statistical software packages. My research sits at the intersection of finance, statistical learning, and responsible use of algorithms—with a focus on markets and institutions, risk measurement, and evidence for regulation and compliance. The work is collaborative, crossing disciplines and industry boundaries, and aims to reduce avoidable complexity: producing analysis that is transparent, reproducible, and stands up under operational and regulatory scrutiny.
 
 ## Research Expertise
 
