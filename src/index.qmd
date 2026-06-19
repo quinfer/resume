@@ -67,7 +67,7 @@ I have extensive teaching experience at both undergraduate and postgraduate leve
 
 5.  **Trading Principles** (Queen's University Belfast): A postgraduate learning-by-doing course in market microstructure, built around approximately 18 live in-class trading simulations. Students assume distinct industry roles—market maker, speculator, liquidity trader—and their collective decisions endogenously determine prices and liquidity, making core concepts such as the law of one price, price formation, market efficiency, and event arbitrage directly observable consequences of their own behaviour. Simulation performance counts toward the final grade, removing the gap between doing and understanding. The course pairs foundational academic work (Kyle 1985; Glosten-Milgrom 1985) with industry research to bridge theory and practice. The simulation platform has since been extended as [TickLab](https://www.ticklab.co.uk), an open web-based teaching environment for market microstructure.
 
-This commitment to experiential learning extends beyond the classroom. At Queen's I co-founded the Queen's Student Managed Fund (2012–2024), giving students stewardship of a real investment portfolio. At Ulster I am establishing a new Trading and Investment Group, funded by a £100K alumni philanthropic donation in partnership with Innovation Ulster Ltd, launching September 2026—bringing the same learning-by-doing philosophy to a new institutional context.
+This commitment to experiential learning extends beyond the classroom. At Queen's I co-founded the Queen's Student Managed Fund (2012–2024), giving students stewardship of a real investment portfolio. At Ulster I am co-founding a Trading and Investment Group with Veronica Zhang and Edwin Koenck, funded by a £100K alumni philanthropic donation in partnership with Innovation Ulster Ltd, launching September 2026—bringing the same learning-by-doing philosophy to a new institutional context.
 
 ## Teaching Publications
 
@@ -105,7 +105,9 @@ I have published fifteen peer-reviewed academic papers (1 ABS4, 11 ABS3s, and 3 
 
 {{< include ../sections/_supervision_completed.md >}}
 
-## Current PhD Supervisions
+## Doctoral Supervision in Completion (Queen's University Belfast)
+
+*Ongoing formal supervision of doctoral researchers registered at Queen's University Belfast.*
 
 {{< include ../sections/_supervision_current.md >}}
 

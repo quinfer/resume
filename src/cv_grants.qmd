@@ -100,7 +100,9 @@ Fourteen peer-reviewed publications (1 ABS4, 11 ABS3s, 2 ABS2s), three commissio
 
 {{< include ../sections/_supervision_completed.md >}}
 
-## Current PhD Supervisions
+## Doctoral Supervision in Completion (Queen's University Belfast)
+
+*Ongoing formal supervision of doctoral researchers registered at Queen's University Belfast.*
 
 {{< include ../sections/_supervision_current.md >}}
 
