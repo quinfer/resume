@@ -155,7 +155,7 @@ credentials_industry <- tribble(
 - Dai, Yongsheng, Huang, Ji, Ren, Spence, Ivor, Rafferty, Karen, Quinn, Barry, Wang, Hui. *FMISD: Fine-grained Multi-Scale Modeling for Inexact Supervised Anomaly Detection of Time Series*. Under revision at *IEEE Transactions on Cybernetics*.
 - Hannon, James (Corresponding Author), French, Declan, Quinn, Barry, O'Hagan, Adrian. *Geospatial modeling of vehicle crime in Northern Ireland using computer vision to identify environmental factors*. Under revision.
 - Cochrane, Brandon, Bryan, Dominic, Quinn, Barry, Graham, Bryon, French, Declan (2026). *Flying the Flag: Cultural Expression as Territorial Demarcation*. IGPSJ Working Paper WP 02/26, Queen's University Belfast.
-- Quinn, Barry (2025). *Hierarchical Flag Classification through Economic Domain Knowledge: A Vision Transformer Approach for Cultural Symbol Recognition*. Working paper.
+- Quinn, Barry. *Hierarchical Flag Classification through Economic Domain Knowledge: A Vision Transformer Approach for Cultural Symbol Recognition*. Working paper.
 
 ---
 

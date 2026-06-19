@@ -18,7 +18,7 @@
 
 - Quinn, Barry, Gallagher, Ronan. *Great Expectations: Relative Performance and Managerial Turnover in Professional Football*. Working paper.
 
-- Quinn, Barry (2025). *Hierarchical Flag Classification through Economic Domain Knowledge: A Vision Transformer Approach for Cultural Symbol Recognition*. Working paper.
+- Quinn, Barry. *Hierarchical Flag Classification through Economic Domain Knowledge: A Vision Transformer Approach for Cultural Symbol Recognition*. Working paper.
 
 - Quinn, Barry, Wang, Ying (Veronica). *The Efficiency Returns to Cloud Computing: Evidence from Staggered Data Protection Laws*. Working paper.
 
@@ -29,5 +29,3 @@
 - Walker, Clive, Quinn, Barry. *Do Exogenous Shocks Reshape Financial Narratives?*. Working paper.
 
 - Quinn, Barry. *Adaptive Capital and Patent Boundary Indeterminacy*. Working paper.
-
-- Quinn, Barry. *Beyond Algorithms*. Working paper.
