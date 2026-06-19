@@ -36,12 +36,9 @@ library(scales)
 
 {{< include ../sections/_contact.md >}}
 
-# CV Download
-
-**Recommended:** [Download complete CV (PDF)](index.pdf) — comprehensive profile covering research, teaching, grants, and service.  
-*You are currently viewing the online version.*
-
-Tailored extracts (academic, industry, grants) remain in the repository for internal use but are not published while the complete CV is consolidated.
+::: {.text-center}
+[Download CV (PDF)](index.pdf){.download-btn}
+:::
 
 # Personal Statement
 

@@ -34,6 +34,7 @@ h3 {
     object-fit: cover;
 }
 .download-btn {
+    display: inline-block;
     background-color: #3182ce;
     color: white;
     padding: 10px 20px;
