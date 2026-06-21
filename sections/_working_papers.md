@@ -2,7 +2,7 @@
 
 - Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Wang, Hui. *Signal Amplification and Strategic Deterrence in Market Surveillance*. Working paper.
 
-- Dai, Yongsheng, Huang, Ji, Ren, Spence, Ivor, Rafferty, Karen, Quinn, Barry, Wang, Hui. *FMISD: Fine-grained Multi-Scale Modeling for Inexact Supervised Anomaly Detection of Time Series*. Under revision at *IEEE Transactions on Cybernetics*.
+- Dai, Yongsheng, Huang, Ji, Ren, Spence, Ivor, Rafferty, Karen, Quinn, Barry, Wang, Hui. *FMISD: Fine-grained Multi-Scale Modeling for Inexact Supervised Anomaly Detection of Time Series*. Under revision at *IEEE Transactions on Cybernetics* (ABS3).
 
 - Quinn, Barry, Sheenan, Lisa, Zhang, Ying (Veronica). *Regulatory Reach or Regulatory Arbitrage? Basel III's Cross-Border Transmission Through Foreign Bank Subsidiaries*. Centre for Responsible Banking & Finance Working Paper 25-017.
 

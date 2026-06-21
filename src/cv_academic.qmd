@@ -66,7 +66,7 @@ Before entering academia, Barry worked in financial markets, specialising in cur
 ## Working Papers (Selected)
 
 - Dai, Yongsheng, Quinn, Barry, Kearney, Fearghal, Wang, Hui. *Signal Amplification and Strategic Deterrence in Market Surveillance*. Working paper.
-- Dai, Yongsheng, Huang, Ji, Ren, Spence, Ivor, Rafferty, Karen, Quinn, Barry, Wang, Hui. *FMISD: Fine-grained Multi-Scale Modeling for Inexact Supervised Anomaly Detection of Time Series*. Under revision at *IEEE Transactions on Cybernetics*.
+- Dai, Yongsheng, Huang, Ji, Ren, Spence, Ivor, Rafferty, Karen, Quinn, Barry, Wang, Hui. *FMISD: Fine-grained Multi-Scale Modeling for Inexact Supervised Anomaly Detection of Time Series*. Under revision at *IEEE Transactions on Cybernetics* (ABS3).
 - Quinn, Barry, Sheenan, Lisa, Zhang, Ying (Veronica). *Regulatory Reach or Regulatory Arbitrage? Basel III's Cross-Border Transmission Through Foreign Bank Subsidiaries*. Centre for Responsible Banking & Finance Working Paper 25-017.
 - Hannon, James (Corresponding Author), French, Declan, Quinn, Barry, O'Hagan, Adrian. *Geospatial modeling of vehicle crime in Northern Ireland using computer vision to identify environmental factors*. Under revision.
 - Cochrane, Brandon, Bryan, Dominic, Quinn, Barry, Graham, Bryon, French, Declan (2026). *Flying the Flag: Cultural Expression as Territorial Demarcation*. IGPSJ Working Paper WP 02/26, Queen's University Belfast.
