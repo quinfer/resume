@@ -1,4 +1,4 @@
-1. *Three PhD Scholarships — Centre for Finance and Responsible Technology* (Department of the Economy NI, £360K, 2025), including two collaborative doctoral partnerships with local firms: Pytillia and Napier AI.
+1. *Three PhD Scholarships — Centre for Finance and Responsible Technology* (Department of the Economy NI, £360K, 2025), including two collaborative doctoral partnerships with local firms: Pytilia and Napier AI.
 2. *Understanding and Enhancing regulatory compliance in the Investment Management industry using AI* with Funds Axis Ltd and Momentum 1.0 (UKFin+ / UKRI, November 2024 – November 2025).
 3. *Anomaly detection of large heterogeneous trading transaction and communication data* with Citigroup Belfast and Momentum 1.0 (2022–2023).
 4. *AI and Advanced Retail Analytics* with Pearlai Ltd and Dr Byron Graham (KTP, 2017–2019).

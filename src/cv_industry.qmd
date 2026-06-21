@@ -90,7 +90,7 @@ Grant figures below are full economic costs from direct research awards as PI or
 
 **PhD Scholarships — Centre for Finance and Responsible Technology** (2025) | *£360K, Department of the Economy NI*
 - Three PhD scholarships to establish the Centre for Finance and Responsible Technology.
-- Two collaborative doctoral partnerships with local firms: Pytillia and Napier AI.
+- Two collaborative doctoral partnerships with local firms: Pytilia and Napier AI.
 - Building research capacity in computational approaches to financial regulation.
 
 **AI-Driven Regulatory Compliance** (2024–2025) | *£100K, UKFin+ / UKRI*
@@ -107,7 +107,7 @@ Grant figures below are full economic costs from direct research awards as PI or
 - Machine learning and predictive analytics for retail business optimisation with Pearl AI Ltd.
 
 ## Industry Advisory & Consulting
-- **Pytillia** - Collaborative Doctoral Partnership (PhD scholarship, £120K, 2025)
+- **Pytilia** - Collaborative Doctoral Partnership (PhD scholarship, £120K, 2025)
 - **Napier AI** - Collaborative Doctoral Partnership (PhD scholarship, £120K, 2025)
 - **Financial Conduct Authority** Tech Sprint Mentor (2023-present)
 - **Citigroup Belfast** - Anomaly detection for trading data (2022-2023)

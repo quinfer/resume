@@ -87,7 +87,7 @@ Fourteen peer-reviewed publications (1 ABS4, 11 ABS3s, 2 ABS2s), three commissio
 
 ## Industry Collaborations
 
-- **Pytillia** — Collaborative Doctoral Partnership (PhD scholarship, £120K, 2025).
+- **Pytilia** — Collaborative Doctoral Partnership (PhD scholarship, £120K, 2025).
 - **Napier AI** — Collaborative Doctoral Partnership (PhD scholarship, £120K, 2025).
 - **Funds Axis Ltd** — Computational approaches to financial regulation and compliance solutions (ongoing).
 - **Citigroup Belfast** — Market manipulation detection (2022–2023).

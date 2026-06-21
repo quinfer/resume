@@ -63,7 +63,7 @@ The proposed sabbatical will focus on two interconnected objectives: (1) produci
    - Develop and submit two academic journal articles to top-tier ABS3/ABS4-ranked journals. Key themes include regulatory technology (RegTech) innovations, the application of AI to systemic risk in financial markets, and the development of a unifying theory of market manipulation for trader surveillance.
     
     **Topics include**:
-    - AI adoption and regulatory compliance, a collaboration with FinTech SMEs such as Funds Axis Ltd and Pytillia Ltd.
+    - AI adoption and regulatory compliance, a collaboration with FinTech SMEs such as Funds Axis Ltd and Pytilia Ltd.
     - Safety and Assurance in Finance, co-led with Citigroup Belfast Tech Site Lead Carla McGlynn, focusing on market manipulation and trader surveillance.
 
 2. **Cross-Disciplinary Research Development**:
