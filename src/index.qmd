@@ -37,15 +37,11 @@ library(scales)
 
 # Personal Statement
 
-Professor Barry Quinn is Professor of Finance & Financial Technology at Ulster University Business School and Director of the Centre for Finance and Responsible Technology. The Centre is guided by three pillars: statistical rigour and intellectual humility; practical industry relevance; and responsible algorithmic innovation.
+Professor Barry Quinn is Professor of Finance and Financial Technology at Ulster University Business School and Director of the Centre for Finance and Responsible Technology. A Chartered Statistician, he treats econometrics as an applied statistical science: assumptions made explicit, uncertainty taken seriously, and claims kept proportionate to what the evidence will bear.
 
-Barry is a Chartered Statistician and views econometrics as an applied statistical science. His work combines applied econometrics and causal inference with trustworthy machine learning and computational approaches to produce decision-relevant evidence for markets, risk, market integrity, and regulatory compliance. In practice, that means making assumptions explicit, quantifying uncertainty, stress-testing results, and being clear about limits—so we can say plainly when evidence does (and does not) support confident conclusions.
+His research sits at the meeting point of finance, statistical learning, and responsible use of algorithms. The questions are practical: what markets and institutions reveal under stress; how risk should be measured; and what evidence regulation and compliance can stand over when algorithmic systems shape decisions. He works with industry and policy partners, and aims for analysis that is transparent, reproducible, and usable under operational scrutiny.
 
-His research spans causal policy evaluation, algorithmic trading risk detection, and trustworthy AI methods, and is collaborative and interdisciplinary—bridging finance, statistics, computer science, and law.
-
-His research sits at the intersection of finance, statistical learning, and responsible use of algorithms, with a focus on markets and institutions, risk measurement, and evidence for regulation and compliance. He works collaboratively across disciplines and with external partners, aiming to reduce avoidable complexity and produce analysis that stands up under operational and regulatory scrutiny.
-
-Before entering academia, Barry worked in financial markets, specialising in currency trading and liquidity management. He holds a PhD in Finance and an MSc in Artificial Intelligence from Queen's University Belfast. He teaches across quantitative finance, econometrics, and AI applications in finance, emphasising ethical practice, reproducibility, and critical thinking.
+Before academia he specialised in currency trading and liquidity management. He holds a PhD in Finance and an MSc in Artificial Intelligence from Queen's University Belfast, and teaches quantitative finance, econometrics, and AI in finance with the same emphasis on ethical practice, reproducibility, and critical thinking.
 
 ## Education and Professional Qualifications
 
