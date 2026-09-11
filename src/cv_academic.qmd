@@ -89,7 +89,7 @@ Before entering academia, Barry worked in financial markets, specialising in cur
 
 - **Programme Lead**, MiniMBA in FinTech and Responsible Data Science, Magee Campus (DfE-sponsored; inaugural cohort 2026; Compare NI FinTech Scholarship winner; next delivery Spring 2027).
 - **Co-founder** (with Veronica Zhang and Edwin Koenck), Trading and Investment Group (£100K alumni philanthropic fund; in partnership with Innovation Ulster Ltd; launching September 2026).
-- **Open textbook**, *Statistical Science for Finance: Rigorous Methods for Technology-Enabled Markets* — companion resource for FIN306 Finance Data Science ([financialdatascience.co.uk](https://financialdatascience.co.uk/)).
+- **Open textbook**, *Statistical Science for Finance: Rigorous Methods for Technology-Enabled Markets* — companion resource for FIN306 Financial Data Science ([financialdatascience.co.uk](https://financialdatascience.co.uk/)).
 - **Teaching software**, [TickLab](https://www.ticklab.co.uk) — web-based trading simulation for market microstructure and classroom trading dynamics.
 - **Current modules**: Financial Data Science; Causal AI; AI in Trading; Financial Econometrics.
 
