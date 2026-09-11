@@ -1,0 +1,2 @@
+- **Internal Examiner**, Laura McElwee, Ulster University (2026). *News-Media Sentiment, Narrative Identification, and Bitcoin Market Dynamics: Evidence from the 2017 Bubble Episode*.
+- **External Examiner**, Beining Han, Cardiff University, School of Mathematics (2026). *Forecasting Bitcoin Implied Volatility with Market, Behavioural and Event-Driven Information*.

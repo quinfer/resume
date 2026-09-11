@@ -115,6 +115,10 @@ I have published seventeen peer-reviewed academic papers (1 ABS4, 10 ABS3s, and 
 
 {{< include ../sections/_supervision_visiting.md >}}
 
+## PhD Examinations
+
+{{< include ../sections/_phd_examinations.md >}}
+
 ## Conference Presentations
 
 {{< include ../sections/_conference_talks.md >}}
